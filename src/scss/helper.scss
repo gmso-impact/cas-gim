@@ -1,0 +1,61 @@
+@use "sass:map";
+
+.childPoint {
+  pointer-events: none;
+}
+.childPoint > * {
+  pointer-events: auto;
+}
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+
+  > .col,
+  > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+@each $value in $overflows {
+  .overflow-x-#{$value} { overflow-x: $value !important; }
+  .overflow-y-#{$value} { overflow-y: $value !important; }
+
+}
+
+.min-100 {
+  min-height: 100%;
+}
+::-webkit-scrollbar {
+  width: 10px; /* width of the entire scrollbar */
+}
+::-webkit-scrollbar-track {
+  // the background of the scroll bar
+  background-color: map-get($theme-colors, "charcoal");
+}
+::-webkit-scrollbar-thumb {
+  // the front part of the scroll bar
+  background-color: map-get($theme-colors, "slate");
+  border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: map-get($theme-colors, "white");
+}
+@include media-breakpoint-up(xxl) {
+    ::-webkit-scrollbar {
+    width: 50px; 
+  }
+}
+
+
+
+.text-shadow {
+  filter: drop-shadow(.125rem .125rem .3rem #000000);
+}
+.shadow {
+  box-shadow: .125rem .125rem .3rem rgba(0,0,0,.8);
+}
+.shadow-white {
+  box-shadow: .125rem .125rem .3rem rgba(255, 255, 255, .8);
+}

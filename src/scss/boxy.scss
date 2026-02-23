@@ -1,0 +1,48 @@
+@import "bootstrap/scss/_mixins.scss";
+@import "bootstrap/scss/_functions.scss";
+@import "variables.scss";
+
+.boxy {
+  position: absolute;
+  z-index: 9999;
+}
+.boxy-left {
+  top: 50%;
+  transform: translate(0px, -50%);
+  left: $font-size-base;
+}
+.boxy-right {
+  top: 50%;
+  transform: translate(0px, -50%);
+  right: $font-size-base;
+}
+.boxy-bottom-right {
+  bottom: $font-size-base;
+  right: $font-size-base;
+}
+.boxy-top {
+  top: $font-size-base;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.boxy-bottom {
+  bottom: $font-size-base;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+@include media-breakpoint-up(xxl) {
+    .boxy-left {
+        left: $font-size-xxl;
+      }
+      .boxy-right {
+        right: $font-size-xxl;
+      }
+      .boxy-bottom-right {
+        bottom: $font-size-xxl;
+        right: $font-size-xxl;
+      }
+      .boxy-top {
+        top: $font-size-xxl;
+      }
+}
