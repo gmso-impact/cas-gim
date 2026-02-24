@@ -1,6 +1,6 @@
 <template lang="">
   <div>
-    <div class="h2 text-white text-center mb-xxl-3 d-none d-xxl-block">
+    <div class="h2 text-white text-center mb-xxl-3 d-lg-none d-xxl-block">
       {{ $t(`Featured`) }}
     </div>
     <button
@@ -9,24 +9,37 @@
         'btn-white': isActiveTag,
         'btn-secondary': !isActiveTag,
       }"
-      v-on:click="setTagClicked"
+      v-on:click="setTag(tag)"
     >
       {{ $t(`Women`) }}
     </button>
   </div>
 </template>
 <script>
-//import { mapGetters, mapMutations } from "vuex";
+import { mapGetters, mapActions } from "vuex";
+
 export default {
   data() {
     return {
       tag: "Women Leader",
     };
   },
+  mounted() {
+    // route guard to ensure the theme exists
+    // if someone provides a bad theme, it will re-route to no filter
+    if (
+      this.$route.query.tag &&
+      !this.tagNames
+        .map((n) => n.toLowerCase())
+        .includes(this.$route.query.tag.toLowerCase())
+    ) {
+      this.resetTags();
+    }
+  },
   computed: {
-    // ...mapGetters({
-    //   activeIdTag: "activeIdTag",
-    // }),
+    ...mapGetters({
+      tagNames: "tagNames",
+    }),
     isActiveTag: function () {
       if (this.$route.query.tag === undefined) {
         // if query is not active, show it inactive
@@ -41,20 +54,10 @@ export default {
     },
   },
   methods: {
-    // ...mapMutations({
-    //   setIdTag: "setIdTag",
-    // }),
-    setTagClicked: function () {
-      if (this.$route.query.tag === undefined) {
-        this.$router.push({
-          query: { ...this.$route.query, tag: this.tag },
-        }); // leave other query paramaters alone
-      } else {
-        this.$router.push({
-          query: { ...this.$route.query, tag: undefined },
-        });
-      }
-    },
+    ...mapActions({
+      setTag: "setTag",
+      resetTags: "resetTags",
+    }),
   },
 };
 </script>

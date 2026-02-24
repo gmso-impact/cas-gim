@@ -109,29 +109,21 @@
 import {
   LMap,
   // LTileLayer,
-  LIcon,
   LControl,
   LControlZoom,
   LControlScale,
 } from "vue2-leaflet";
-import {
-  latLng,
-  latLngBounds,
-  divIcon,
-  circleMarker,
-  icon,
-  marker,
-} from "leaflet";
-import { basemapLayer, featureLayer } from "esri-leaflet";
+import { latLng, circleMarker } from "leaflet";
+import { featureLayer } from "esri-leaflet";
 
 import { vectorBasemapLayer } from "esri-leaflet-vector";
 
-import * as basemapStyle from "./basemapStyle/DarkGrayBaseTinted.json";
+// import * as basemapStyle from "./basemapStyle/DarkGrayBaseTinted.json";
 
-const getBasemapStyle = function (defaultStyle) {
-  console.log("getBasemapStyle");
-  return basemapStyle;
-};
+// const getBasemapStyle = function (defaultStyle) {
+//   console.log("getBasemapStyle");
+//   return basemapStyle;
+// };
 
 import { mapGetters, mapMutations } from "vuex";
 import OverlayStory from "../overlay/story.vue";
@@ -146,7 +138,7 @@ import MapMarker from "./marker.vue";
 import StoryPopup from "./popup.vue";
 
 import { viewPorts } from "@/store/map";
-import cssColors from "@/scss/variables.scss";
+import cssColors from "@/helper/colors.ts";
 
 const apikey =
   "AAPKe8703a4175054ac3889b842bf857718c409C8-fzy-AeUOEUBrtaVp58HPUQNYkY-7wdxs2A12BPW5ibofrUSrddntQsjnyp";
@@ -287,7 +279,7 @@ export default {
         });
       });
     },
-    baseMap: function (newBaseMap, oldBaseMap) {
+    baseMap: function (newBaseMap) {
       const newBaseMapLayer = vectorBasemapLayer(newBaseMap.layer, {
         apikey: this.apikey,
       });
@@ -296,7 +288,7 @@ export default {
       this.baseMapLayer.remove();
       this.baseMapLayer = newBaseMapLayer;
     },
-    storyLayer: function (newStory, oldStory) {
+    storyLayer: function (newStory) {
       // remove old layer whenever a new story is selected
       console.log("setting new story layer");
       if (newStory && newStory.id === this.storyLayerId) {
@@ -317,9 +309,11 @@ export default {
           cacheLayers: true,
           minZoom: 0, // zoom level to show layer at, 0 = world
           style: (feature) => {
-            console.log(feature);
-            // eslint-disable-next-line
-            let color = cssColors[newStory.fields["Story Theme"]];
+            // console.log(feature);
+            let color = "#ffffff";
+            if (cssColors[newStory.fields["Story Theme"]]) {
+              color = cssColors[newStory.fields["Story Theme"]];
+            }
             return {
               color: color, //"#BA55D3",
               weight: 8,

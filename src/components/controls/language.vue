@@ -30,7 +30,6 @@
   </div>
 </template>
 <script>
-import { mapGetters, mapMutations } from "vuex";
 import { languages } from "../../translations.ts";
 import { event } from "vue-gtag";
 
@@ -38,15 +37,8 @@ export default {
   data() {
     return { languages: languages };
   },
-  computed: {
-    ...mapGetters({
-      storyThemes: "storyThemes",
-    }),
-  },
+  computed: {},
   methods: {
-    ...mapMutations({
-      resetTags: "resetTags",
-    }),
     setLanguage: function (locale) {
       this.$root.$i18n.locale = locale;
       event(`language`, {

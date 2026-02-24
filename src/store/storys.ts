@@ -1,7 +1,7 @@
 import * as storiesFile from "../assets/allStories.json";
-import { latLng, bounds } from "leaflet";
+import { latLng } from "leaflet";
 import { event } from "vue-gtag";
-import { breakpointCalculate } from "./breakpoint";
+import router from "../router";
 
 const stories = storiesFile.response
   .filter((story) => {
@@ -27,32 +27,6 @@ const stories = storiesFile.response
     return a.fields["en-StoryTitle"].localeCompare(b.fields["en-StoryTitle"]);
   });
 
-function toFilterTags(tagName) {
-  //console.log(`Tag: ${tagName}`)
-  const tagListDuplicated = stories.reduce(function (tags, story) {
-    if (
-      story.fields &&
-      story.fields[tagName] &&
-      Array.isArray(story.fields[tagName]) &&
-      story.fields[tagName].length >= 1
-    ) {
-      return [...tags, ...story.fields[tagName]];
-    } else if (story.fields && story.fields[tagName]) {
-      return [...tags, story.fields[tagName]];
-    } else {
-      return tags;
-    }
-  }, []);
-  const tagList = [...new Set(tagListDuplicated)];
-  //console.log({ tagList: tagList })
-  return tagList.map((tag) => {
-    return {
-      name: tag,
-      isActive: true,
-      tagName: tagName,
-    };
-  });
-}
 function getNames(fieldName) {
   const tagListDuplicated = stories.reduce(function (tags, story) {
     if (
@@ -80,14 +54,8 @@ const storys = {
     all: stories,
     storysActive: [],
     storysActiveMax: 1,
-    storyThemes: toFilterTags("Story Theme"),
     themeNames: getNames("Story Theme"),
-    storyTags: toFilterTags("Story Tags"),
-    idTags: toFilterTags("ID Tags"),
-    collegeTags: toFilterTags("College/Division"),
-
-    activeIdTag: null,
-
+    tagNames: getNames("ID Tags"),
     isVideoFrameOpen: false,
     isHelpFrameOpen: false,
     isStoriesFrameOpen: false,
@@ -159,45 +127,6 @@ const storys = {
         );
       });
       return sortedStories;
-
-      const storiesThemed = getters.storyAll.filter((story) => {
-        const hasActiveTheme = !!state.storyThemes.filter((storyTheme) => {
-          return story.fields["Story Theme"] === storyTheme.name
-            ? storyTheme.isActive
-            : false;
-        }).length;
-
-        let hasActiveIdTag = false;
-        if (!state.activeIdTag) {
-          // If there is no active ID tag, show all stories
-          hasActiveIdTag = true;
-        } else if (
-          story.fields["ID Tags"] === undefined ||
-          story.fields["ID Tags"].length === 0
-        ) {
-          // if the story has no ID tags, it cannot be active
-          hasActiveIdTag = false;
-        } else {
-          // see if the story ID tags match the active one
-          hasActiveIdTag = story.fields["ID Tags"].includes(state.activeIdTag);
-        }
-
-        return hasActiveTheme && hasActiveIdTag;
-      });
-      // skip filter of campus if it is undefined
-      // need to add check to see if it is malformed (using set theory of intersection). Consider lodash.
-      if (!rootState.route.query.campus) {
-        return storiesThemed;
-      }
-      const storiesCampus = storiesThemed.filter((story) => {
-        return story.fields["Campus"].includes(rootState.route.query.campus);
-      });
-
-      // ensure there are some stories at that campus, also accounts for malformed campus name
-      if (storiesCampus.length > 0) {
-        return storiesCampus;
-      }
-      return storiesThemed;
     },
     storyInMap: (state, getters) => {
       if (!getters.mapGetBounds) {
@@ -231,26 +160,11 @@ const storys = {
         return null;
       }
     },
-    storyThemes: (state) => {
-      return state.storyThemes;
-    },
-    storyThemesActive: (state) => {
-      const activeThemes = state.storyThemes.filter((storyTheme) => {
-        return storyTheme.isActive;
-      });
-      return activeThemes;
+    tagNames: (state) => {
+      return state.tagNames;
     },
     themeNames: (state) => {
       return state.themeNames;
-    },
-    idTags: (state) => {
-      return state.idTags;
-    },
-    activeIdTag: (state) => {
-      return state.activeIdTag;
-    },
-    collegeTags: (state) => {
-      return state.collegeTags;
     },
   },
   mutations: {
@@ -371,7 +285,13 @@ const storys = {
         state.sortStoriesBy = "Last Name";
       } else if (sortBy === "en-StoryTitle") {
         state.sortStoriesBy = "en-StoryTitle";
+      } else {
+        // default
+        state.sortStoriesBy = "en-StoryTitle";
       }
+    },
+    resetSortStoriesBy: (state) => {
+      state.sortStoriesBy = "en-StoryTitle";
     },
 
     addActiveStory: (state, story) => {
@@ -451,43 +371,89 @@ const storys = {
     removeActiveStories: (state) => {
       state.storysActive = [];
     },
-    setTag: (state, payload) => {
-      // payload.tagName
-      // payload.name
-      event(`set-tag`, {
-        event_category: "controls",
-        event_label: payload.tagName,
-        value: 1,
-        method: "Google",
-      });
+  },
+  actions: {
+    setTheme: ({ state, rootState }, theme) => {
       state.isFilterFrameOpen = false;
-      state[payload.tagName] = state[payload.tagName].map((tag) => {
-        return {
-          ...tag,
-          isActive: tag.name === payload.name,
-        };
-      });
+      state.isHelpFrameOpen = false;
+      if (
+        rootState.route.query.theme &&
+        rootState.route.query.theme.toLowerCase() === theme.toLowerCase()
+      ) {
+        return;
+      } // prevent redudant nav
+      router.push({ query: { ...rootState.route.query, theme: theme } }); // leave other query paramaters alone
     },
-    resetTags: (state, tagName) => {
-      event(`set-tag`, {
-        event_category: "controls",
-        event_label: "all",
-        value: 1,
-        method: "Google",
-      });
+    resetThemes: ({ state, rootState }) => {
       state.isFilterFrameOpen = false;
-      state[tagName] = state[tagName].map((tag) => {
-        return {
-          ...tag,
-          isActive: true,
-        };
-      });
+      state.isHelpFrameOpen = false;
+      if (rootState.route.query.theme === undefined) {
+        return;
+      } // prevent redudant nav
+      router.push({ query: { ...rootState.route.query, theme: undefined } }); // leave other query paramaters alone
     },
-    setIdTag: (state, tagName) => {
-      state.activeIdTag = tagName;
+    setCampus: ({ state, rootState }, campus) => {
+      state.isFilterFrameOpen = false;
+      state.isHelpFrameOpen = false;
+      if (
+        rootState.route.query.campus &&
+        rootState.route.query.campus.toLowerCase() === campus.toLowerCase()
+      ) {
+        return;
+      } // prevent redudant nav
+      router.push({ query: { ...rootState.route.query, campus: campus } }); // leave other query paramaters alone
+    },
+    resetCampus: ({ state, rootState }) => {
+      state.isFilterFrameOpen = false;
+      state.isHelpFrameOpen = false;
+      if (rootState.route.query.campus === undefined) {
+        return;
+      } // prevent redudant nav
+      router.push({ query: { ...rootState.route.query, campus: undefined } }); // leave other query paramaters alone
+    },
+    setTag: ({ state, rootState }, tag) => {
+      state.isFilterFrameOpen = false;
+      state.isHelpFrameOpen = false;
+      // tags toggle, because there is no all tag button
+      if (rootState.route.query.tag === undefined) {
+        router.push({
+          query: { ...rootState.route.query, tag: tag },
+        }); // leave other query paramaters alone
+      } else {
+        router.push({
+          query: { ...rootState.route.query, tag: undefined },
+        });
+      }
+    },
+    resetTags: ({ state, rootState }) => {
+      state.isFilterFrameOpen = false;
+      state.isHelpFrameOpen = false;
+      if (rootState.route.query.tag === undefined) {
+        return;
+      } // prevent redudant nav
+      router.push({ query: { ...rootState.route.query, tag: undefined } }); // leave other query paramaters alone
+    },
+    resetFilters: ({ state, rootState }) => {
+      state.isFilterFrameOpen = false;
+      state.isHelpFrameOpen = false;
+
+      if (
+        rootState.route.query.theme === undefined &&
+        rootState.route.query.campus === undefined &&
+        rootState.route.query.tag === undefined
+      ) {
+        return;
+      }
+      router.push({
+        query: {
+          ...rootState.route.query,
+          theme: undefined,
+          campus: undefined,
+          tag: undefined,
+        },
+      }); // leave other query paramaters alone
     },
   },
-  actions: {},
 };
 
 export default storys;

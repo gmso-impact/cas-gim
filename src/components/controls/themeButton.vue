@@ -4,7 +4,7 @@
       class="themeButton btn p-0 btn-charcoal btn-fade text-white d-flex rounded align-items-stretch"
       :class="themeButtonClasses"
       :key="theme"
-      v-on:click="setTheme"
+      v-on:click="setTheme(theme)"
     >
       <div
         class="themeIconContainer p-1 m-1 rounded d-flex align-items-center"
@@ -25,7 +25,7 @@
   </div>
 </template>
 <script>
-import { mapMutations } from "vuex";
+import { mapActions } from "vuex";
 
 export default {
   components: {},
@@ -61,25 +61,9 @@ export default {
     },
   },
   methods: {
-    ...mapMutations({
-      setTag: "setTag",
+    ...mapActions({
+      setTheme: "setTheme",
     }),
-    setTheme: function () {
-      if (
-        this.$route.query.theme &&
-        this.$route.query.theme.toLowerCase() === this.theme.toLowerCase()
-      ) {
-        return;
-      } // prevent redudant nav
-      this.$router.push({ query: { ...this.$route.query, theme: this.theme } }); // leave other query paramaters alone
-    },
-    // setTagClicked: function (event) {
-    //   this.setTag({
-    //     ...this.control,
-    //     isActive: !this.control.isActive,
-    //     tagName: "storyThemes",
-    //   });
-    // },
   },
 };
 </script>

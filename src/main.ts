@@ -26,18 +26,12 @@ Icon.Default.mergeOptions({
 import "./scss/app.scss";
 import "leaflet/dist/leaflet.css";
 
-// Make BootstrapVue available throughout your project
-// Vue.use(BootstrapVue)
-// // Optionally install the BootstrapVue icon components plugin
-// Vue.use(IconsPlugin)
-
 import { BPopover } from "bootstrap-vue";
 Vue.component("b-popover", BPopover);
 
 import VueI18n from "vue-i18n";
 Vue.use(VueI18n);
-import { I18nSetup } from "./translations";
-const i18n = new VueI18n(I18nSetup);
+import i18n from "./translations";
 
 Vue.config.productionTip = false;
 
