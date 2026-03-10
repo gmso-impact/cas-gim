@@ -104,6 +104,11 @@ export const baseMaps = {
   // to customize the text
   // background: light or dark, determines the color of text overlaid
   // Cities: https://csurams.maps.arcgis.com/apps/mapviewer/index.html?webmap=4f2e99ba65e34bb8af49733d9778fb8e
+  terrain: {
+    id: "terrain",
+    layer: "ArcGIS:Terrain",
+    background: "light",
+  },
   satellite: {
     id: "satellite",
     layer: "ArcGIS:Imagery",
@@ -113,11 +118,6 @@ export const baseMaps = {
     id: "political",
     layer: "ArcGIS:DarkGray",
     background: "dark",
-  },
-  terrain: {
-    id: "terrain",
-    layer: "ArcGIS:Terrain",
-    background: "light",
   },
 };
 
@@ -136,7 +136,7 @@ const map = {
     // initial: {
     //   ...stateTemplate,
     // },
-    baseMap: baseMaps.satellite,
+    baseMap: baseMaps.terrain,
     baseMaps: baseMaps,
     mapFrameId: -1,
   },
@@ -205,7 +205,7 @@ const map = {
         ...newViewport,
         date: new Date(),
       };
-      state.baseMap = baseMaps.satellite;
+      state.baseMap = baseMaps.terrain;
     },
     panMap: ({ state, rootGetters }) => {
       //console.log("panMap");

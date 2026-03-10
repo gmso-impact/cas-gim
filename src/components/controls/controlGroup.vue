@@ -1,5 +1,5 @@
 <template lang="">
-  <div
+  <!-- <div
     class="d-flex h-100 flex-column overflow-y-auto overflow-x-hidden justify-content-between pt-1 pt-xl-2"
   >
     <h1 class="text-white text-center mx-1 mx-xl-2 pb-xxl-4">
@@ -15,29 +15,34 @@
       v-if="this.$route.name === 'Kiosk'"
       class="mb-3 mx-1 mx-xl-2"
     ></QRSite>
+  </div> -->
+  <div
+    class="d-flex flex-column overflow-y-auto overflow-x-hidden justify-content-center pt-2 pb-2 pt-xl-2"
+  >
+    footer buttons
   </div>
 </template>
 <script>
-import KioskSwitch from "./kioskSwitch.vue";
-import CampusGroup from "./campusGroup.vue";
-import Language from "./language.vue";
-import TitleNameSwitch from "./titleNameSwitch.vue";
-import ThemeColumn from "./themeColumn.vue";
-import IdTags from "./idTags.vue";
+//import KioskSwitch from "./kioskSwitch.vue";
+//import CampusGroup from "./campusGroup.vue";
+//import Language from "./language.vue";
+//import TitleNameSwitch from "./titleNameSwitch.vue";
+//import ThemeColumn from "./themeColumn.vue";
+//import IdTags from "./idTags.vue";
 // import Geo from "./geo.vue";
 //import IntroVideo from "./introVideo.vue";
-import QRSite from "@/components/qr/qrSite.vue";
+//import QRSite from "@/components/qr/qrSite.vue";
 
 export default {
   components: {
-    KioskSwitch,
-    CampusGroup,
-    Language,
-    TitleNameSwitch,
-    ThemeColumn,
-    IdTags,
+    //KioskSwitch,
+    //CampusGroup,
+    //Language,
+    //TitleNameSwitch,
+    //ThemeColumn,
+    //IdTags,
     //IntroVideo,
-    QRSite,
+    //QRSite,
     // Geo,
   },
   data() {
