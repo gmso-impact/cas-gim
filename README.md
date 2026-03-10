@@ -1,4 +1,4 @@
-# GMSO Impact(o)
+# CAS GIM
 GMSO Impact is a website showcasing the stories of research and advancement of the public good at Colorado State University hosted at [impact.csusystem.edu](https://impact.csusystem.edu/). At the [Spur campus](https://csuspur.org/) in Denver, Colorado there is an exhibit on the 2nd floor of the Tera building displaying this website on a 16ft wide touch screen and accessibility friendly podiums for the public to experience. This GitHub repository contains the code for the website.
 
 # Production Server
