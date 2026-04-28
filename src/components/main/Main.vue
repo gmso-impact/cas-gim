@@ -6,12 +6,13 @@
       v-if="$route.name === 'Web'"
       class="d-none d-lg-block text-center border-bottom border-slate pt-3"
     >
-      <img
+      <h1 class="text-white">CAS Global Impact Map</h1>
+      <!-- <img
         src="impact_white.svg"
         alt="CSU Impact"
         class="title-img d-none d-md-inline-block"
         v-on:click="toggleHelpFrame"
-      />
+      /> -->
 
       <!-- <div class="row p-0 text-center border border-white" style="min-height: 100px;">
           <div class="col-3 border border-white">
@@ -62,7 +63,7 @@
       </div>
     </div>
     <div class="flex-grow-1 d-flex flex-row overflow-y-hidden no-gutters h-100">
-      <div class="left d-none d-lg-block col-lg-2 col-xl-3 col-xxl-3">
+      <div class="left d-none d-lg-block col-lg-3 col-xl-3 col-xxl-3">
         <StoryListMap></StoryListMap>
       </div>
       <!-- <div
@@ -70,11 +71,10 @@
       >
         <ControlGroup></ControlGroup>
       </div> -->
-      <div class="d-none d-xxl-block h-100 col-2 border-right border-slate">
+      <!-- <div class="d-none d-xxl-block h-100 col-2 border-right border-slate">
         <ControlGroupXXL></ControlGroupXXL>
-      </div>
-      <div class="right col-12 col-lg-12 col-xl-12 col-xxl-7">
-        <!-- right col-12 col-lg-8 col-xl-8 col-xxl-7-->
+      </div> -->
+      <div class="right col-9 col-lg-9 col-xl-9 col-xxl-7">
         <Map></Map>
       </div>
     </div>
@@ -95,7 +95,7 @@
 import StoryListMap from "@/components/storyList/storyListMap.vue";
 import Map from "@/components/map/map.vue";
 import ControlGroup from "@/components/controls/controlGroup.vue";
-import ControlGroupXXL from "@/components/controls/controlGroupXXL.vue";
+//import ControlGroupXXL from "@/components/controls/controlGroupXXL.vue";
 
 //import KioskOverlay from "@/components/kioskOverlay/index.vue";
 import { mapMutations } from "vuex";
@@ -106,7 +106,7 @@ export default {
     StoryListMap,
     Map,
     ControlGroup,
-    ControlGroupXXL,
+    //ControlGroupXXL,
     //KioskOverlay,
   },
   methods: {

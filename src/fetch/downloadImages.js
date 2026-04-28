@@ -19,16 +19,16 @@ function makeDirectories(path) {
 }
 
 function getImagesMetadata(imagesMetadata, story) {
-  if (!story.fields["Story Card Image"]) {
+  if (!story.fields["Card Image"]) {
     return imagesMetadata;
   } else {
     const cardImage = {
       storyId: story.id,
-      "en-StoryTitle": story.fields["en-StoryTitle"],
+      "Project/Activity Title": story.fields["Project/Activity Title"],
       type: "cardImage",
-      ext: getExt(story.fields["Story Card Image"][0]),
-      newFilename: getFilename(story.fields["Story Card Image"][0]),
-      ...story.fields["Story Card Image"][0],
+      ext: getExt(story.fields["Card Image"][0]),
+      newFilename: getFilename(story.fields["Card Image"][0]),
+      ...story.fields["Card Image"][0],
     };
     return [...imagesMetadata, cardImage];
   }

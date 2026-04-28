@@ -19,7 +19,29 @@
   <div
     class="d-flex flex-column overflow-y-auto overflow-x-hidden justify-content-center pt-2 pb-2 pt-xl-2"
   >
-    footer buttons
+    <span class="text-white">
+      <img height="60" src="icons/CSU_Agsci_Icons-06-1-150x150.png" />
+      <img
+        class="ml-3"
+        height="60"
+        src="icons/CSU_Agsci_Icons-08-1-150x150-2.png"
+      />
+      <img
+        class="ml-3"
+        height="60"
+        src="icons/CSU_Agsci_Icons-09-1-150x150-3.png"
+      />
+      <img
+        class="ml-3"
+        height="60"
+        src="icons/CSU_Agsci_Icons-10-1-150x150-4.png"
+      />
+      <img
+        class="ml-3"
+        height="60"
+        src="icons/CSU_Agsci_Icons-07-1-150x150-3.png"
+      />
+    </span>
   </div>
 </template>
 <script>

@@ -1,23 +1,23 @@
 <template lang="">
   <div
     class="col-6 col-lg-12 col-xl-4 col-xxl-4 py-2 py-xxl-3 px-2 px-xxl-5"
-    v-if="story.fields['en-StoryTitle']"
+    v-if="story.fields['Project/Activity Title']"
   >
     <div
       class="story-card w-100 h-100 p-0 btn d-flex flex-column"
       :class="[
-        `btn-${story.fields['Story Theme']}`,
+        `btn-${story.fields['Department']}`,
         isStoryActive(story.id) ? 'active' : '',
       ]"
       v-on:click="addActiveStory(story)"
     >
       <img
         v-if="
-          story.fields['Story Card Image'] &&
-          story.fields['Story Card Image'][0] &&
-          story.fields['Story Card Image'][0].thumbnails
+          story.fields['Card Image'] &&
+          story.fields['Card Image'][0] &&
+          story.fields['Card Image'][0].thumbnails
         "
-        :src="story.fields['Story Card Image'][0].thumbnails.large.url"
+        :src="story.fields['Card Image'][0].thumbnails.large.url"
         class="w-100 rounded-top"
         :alt="storyTitle"
       />

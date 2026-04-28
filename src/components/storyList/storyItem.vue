@@ -1,12 +1,12 @@
 <template lang="">
   <div
     class="col-6 col-lg-12 col-xl-4 col-xxl-4 p-1 p-xxl-2"
-    v-if="story.fields['en-StoryTitle']"
+    v-if="story.fields['Project/Activity Title']"
   >
     <div
       class="story-card w-100 h-100 p-1 btn d-flex flex-column rounded-0 position-relative"
       :class="[
-        `btn-${story.fields['Story Theme']}`,
+        `btn-${story.fields['Department']}`,
         isStoryActive(story.id) ? 'active' : '',
       ]"
       v-on:click="addActiveStory(story)"
@@ -21,11 +21,11 @@
       />
       <!-- <img
         v-if="
-          story.fields['Story Card Image'] &&
-          story.fields['Story Card Image'][0] &&
-          story.fields['Story Card Image'][0].thumbnails
+          story.fields['Card Image'] &&
+          story.fields['Card Image'][0] &&
+          story.fields['Card Image'][0].thumbnails
         "
-        :src="story.fields['Story Card Image'][0].thumbnails.large.url"
+        :src="story.fields['Card Image'][0].thumbnails.large.url"
         class="w-100"
         alt="Card image cap"
       /> -->
@@ -36,15 +36,15 @@
         class="card-body d-flex justify-content-center align-items-center p-1 text-center text-white"
       >
         <transition name="fade" mode="out-in">
-          <div :key="storyTitle" v-if="sortStoriesBy === 'en-StoryTitle'">
+          <div :key="storyTitle" v-if="sortStoriesBy === 'Project/Activity Title'">
             {{ storyTitle }}
           </div>
-          <div :key="storyPerson" v-if="sortStoriesBy === 'Last Name'">
+          <!-- <div :key="storyPerson" v-if="sortStoriesBy === 'Last Name'">
             <span>{{ this.story.fields["First Name"] }} </span>
             <span class="font-weight-bold">{{
               this.story.fields["Last Name"]
             }}</span>
-          </div>
+          </div> -->
         </transition>
       </div>
     </div>
@@ -74,17 +74,18 @@ export default {
       sortStoriesBy: "sortStoriesBy",
     }),
     storyTitle: function () {
-      if (this.story.fields[`${this.$root.$i18n.locale}-StoryTitle`]) {
-        return this.story.fields[`${this.$root.$i18n.locale}-StoryTitle`];
-      } else {
+      //if (this.story.fields[`${this.$root.$i18n.locale}-StoryTitle`]) {
+        //return this.story.fields[`${this.$root.$i18n.locale}-StoryTitle`];
+      //} else {
         // default to english
-        return this.story.fields["en-StoryTitle"];
-      }
+        //return this.story.fields["en-StoryTitle"];
+        return this.story.fields["Project/Activity Title"];
+      //}
     },
-    storyPerson: function () {
-      // This is only used as a KEY for fading in and out. To modify the text displayed see the <span> tags above.
-      return `${this.story.fields["First Name"]} ${this.story.fields["Last Name"]}`;
-    },
+    // storyPerson: function () {
+    //   // This is only used as a KEY for fading in and out. To modify the text displayed see the <span> tags above.
+    //   return `${this.story.fields["First Name"]} ${this.story.fields["Last Name"]}`;
+    // },
     height: function () {
       return this.imageSizes[this.getBreakpoints[0]].height;
     },
@@ -93,16 +94,16 @@ export default {
     },
     storyImagePath: function () {
       if (
-        !this.story.fields["Story Card Image"] ||
-        !this.story.fields["Story Card Image"][0]
+        !this.story.fields["Card Image"] ||
+        !this.story.fields["Card Image"][0]
       ) {
         return null;
       }
       const rootpath = "stories";
 
-      return `${rootpath}/${this.story.fields["Story Card Image"][0].id}-${
+      return `${rootpath}/${this.story.fields["Card Image"][0].id}-${
         this.getBreakpoints[0]
-      }.${getExt(this.story.fields["Story Card Image"][0].type)}`;
+      }.${getExt(this.story.fields["Card Image"][0].type)}`;
     },
   },
 };

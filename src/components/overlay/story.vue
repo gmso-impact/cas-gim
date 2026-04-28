@@ -1,13 +1,13 @@
 <template lang="">
-  <div class="storyFrame overlay childPoint">
+  <div class="childPoint">
     <div
       class="controlFrame p-1 p-xxl-3 rounded"
-      :class="`bg-${story.fields['Story Theme']}`"
+      :class="`bg-${story.fields['Department']}`"
     >
       <div class="topClose">
         <button
           class="btn btn-lg"
-          :class="`btn-${story.fields['Story Theme']}`"
+          :class="`btn-${story.fields['Department']}`"
           v-on:click="removeActiveStory(story)"
           :aria-label="$t(`Close`)"
         >

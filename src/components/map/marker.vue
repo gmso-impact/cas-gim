@@ -17,11 +17,11 @@
           <div class="marker-img-body">
             <img
               v-if="
-                story.fields['Story Card Image'] &&
-                story.fields['Story Card Image'][0] &&
-                story.fields['Story Card Image'][0].thumbnails
+                story.fields['Card Image'] &&
+                story.fields['Card Image'][0] &&
+                story.fields['Card Image'][0].thumbnails
               "
-              :src="story.fields['Story Card Image'][0].thumbnails.large.url"
+              :src="story.fields['Card Image'][0].thumbnails.large.url"
               class="w-100 content"
               :alt="storyTitle"
             />
@@ -83,16 +83,16 @@ export default {
       return latLng(this.story.fields["LAT"], this.story.fields["LONG"]);
     },
     smallMarkerClass: function () {
-      return this.story.fields["Story Theme"]
-        ? `bg-${this.story.fields["Story Theme"]}`
-        : "bg-white";
+      return this.story.fields["Department"]
+        ? `bg-${this.story.fields["Department"]}`
+        : "bg-carbon";
     },
     storyTitle: function () {
       if (this.story.fields[`${this.$root.$i18n.locale}-StoryTitle`]) {
         return this.story.fields[`${this.$root.$i18n.locale}-StoryTitle`];
       } else {
         // default to english
-        return this.story.fields["en-StoryTitle"];
+        return this.story.fields["Project/Activity Title"];
       }
     },
   },
