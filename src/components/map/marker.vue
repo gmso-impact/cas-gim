@@ -68,7 +68,7 @@ export default {
     LGeoJson,
   },
   data() {
-    console.log("testing here... "+this.story.fields["GeoJSON"]);
+    console.log("testing here... " + this.story.fields["GeoJSON"]);
     console.log(
       "testing replace... " +
         JSON.parse(
