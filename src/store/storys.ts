@@ -6,21 +6,24 @@ import router from "../router";
 const stories = storiesFile.response
   .filter((story) => {
     // Filter out stories that might cause UI bugs
-    console.log("long......"+story.fields["LONG"]);
-    console.log("title......"+story.fields["Project/Activity Title"]);
-    console.log("department......"+story.fields["Department/Unit"]);
-    if (story.fields["Project/Activity Title"] && story.fields["Project/Activity Title"]) {
+    console.log("long......" + story.fields["LONG"]);
+    console.log("title......" + story.fields["Project/Activity Title"]);
+    console.log("department......" + story.fields["Department/Unit Primary"]);
+    if (
+      story.fields["Project/Activity Title"] &&
+      story.fields["Project/Activity Title"]
+    ) {
       return true;
     }
   })
   .map((story) => {
     // Replace missing data with default data
-    console.log("here......"+story.fields);
+    console.log("here......" + story.fields);
     return {
       ...story,
       fields: {
         ...story.fields,
-        "Department": story.fields["Department"] || "undefined",
+        Department: story.fields["Department"] || "undefined",
         LAT: story.fields["LAT"] || (Math.random() - 0.5) * +40.5730232,
         LONG: story.fields["LONG"] || (Math.random() - 0.5) * -105.086407087,
       },
@@ -28,9 +31,11 @@ const stories = storiesFile.response
   })
   .sort((a, b) => {
     // initial sort by Project/Activity Title
-    return a.fields["Project/Activity Title"].localeCompare(b.fields["Project/Activity Title"]);
+    return a.fields["Project/Activity Title"].localeCompare(
+      b.fields["Project/Activity Title"],
+    );
   });
-      
+
 function getNames(fieldName) {
   const tagListDuplicated = stories.reduce(function (tags, story) {
     if (
@@ -114,6 +119,10 @@ const storys = {
             );
           }
         };
+        const hasActiveDepartment = filterByField(
+          "department",
+          "Department/Unit Primary",
+        );
         const hasActiveTheme = filterByField("theme", "Project/Activity Title");
         const hasActiveTag = filterByField("tag", "ID Tags");
         const hasActiveCampus = filterByField("campus", "Campus");
@@ -123,7 +132,12 @@ const storys = {
         //   hasActiveCampus: hasActiveCampus,
         // })
 
-        return hasActiveTheme && hasActiveTag && hasActiveCampus;
+        return (
+          hasActiveTheme &&
+          hasActiveTag &&
+          hasActiveCampus &&
+          hasActiveDepartment
+        );
       });
       const sortedStories = filteredStories.sort((a, b) => {
         return a.fields[state.sortStoriesBy].localeCompare(
@@ -387,6 +401,20 @@ const storys = {
         return;
       } // prevent redudant nav
       router.push({ query: { ...rootState.route.query, theme: theme } }); // leave other query paramaters alone
+    },
+    setDepartment: ({ state, rootState }, department) => {
+      state.isFilterFrameOpen = false;
+      state.isHelpFrameOpen = false;
+      if (
+        rootState.route.query.department &&
+        rootState.route.query.department.toLowerCase() ===
+          department.toLowerCase()
+      ) {
+        return;
+      } // prevent redudant nav
+      router.push({
+        query: { ...rootState.route.query, department: department },
+      }); // leave other query paramaters alone
     },
     resetThemes: ({ state, rootState }) => {
       state.isFilterFrameOpen = false;

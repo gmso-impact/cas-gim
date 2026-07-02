@@ -1,9 +1,907 @@
 {
-  "dateString": "Fri Apr 24 2026 18:51:26 GMT+0000 (Coordinated Universal Time)",
-  "date": "2026-04-24T18:51:26.625Z",
-  "recordsCount": 11,
+  "dateString": "Thu Jun 25 2026 16:17:47 GMT+0000 (Coordinated Universal Time)",
+  "date": "2026-06-25T16:17:47.683Z",
+  "recordsCount": 19,
   "url": "https://api.airtable.com/v0/appdLdLpdaHnqnqMV/All%20Stories?view=publicWebsite",
   "response": [
+    {
+      "id": "recMGI9f60Hx952JZ",
+      "createdTime": "2026-03-09T17:29:06.000Z",
+      "fields": {
+        "Date Added": "2026-03-09",
+        "Status": "Active",
+        "Project/Activity Summary - Story Content": "Professor Andrew Seidl plays a global leadership role as Senior Technical Advisor to the Biodiversity Finance Initiative. Through this work, he supports countries around the world in designing and implementing innovative finance solutions to close critical funding gaps for biodiversity conservation. \nThe Biodiversity Finance Initiative (BIOFIN), led by the United Nations Development Programme, helps governments assess their biodiversity finance needs, reform policies, and mobilize new public and private investment to protect ecosystems and achieve global conservation targets.  Seidl contributes technical expertise in economic valuation, policy design, and finance strategies, helping translate complex environmental challenges into actionable, country-level investment plans. \nHis work spans global research, capacity building, and on-the-ground advising, advancing a shift in how nations value nature and integrate biodiversity into economic decision-making. Through BIOFIN, these efforts have contributed to billions of dollars in financing for nature and support a growing international movement to align financial systems with sustainability and conservation goals.\n",
+        "Type": [
+          "Research",
+          "Outreach"
+        ],
+        "Brief Summary": {
+          "state": "generated",
+          "value": "Professor Seidl advises BIOFIN, helping countries design finance solutions for biodiversity, reform policies, and mobilize investment, advancing global efforts to integrate conservation into economic decision-making and policy.",
+          "isStale": false
+        },
+        "Email": "andrew.seidl@colostate.edu",
+        "Faculty Photo (from Faculty/Staff Involved)": [
+          {
+            "id": "attcFbR2Nr6C7yU6J",
+            "width": 260,
+            "height": 293,
+            "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/pqOZsiUxeDPF92C2BEMwog/JPXyZzSh2aGMEffA1djsdZCTzUZERNceKldFQW-F7yE1GiIs8iJMmAgknj8TeGXiCjYh4LEg1Iwas8Z84m9BBsx0PwQLDIrvRk7Gb0XOttOkzsLuI5e6kJizAlBR0h1HAMmYeyGlw9mRIr5yuJy5lFHyk1hADHqG06AoigBiqSo/30NOx6YOnSp-WhabhnBinTrZdayAyc1OV6DRTpKbVmM",
+            "filename": "download.jpg",
+            "size": 115444,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/CePjfNdxoM7CpTzhy2gWKA/bGkK4Z55mj0kTqUu65j2Dq2bWcVNct-gXv6_ZMzxg6ZzmblglxfHp8CYhN7_wnWFFvkaHWkgkCS_xWVUNeg1a6C9yn2wxNb7EdMVMg-8p-3wgPNEVPO50weLY3In2TxrILr9cPcnjyi2E1VPJkeZKA/MFPds4DbAg2gq-DqsgZfbrkK0FDnWVg8of5aX7gJDUo",
+                "width": 32,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/c5ythyJdhYUqQZm0nyqbxw/9iNdzlQk7m0jmcm6SInoo3lj6nDqxZJ5NLV3__ni0PyniDnCcyKA2_ZIyUICzcFUfqS9HJ6eTqZgelXiIqnu1rKxMfh7_ITh5zRD0UxFGV_nXGxDhqH68mB87T4INodDYG-RkW-emHfebOYQAfNqMA/I_Peai1T5o_z_v8EnK9F2yru7S2GKAP-Gy8d21ePgjc",
+                "width": 260,
+                "height": 293
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/rV_tgxJ9k8ysoBIw4KSrRQ/vpc2DklaX4xAosqAKE7RVm6SM4BK-oOSESIfw6RT1PmbCF0mAYrQQF0KZNHFu46oE7avnoD4XoLPbtHt7bg3jTa3PSsQT8FKWld6mLet9YbSxzdPBEcgMWDBD1tTkN6Tnsa8FiLX2DldrxAJVjKVNg/zpbXzc4L_tsijrCCt4OZzVLdDXv6VcNsKBpPYBtSQ1Q",
+                "width": 260,
+                "height": 293
+              }
+            }
+          }
+        ],
+        "Name (from Faculty/Staff Involved)": [
+          "Andy Seidl"
+        ],
+        "Continent/Country/Region": [
+          "recZFtfzZVyXkfk8u"
+        ],
+        "Links": "https://www.biofin.org/basic-page/about-us; https://www.youtube.com/watch?v=NWF2cEdsUPk; https://www.youtube.com/watch?v=fBPgsU2H9Ko&t=4s; ",
+        "Date Last Updated": "2026-06-24T21:30:50.000Z",
+        "Project/Activity Title": "Financing Biodiversity Conservation",
+        "Last name": "Seidl",
+        "\"https://forms.fillout.com/t/7ixrzaFakBus?id=\" & RECORD_ID()": "https://forms.fillout.com/t/7ixrzaFakBus?id=recMGI9f60Hx952JZ",
+        "Department": "AgriculturalandResourceEconomics",
+        "Continent/Country/Region (from Continent/Country/Region)": [
+          "Global"
+        ],
+        "Faculty/Staff Involved": [
+          "recLaA3AyGJZG5cpa"
+        ],
+        "International/Institutional Partners or Collaborators Beyond CSU": [
+          "recOSQEFenFPOHnq5"
+        ],
+        "College/Division": [
+          "College of Agricultural Sciences"
+        ],
+        "Department/Unit Primary": [
+          "Agricultural and Resource Economics"
+        ],
+        "Status Tracker": "Live",
+        "Source": "Entered by Team",
+        "Department/Unit (All)": [
+          "Agricultural and Resource Economics"
+        ],
+        "First name": "Andy",
+        "Production Phase": "Live",
+        "LONG": -73.9352,
+        "GeoJSON": "{type:\"FeatureCollection\",features: [{type:\"Feature\",geometry: {type:\"Point\",coordinates:[40.730600,-73.935200]},properties: { name:\"Long Island City, Queens, New York City, NY\"}}]}",
+        "LAT": 40.7306,
+        "Last Modified": "2026-06-24T20:15:00.000Z",
+        "Card Image Alt Text": "A person works in a green field with a variety of plants with trees in the background"
+      }
+    },
+    {
+      "id": "recifUfo3un63NH8f",
+      "createdTime": "2026-03-26T02:48:51.000Z",
+      "fields": {
+        "Date Added": "2026-03-26",
+        "Status": "Active",
+        "Project/Activity Summary - Story Content": "The Colorado GROW Youth Institute at CSU Spur engages high school students across the state in global food security through research, mentorship, and hands-on learning. Students explore agricultural and scientific career pathways, connect with experts, and develop leadership skills that advance community and global well-being.\n",
+        "Type": [
+          "Teaching"
+        ],
+        "Brief Summary": {
+          "state": "generated",
+          "value": "The Colorado GROW Youth Institute engages high school students statewide in food security research, mentorship, and hands-on learning, fostering leadership and interest in agricultural and scientific careers.",
+          "isStale": false
+        },
+        "Email": "aryn.baxter@colostate.edu",
+        "Faculty Photo (from Faculty/Staff Involved)": [
+          {
+            "id": "att30dktkpFfYRgeA",
+            "width": 1000,
+            "height": 1000,
+            "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/TcY7ne982aZZ_NzI-8OtEA/skNuk2KR0BvRuM2gyTIlExgMGDOxrnArHYwtZKKz8s9tFKavMAIYo7s0YFjmc1fzpMey7P0NKukN529ZmHNxh2I50h3616huSf9NepiLupjAs76rnV4BdVW34B9rFWfaEkztdBcudR2oE8nDn8yDYNYGZ130J5hDSD6QeSL66js/txqJj_eQAT71nmUmT07BDY1UWwNEKvZmlNeJ0mqObog",
+            "filename": "ABaxter-HS-circle1.webp",
+            "size": 885996,
+            "type": "image/webp",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/ZNUNKsR84gw1t8Bz_2iO1A/KEDBoKb-w-rOgFS45IeCZCULgx68HMUy_QE5Vv3S9ymE4CffMqDL5Aqp5HuPqZLygFXg0y7L0rYO3mNgf3fIqNatzet2nSK5mC3M6iwMFZJepJl3j57WL312_AUhTrDQ3v8KqLYV08bJMEDtxQ357w/Kv1W5fte3G-MeE28vAMF-Q8EduRKfVmsGSo-8kISY7I",
+                "width": 36,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/4STZ0Nnu9JZCpP4AaVEa5A/7NMfZEsFTEFefj_qLl67nJxZisZRvNgTYgQIkKbS3-SZ9bXPg4KzkHEunzEDXZ7Nm-aglqCTHyd1Z2RY6rTXx1CyNjfrBBr1gRSlOsXCDPXDeJgH7a3sPLPqTu9zhI9f1KGOD6_XYE2_GwK6T5OdCA/9kceeCVs0YYBWOZssv1Hc0tz5N6pciruuEutalvReAQ",
+                "width": 512,
+                "height": 512
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/B0oy6Ods9fTL4D_3wbcWVg/xVuNxSk4KH9Dljt8RrWFK1KoZbn6J2hY7tbMISk20jkk8H8zufAVDBi_BdYJw_keBr9YEH_hqDj7s6PIUwulMteoOoaiA7eYDl9POiK_Ry9OZKc-rVLt_3Ev-Q6aVeNojrtni1vEY6cAonH4-wpmFg/k4PNsXlfCXqRiCoVbnU0lfzg5tDQvPyD1yRnkwSW5xU",
+                "width": 1000,
+                "height": 1000
+              }
+            }
+          }
+        ],
+        "Name (from Faculty/Staff Involved)": [
+          "Aryn Baxter"
+        ],
+        "Continent/Country/Region": [
+          "recZFtfzZVyXkfk8u"
+        ],
+        "Links": "https://csuspur.org/grow-youth-institute/",
+        "Date Last Updated": "2026-05-29T22:51:12.000Z",
+        "Project/Activity Title": "Colorado GROW Youth Institute",
+        "Last name": "Baxter",
+        "\"https://forms.fillout.com/t/7ixrzaFakBus?id=\" & RECORD_ID()": "https://forms.fillout.com/t/7ixrzaFakBus?id=recifUfo3un63NH8f",
+        "Department": "InternationalAgriculture",
+        "Continent/Country/Region (from Continent/Country/Region)": [
+          "Global"
+        ],
+        "Faculty/Staff Involved": [
+          "recwv17jeLczuQvSn"
+        ],
+        "International/Institutional Partners or Collaborators Beyond CSU": [
+          "recGx281xwWEM42NX"
+        ],
+        "College/Division": [
+          "College of Agricultural Sciences"
+        ],
+        "Department/Unit Primary": [
+          "International Agriculture"
+        ],
+        "Status Tracker": "Live",
+        "Source": "Entered by Team",
+        "Department/Unit (All)": [
+          "Other/All"
+        ],
+        "First name": "Aryn",
+        "Production Phase": "Live",
+        "LONG": -104.9739437,
+        "GeoJSON": "{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"geometry\":{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[-105.1019,40.5853]},\"properties\":{\"name\":\"Fort Collins, near Foothills Campus\"}}]}",
+        "LAT": 39.7835979,
+        "Last Modified": "2026-03-30T19:05:53.000Z",
+        "Card Image Alt Text": "Whole mixed vegetables with a dark rock wall in the background"
+      }
+    },
+    {
+      "id": "recleu2ywrn0gJzvu",
+      "createdTime": "2026-04-02T12:56:27.000Z",
+      "fields": {
+        "Date Added": "2026-04-02",
+        "Status": "Active",
+        "Project/Activity Summary - Story Content": "This project works with farming communities in three highland regions (Junín, Huancavelica, and Ayacucho) of the Peruvian Andes to develop sustainable pathways for agroecological intensification.  This work includes the co-development of forage-based fallows, in collaboration with farmers, as well as evaluation of other promising management options (e.g., agroforestry, diversification) to support soil health, long-term productivity and farmer livelihoods.\n",
+        "Type": [
+          "Research",
+          "Outreach"
+        ],
+        "Brief Summary": {
+          "state": "generated",
+          "value": "The project partners with Andean farming communities to co-develop sustainable agroecological practices, including forage-based fallows and agroforestry, to improve soil health, productivity, and farmer livelihoods.",
+          "isStale": false
+        },
+        "Email": "steven.fonte@colostate.edu",
+        "Faculty Photo (from Faculty/Staff Involved)": [
+          {
+            "id": "attvaLw2mxnXUXG6q",
+            "width": 257,
+            "height": 290,
+            "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/T3XH5rBqBQ_IqtzsqfXYqw/DxD6lQvvhXhv6A8N7tVpj3lRzu9wnlPBL-iqwazEoTS423Mi1W2USnG7yckLGibYqF847VLdfYcDTkSwz4e2NTZG_l3VHl16-McRdK3W2Yk9cchPper1739bQImOa7Y9V5clap_4vzZd93kmNl1e9lqmuzOosrQ3Y3olY0E0OmM/nOWlJxlboMnP5jwkVKXIKvJRjpU79CJydIOeW5v4Hcw",
+            "filename": "download.png",
+            "size": 157342,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/6bIQJTh6OtlwwWX6sZ24cg/wwUgOiTQB9U9bXTzIZTbbvOn0xJfVW9Xbqz13BnZW0sZUyXB0rJN-At2K3eY1q7kQ7VdyrmDHM2RmFttWIFG6u49V2tePiucOmtQ_neU2rpvZpidS9wJG8VTB01Gr9vP1mmHmDkuKM701rLngoAV0A/QSgXv8m1xicSXucFsqcNgI2kznum3BcXAuVy0InkJW4",
+                "width": 32,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/oGk72FRNT6AcwfDqAMBFzA/o8j_oYnzjDtMgH6rcPwaezRzuynT6gL9iDPQjgQjI3av-tF2RG-OXAGIQLzePzQSxBxbgbtVhcMDfCd9tkcmfn36_ps6ch6vGinHgR9RkwOEQRVy43V0e-kGbOgxZe0dXDGopvkjplV672wNquAxAA/N5sevRDfHO8QmEJ5tbQOwOeCTzzD3SHSx60pxeHVDWc",
+                "width": 257,
+                "height": 290
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/PC2JJ6eRBvM9Yz1ClHJfKQ/yxT33Sgi_wDhZJFwlSZbWX6CqL2n9UuOhkQ5mN_OnMZn4vbvOV_CYocalS2ddldEA_nmO8Vjvnq0T1lHjFcZs5RSQ__knlHr-6m8HkCjiRHjhMLlvom5Uy7t8GEW3Uj5OKKBD3NX1T6H9sfzV8WNuA/u_OaRe1i8q85BAK5gx9h2sEk5d9Jpp-aCeOwjhzKnls",
+                "width": 257,
+                "height": 290
+              }
+            }
+          }
+        ],
+        "Name (from Faculty/Staff Involved)": [
+          "Steven Fonte"
+        ],
+        "Continent/Country/Region": [
+          "recO6UDHOt8Vpppp1",
+          "recLRAmea9C0yQbN1",
+          "recn1HJAeJddpHcJX"
+        ],
+        "Links": "https://agsci.source.colostate.edu/csu-researchers-bring-home-lessons-from-peruvian-farmers/",
+        "Date Last Updated": "2026-05-29T22:58:48.000Z",
+        "Project/Activity Title": "Participatory Research in the Andes",
+        "Last name": "Fonte",
+        "\"https://forms.fillout.com/t/7ixrzaFakBus?id=\" & RECORD_ID()": "https://forms.fillout.com/t/7ixrzaFakBus?id=recleu2ywrn0gJzvu",
+        "Department": "SoilandCropSciences",
+        "Continent/Country/Region (from Continent/Country/Region)": [
+          "Peru",
+          "Ecuador",
+          "Bolivia"
+        ],
+        "Faculty/Staff Involved": [
+          "rec4d3itdUnZdlmXM"
+        ],
+        "College/Division": [
+          "College of Agricultural Sciences"
+        ],
+        "Department/Unit Primary": [
+          "Soil and Crop Sciences"
+        ],
+        "Card Image": [
+          {
+            "id": "att1VSJQyJ9a5pLhV",
+            "width": 2048,
+            "height": 1536,
+            "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/xpHaE0KdG0Ufs-ksyM-Yug/gcbJ7gVY8HTXBUUQR4RD6auP8VI3l6Q-PxW-sK3l657cpFe2Dl6_PkMKBJjHu89W6BFPEpVzR-08FzIIojmVMdCi-62XXO66F84zq5eSStqUJ7sX-cyIfUQkvqf5Tg0FqnqAQFTk876CiqYNpiq0sHx5gC6TXQg1VpV2c9CROlo/4dtTshCdSE0hwtobWD3J7UaylIWacxdcVnBQtl73R5g",
+            "filename": "Peruvian-Farming-4.jpg",
+            "size": 618656,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/bB3hG-pA_WEzPXO5Ydmkmg/KEvRJOgrMpkFdtdyLMSjYtLRoair_fCT75oqpVvE0GZqfRnHi7tEkXWdbt5M1NuWxUaz2eUGnDBqGTBafoiL7CFtpO6lkHuubTrne-XfCFfwI4M3pClnV3r_wwttIShkyiKMjt9eEe--sEdXAvZaOQ/TAnAtqEgyXpEzLLrVtGdx6xQTBkX8aG8vvvQpIniP6o",
+                "width": 48,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/5PLcq3P8Lmr-Q9tl6RbMUg/hjuLqsZyTB0CEa0GTi8qKcYtByO0SK9bxjnin4saSxHC5AmsCRFIP2nw4VXShr8BRzWTXvA9jq5A93pvPBQ03wBAxV77iJfstqnnLYYZaO-5VOtShfy45uUnHTnbRB1xGrR5Tox8O0pitVBpZ9f9bg/_ELZOD-KBzowr-_iswjOxmMa29kRRw3KNY6Y9vDSlPA",
+                "width": 683,
+                "height": 512
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/2ro5FQH7Wr55c1CNvg4tJA/dyRaaFxpnkcnZtXqMca5efJgRv7_oIcohOLiWRiOeU3okWVBbCRclcyYxjXei5yLxhHLmAQvrcn-cl67Jw69aMCt25XYb2HfoEiWLAydkcCAtLnbQxifSyDRlzVdgw9GI8Fc6cJF2BlsEEjTayiz_g/MqZAK_eIf5xw-nPnydLuZ1J0TvgBRjOa6H_l6shf2gE",
+                "width": 2048,
+                "height": 1536
+              }
+            }
+          }
+        ],
+        "Status Tracker": "Live",
+        "Source": "Entered by Team",
+        "Department/Unit (All)": [
+          "Soil and Crop Sciences"
+        ],
+        "Story Tags": [
+          "Agricultural Sustainability"
+        ],
+        "First name": "Steven",
+        "Production Phase": "Live",
+        "LONG": -75.2449,
+        "GeoJSON": "{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[-5.643144, -79.474956]},\"properties\":{\"name\":\"Northern Peru\"}},{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[-0.466737, -79.079448]},\"properties\":{\"name\":\"Northern Ecuador\"}},{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[-16.774685, -68.299974]},\"properties\":{\"name\":\"Western Bolivia\"}}]}",
+        "LAT": -11.9316,
+        "Last Modified": "2026-05-07T19:53:17.000Z"
+      }
+    },
+    {
+      "id": "receCjznY6FfQcpRH",
+      "createdTime": "2026-04-21T15:15:59.000Z",
+      "fields": {
+        "Date Added": "2026-04-21",
+        "Status": "Active",
+        "Project/Activity Summary - Story Content": "This project focuses on supporting improved research and awareness of soil related challenges in smallholder farming systems of Latin America and Africa. The project is working to refine a soil health tool kit and related products for use in smallholder farming contexts. This work involves continued validation and refinement of tool kit methods, participatory research with farmer groups and collaborating organizations.\n",
+        "Type": [
+          "Research",
+          "Outreach"
+        ],
+        "Brief Summary": {
+          "state": "generated",
+          "value": "The project refines and validates a soil health toolkit for smallholder farmers in Latin America and Africa, using participatory research with farmers and organizations to address soil-related challenges.",
+          "isStale": false
+        },
+        "Email": "steven.fonte@colostate.edu",
+        "Faculty Photo (from Faculty/Staff Involved)": [
+          {
+            "id": "attvaLw2mxnXUXG6q",
+            "width": 257,
+            "height": 290,
+            "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/T3XH5rBqBQ_IqtzsqfXYqw/DxD6lQvvhXhv6A8N7tVpj3lRzu9wnlPBL-iqwazEoTS423Mi1W2USnG7yckLGibYqF847VLdfYcDTkSwz4e2NTZG_l3VHl16-McRdK3W2Yk9cchPper1739bQImOa7Y9V5clap_4vzZd93kmNl1e9lqmuzOosrQ3Y3olY0E0OmM/nOWlJxlboMnP5jwkVKXIKvJRjpU79CJydIOeW5v4Hcw",
+            "filename": "download.png",
+            "size": 157342,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/6bIQJTh6OtlwwWX6sZ24cg/wwUgOiTQB9U9bXTzIZTbbvOn0xJfVW9Xbqz13BnZW0sZUyXB0rJN-At2K3eY1q7kQ7VdyrmDHM2RmFttWIFG6u49V2tePiucOmtQ_neU2rpvZpidS9wJG8VTB01Gr9vP1mmHmDkuKM701rLngoAV0A/QSgXv8m1xicSXucFsqcNgI2kznum3BcXAuVy0InkJW4",
+                "width": 32,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/oGk72FRNT6AcwfDqAMBFzA/o8j_oYnzjDtMgH6rcPwaezRzuynT6gL9iDPQjgQjI3av-tF2RG-OXAGIQLzePzQSxBxbgbtVhcMDfCd9tkcmfn36_ps6ch6vGinHgR9RkwOEQRVy43V0e-kGbOgxZe0dXDGopvkjplV672wNquAxAA/N5sevRDfHO8QmEJ5tbQOwOeCTzzD3SHSx60pxeHVDWc",
+                "width": 257,
+                "height": 290
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/PC2JJ6eRBvM9Yz1ClHJfKQ/yxT33Sgi_wDhZJFwlSZbWX6CqL2n9UuOhkQ5mN_OnMZn4vbvOV_CYocalS2ddldEA_nmO8Vjvnq0T1lHjFcZs5RSQ__knlHr-6m8HkCjiRHjhMLlvom5Uy7t8GEW3Uj5OKKBD3NX1T6H9sfzV8WNuA/u_OaRe1i8q85BAK5gx9h2sEk5d9Jpp-aCeOwjhzKnls",
+                "width": 257,
+                "height": 290
+              }
+            }
+          }
+        ],
+        "Name (from Faculty/Staff Involved)": [
+          "Steven Fonte"
+        ],
+        "Continent/Country/Region": [
+          "recRESDp7JoIPSro5",
+          "recO6UDHOt8Vpppp1",
+          "recCVpqbcJAioZepW",
+          "recn1HJAeJddpHcJX",
+          "recLRAmea9C0yQbN1",
+          "recEufDTVi3qNdUM5"
+        ],
+        "Links": "https://smallholder-sha.org/",
+        "Date Last Updated": "2026-06-24T20:15:09.000Z",
+        "Project/Activity Title": "Smallholder Soil Health Evaluation",
+        "Last name": "Fonte",
+        "\"https://forms.fillout.com/t/7ixrzaFakBus?id=\" & RECORD_ID()": "https://forms.fillout.com/t/7ixrzaFakBus?id=receCjznY6FfQcpRH",
+        "Department": "SoilandCropSciences",
+        "Continent/Country/Region (from Continent/Country/Region)": [
+          "Kenya",
+          "Peru",
+          "Tanzania",
+          "Bolivia",
+          "Ecuador",
+          "Niger"
+        ],
+        "Faculty/Staff Involved": [
+          "rec4d3itdUnZdlmXM"
+        ],
+        "College/Division": [
+          "College of Agricultural Sciences"
+        ],
+        "Department/Unit Primary": [
+          "Soil and Crop Sciences"
+        ],
+        "Card Image": [
+          {
+            "id": "attbv3FlBrNLqc5Yf",
+            "width": 331,
+            "height": 291,
+            "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/0EYWzn1AKcGYgFF_1n4ZJA/hd6pqQTczkVOhCSKlCHa7WmlLnpCM62vp4GkxjuyM0RTUJU1gJOu3wGW3Ixftc9M6GN2JVBL2uJd_J2eQTjGPM8_bjYUrJTuTnu3lZfNTd3IQA1sLfw38QzSIWEuu5Xa921AkeE0KBMXmSKeqY5rZe4itO96QdYBTxYDvwj030k/fRfP5r-rCWIxeVZyFpPbYuGaVr7Ph6Uve5IMBIyYgrY",
+            "filename": "Picture1.png",
+            "size": 199347,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/tvudbxqkh1XjJ29yphnGew/uMrk19Yo6Lp_p0eAkfg9kxWeAOu1W6Ab3Xkgq4lIjmTXZFMJG_YV4AwlLy5hXf5qugD4o9lLb_tbFaERDR-LKolZlvLeIgrai9S3hHaXg6DdzUy17-4-h-pAhgTq8MG2G_l-y7N7FxE0mXFEYCEgEw/GeYgFKgGgIwIrLvegrOoaz1fojCc3lZZPVYimlUToTE",
+                "width": 41,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/7BDWebjukDtP6iigphIFSQ/hxAkY_jZ91qe6VwJT2ZgFJ8Rcqsz69lOSYv43W_aORBL3DuLZWhTQEQHtplWOyzywMsEyOBzjXf54zLHgoItAyW0ptOpPQPFcax8u7ddMYp9HrR_u305fFb9wZCUgtskkxfJbf_tIRMfWlZKxBkx_A/7bJqYSD3eBWEpZY1TbrkPDeYH5H9oDz4G0fZEtz3G48",
+                "width": 331,
+                "height": 291
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/XwDCUiKHnxqBVlKGfX35Kw/0Q65M3hvOEqDqI9nPEodY5CMaNyMhimhJ4OevP1-zSYBq_rWRzdKQLK6LEAYKK67Qm66ErxC-Y3d1b2rdoTZtpICytOAarfd6VZr3LUA-Ipygx28g-10Cqy1414YlsmE-uMYvvJsA793wGXJ2QdWbA/p7A01JJ6HXqKmI_p3bC3Y2UGu3HyI-Qi_Wi0aUD9sys",
+                "width": 331,
+                "height": 291
+              }
+            }
+          }
+        ],
+        "Status Tracker": "Live",
+        "Source": "Form Submission",
+        "Department/Unit (All)": [
+          "Soil and Crop Sciences"
+        ],
+        "First name": "Steven",
+        "Production Phase": "Live",
+        "LONG": 35.021439,
+        "GeoJSON": "{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[0.527427, 35.021439]},\"properties\":{\"name\":\"Western Kenya\"}},{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[-8.738332, -73.937847]},\"properties\":{\"name\":\"Eastern Peru\"}},{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[-6.557600, 31.321910]},\"properties\":{\"name\":\"Western Tanzania\"}},{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[-12.137739, -66.761888]},\"properties\":{\"name\":\"Northern Bolivia\"}},{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[-0.945542, -76.302846]},\"properties\":{\"name\":\"Eastern Ecuador\"}},{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[22.318255, 12.298138]},\"properties\":{\"name\":\"Northern Niger\"}}]}",
+        "LAT": 0.527427,
+        "Last Modified": "2026-06-24T20:15:09.000Z",
+        "Card Image Alt Text": "pink liquid in test tubes",
+        "Start Date": "2017-01-01"
+      }
+    },
+    {
+      "id": "rec80DdLOJNCVLbhZ",
+      "createdTime": "2026-04-23T14:06:07.000Z",
+      "fields": {
+        "Date Added": "2026-04-23",
+        "Status": "Active",
+        "Project/Activity Summary - Story Content": "Andy Seidl is a member of the Economics of Land Degradation (ELD) Working Group. Under the mission statement “_Linking science to policy and practice for sustainable land management_” the ELD Working Group supports the United Nations Convention to Combat Desertification in part through the publication of the Global Land Outlook, economic analyses of pastoral landscapes, contributions to the Ecosystem Services Valuation Database (ESVD) and the planned development of a spatially explicit land restoration investment platform. \n",
+        "Type": [
+          "Research"
+        ],
+        "Other Partners or Collaborators": "united nations convention to combat desertification (UNCCD)",
+        "Brief Summary": {
+          "state": "generated",
+          "value": "Andy Seidl contributes to the ELD Working Group, supporting sustainable land management through economic analyses, publications, and developing tools for land restoration investment aligned with UN desertification efforts.",
+          "isStale": false
+        },
+        "CSU Affiliations": [
+          "rec0scLExpYcBzVhl"
+        ],
+        "Email": "andrew.seidl@colostate.edu",
+        "Faculty Photo (from Faculty/Staff Involved)": [
+          {
+            "id": "attcFbR2Nr6C7yU6J",
+            "width": 260,
+            "height": 293,
+            "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/pqOZsiUxeDPF92C2BEMwog/JPXyZzSh2aGMEffA1djsdZCTzUZERNceKldFQW-F7yE1GiIs8iJMmAgknj8TeGXiCjYh4LEg1Iwas8Z84m9BBsx0PwQLDIrvRk7Gb0XOttOkzsLuI5e6kJizAlBR0h1HAMmYeyGlw9mRIr5yuJy5lFHyk1hADHqG06AoigBiqSo/30NOx6YOnSp-WhabhnBinTrZdayAyc1OV6DRTpKbVmM",
+            "filename": "download.jpg",
+            "size": 115444,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/CePjfNdxoM7CpTzhy2gWKA/bGkK4Z55mj0kTqUu65j2Dq2bWcVNct-gXv6_ZMzxg6ZzmblglxfHp8CYhN7_wnWFFvkaHWkgkCS_xWVUNeg1a6C9yn2wxNb7EdMVMg-8p-3wgPNEVPO50weLY3In2TxrILr9cPcnjyi2E1VPJkeZKA/MFPds4DbAg2gq-DqsgZfbrkK0FDnWVg8of5aX7gJDUo",
+                "width": 32,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/c5ythyJdhYUqQZm0nyqbxw/9iNdzlQk7m0jmcm6SInoo3lj6nDqxZJ5NLV3__ni0PyniDnCcyKA2_ZIyUICzcFUfqS9HJ6eTqZgelXiIqnu1rKxMfh7_ITh5zRD0UxFGV_nXGxDhqH68mB87T4INodDYG-RkW-emHfebOYQAfNqMA/I_Peai1T5o_z_v8EnK9F2yru7S2GKAP-Gy8d21ePgjc",
+                "width": 260,
+                "height": 293
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/rV_tgxJ9k8ysoBIw4KSrRQ/vpc2DklaX4xAosqAKE7RVm6SM4BK-oOSESIfw6RT1PmbCF0mAYrQQF0KZNHFu46oE7avnoD4XoLPbtHt7bg3jTa3PSsQT8FKWld6mLet9YbSxzdPBEcgMWDBD1tTkN6Tnsa8FiLX2DldrxAJVjKVNg/zpbXzc4L_tsijrCCt4OZzVLdDXv6VcNsKBpPYBtSQ1Q",
+                "width": 260,
+                "height": 293
+              }
+            }
+          }
+        ],
+        "Name (from Faculty/Staff Involved)": [
+          "Andy Seidl"
+        ],
+        "Continent/Country/Region": [
+          "recZFtfzZVyXkfk8u"
+        ],
+        "Links": "https://www.eld-initiative.org/en/; https://www.eld-initiative.org/en/about-eld/eld-team/eld-working-group",
+        "Date Last Updated": "2026-06-24T20:14:52.000Z",
+        "Project/Activity Title": "Economics of Land Degradation ",
+        "Last name": "Seidl",
+        "\"https://forms.fillout.com/t/7ixrzaFakBus?id=\" & RECORD_ID()": "https://forms.fillout.com/t/7ixrzaFakBus?id=rec80DdLOJNCVLbhZ",
+        "Department": "AgriculturalandResourceEconomics",
+        "Continent/Country/Region (from Continent/Country/Region)": [
+          "Global"
+        ],
+        "Faculty/Staff Involved": [
+          "recLaA3AyGJZG5cpa"
+        ],
+        "International/Institutional Partners or Collaborators Beyond CSU": [
+          "rec2PNiMgvGhKXFWY",
+          "recOSQEFenFPOHnq5",
+          "recWgHSGrRDNzfR1W"
+        ],
+        "College/Division": [
+          "College of Agricultural Sciences"
+        ],
+        "Department/Unit Primary": [
+          "Agricultural and Resource Economics"
+        ],
+        "Card Image": [
+          {
+            "id": "attClQHegO7bqCqPT",
+            "width": 1280,
+            "height": 873,
+            "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/3Q5g_wN_-bEvTcjh_UIKqg/998XJgoub050t1cyeHXY-fSuU1IhgQBMGNbFw9CYhDJj9P_fn-87XCrhb42oXhJfx_3RaQweZzOwv88uZ1eGHw3vejR-1nBPHWwHJF4WxYGqmG3NAXWdoZdsL1HjA30yi-LxGY7xupSAbddh76_Ko6xQyyaJXa0nipeKL4j0o-w/of9t6_rSmlIMKxyAdEY6ZYkFix9XZW1OlPZxkUgD1-w",
+            "filename": "desert-279862_1280.jpg",
+            "size": 365804,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/bF9vIsbM_4YUCVCh2kIs3A/se4RYmAHdgUvAIaDU4HO-54DWsjoSdpgKwf84l2p5NZ3lWH4DQGGqAiacIJytTlRaHPFZOd-y0AYDlYyXwqbhPoqfH_qGidPqffGg_p3eSFI51A1Trmp2DTpC20mTljQjvlUxHtVlgl7voqAEYZgoA/L77sXPciG_IYQPwm6uEz19d7ugBNbg97GQHoa7ZYgV0",
+                "width": 52,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/gUOZGtLtmAY0uY1x841KmA/2mPI2J-eO6bB14egZbG40w1UTWPzK8t3axKR29zIPptSy5UKnMrL-zsKohFYqHG7DI8Sqr_ytLU_FwrwLkd189Lbd382OQX_Ygw_lS9_EZh-qp_VEkzl439bTCySvU5yNGWjW6F3IsfCnntglLmvHA/74UUzHvXwrZwyP5hsdeNaM6uOAMsQxTnlEw-OtPxHu4",
+                "width": 751,
+                "height": 512
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/q7n_vSuzA5EBLvPBOUcSUw/N_7Us9Vj8YaqvMoMBN6lPWKZClpH0-KSp7nxjxnDGAceklfHPmw7AeaLyKayg0n77BtiTGCMpg7dPsUFQnkFioumvNGjFRRjetC0-CP0WBE58gCu-4eD46Tripr3RcZM-9zm8mIhL23qkamhGgm3pQ/XTDwtVV6-CeyFyyoKlA8x-lKE9KCB35LT2YDw7PcANk",
+                "width": 1280,
+                "height": 873
+              }
+            }
+          }
+        ],
+        "Status Tracker": "Live",
+        "Source": "Form Submission",
+        "Department/Unit (All)": [
+          "Agricultural and Resource Economics"
+        ],
+        "Story Tags": [
+          "Ag Economics",
+          "Agricultural Sustainability",
+          "Sustainability/Biodiversity"
+        ],
+        "First name": "Andy",
+        "Production Phase": "Live",
+        "LONG": 6.143158,
+        "GeoJSON": "{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"geometry\":{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[46.204391,6.143158]},\"properties\":{\"name\":\"Geneva, Switzerland\"}}]}",
+        "LAT": 46.204391,
+        "Last Modified": "2026-06-24T20:14:52.000Z",
+        "Card Image Alt Text": "Cracked soil with a dead tree and ominous clouds",
+        "Start Date": "2025-02-01"
+      }
+    },
+    {
+      "id": "rec9Dwao7XPscWp9P",
+      "createdTime": "2026-04-23T14:24:24.000Z",
+      "fields": {
+        "Date Added": "2026-04-23",
+        "Status": "Active",
+        "Project/Activity Summary - Story Content": "Andy Seidl serves on the Sustainable Finance Specialist Group and the UNESCO Natural World Heritage Site Specialist Group of the International Union for Conservation of Nature (IUCN) World Commission on Protected Areas (WCPA). These groups provide review, research, training, and advice on the establishment and management of parks and protected areas worldwide. They actively participate in the planning and execution of the World Conservation Congress and the World Parks Congress. \n",
+        "Type": [
+          "Outreach",
+          "Research"
+        ],
+        "Other Partners or Collaborators": "International Union for Conservation of Nature",
+        "Brief Summary": {
+          "state": "generated",
+          "value": "Andy Seidl contributes expertise to IUCN WCPA specialist groups, supporting global protected area management through research, training, and participation in major conservation congresses. Target audience: college leadership.",
+          "isStale": false
+        },
+        "CSU Affiliations": [
+          "rec0scLExpYcBzVhl"
+        ],
+        "Email": "Andrew.SEIDL@colostate.edu",
+        "Faculty Photo (from Faculty/Staff Involved)": [
+          {
+            "id": "attcFbR2Nr6C7yU6J",
+            "width": 260,
+            "height": 293,
+            "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/pqOZsiUxeDPF92C2BEMwog/JPXyZzSh2aGMEffA1djsdZCTzUZERNceKldFQW-F7yE1GiIs8iJMmAgknj8TeGXiCjYh4LEg1Iwas8Z84m9BBsx0PwQLDIrvRk7Gb0XOttOkzsLuI5e6kJizAlBR0h1HAMmYeyGlw9mRIr5yuJy5lFHyk1hADHqG06AoigBiqSo/30NOx6YOnSp-WhabhnBinTrZdayAyc1OV6DRTpKbVmM",
+            "filename": "download.jpg",
+            "size": 115444,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/CePjfNdxoM7CpTzhy2gWKA/bGkK4Z55mj0kTqUu65j2Dq2bWcVNct-gXv6_ZMzxg6ZzmblglxfHp8CYhN7_wnWFFvkaHWkgkCS_xWVUNeg1a6C9yn2wxNb7EdMVMg-8p-3wgPNEVPO50weLY3In2TxrILr9cPcnjyi2E1VPJkeZKA/MFPds4DbAg2gq-DqsgZfbrkK0FDnWVg8of5aX7gJDUo",
+                "width": 32,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/c5ythyJdhYUqQZm0nyqbxw/9iNdzlQk7m0jmcm6SInoo3lj6nDqxZJ5NLV3__ni0PyniDnCcyKA2_ZIyUICzcFUfqS9HJ6eTqZgelXiIqnu1rKxMfh7_ITh5zRD0UxFGV_nXGxDhqH68mB87T4INodDYG-RkW-emHfebOYQAfNqMA/I_Peai1T5o_z_v8EnK9F2yru7S2GKAP-Gy8d21ePgjc",
+                "width": 260,
+                "height": 293
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/rV_tgxJ9k8ysoBIw4KSrRQ/vpc2DklaX4xAosqAKE7RVm6SM4BK-oOSESIfw6RT1PmbCF0mAYrQQF0KZNHFu46oE7avnoD4XoLPbtHt7bg3jTa3PSsQT8FKWld6mLet9YbSxzdPBEcgMWDBD1tTkN6Tnsa8FiLX2DldrxAJVjKVNg/zpbXzc4L_tsijrCCt4OZzVLdDXv6VcNsKBpPYBtSQ1Q",
+                "width": 260,
+                "height": 293
+              }
+            }
+          }
+        ],
+        "Name (from Faculty/Staff Involved)": [
+          "Andy Seidl"
+        ],
+        "Continent/Country/Region": [
+          "recZFtfzZVyXkfk8u"
+        ],
+        "Links": "https://iucn.org/our-union/commissions/iucn-world-commission-protected-areas",
+        "Date Last Updated": "2026-06-24T20:14:57.000Z",
+        "Project/Activity Title": "Financing Parks and Protected Areas",
+        "Last name": "Seidl",
+        "\"https://forms.fillout.com/t/7ixrzaFakBus?id=\" & RECORD_ID()": "https://forms.fillout.com/t/7ixrzaFakBus?id=rec9Dwao7XPscWp9P",
+        "Department": "AgriculturalandResourceEconomics",
+        "Continent/Country/Region (from Continent/Country/Region)": [
+          "Global"
+        ],
+        "Faculty/Staff Involved": [
+          "recLaA3AyGJZG5cpa"
+        ],
+        "International/Institutional Partners or Collaborators Beyond CSU": [
+          "recIbfFlv0tduQkda"
+        ],
+        "College/Division": [
+          "College of Agricultural Sciences"
+        ],
+        "Department/Unit Primary": [
+          "Agricultural and Resource Economics"
+        ],
+        "Card Image": [
+          {
+            "id": "attiTwXAmelymD2d6",
+            "width": 1280,
+            "height": 784,
+            "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/beqTD7k8-2Koi_AQ0lhp-g/408JM49N4CNFm4igEqAZGJf7Iin85LNe8i4WgJnL1y9gqNkuRmUTrp2IMjVSgPk9MbtylvzqnGZWXyQEQ6XhigW_Xj7c-7OLxcLkN2l-5tRqtwwbS92pjvu2vDd9-kGnPTXWtj2aYrDHhE-luXE6bjrCbkf_EdLqzWtGp_LvG4g/rYqQvtIGc3yn94epWlu2gCfakjwxgX9XOtWgeBOSTi8",
+            "filename": "river-5936684_1280.jpg",
+            "size": 509630,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/Zmb96Jz_TcEzAn46ZF1L0A/vs6vDM09AQHSIMg6hMSJtQQP0gOV82fPl1hkGqDt8fGPJDvRQ1drwOx5gifJFmRoi900pEJ0rV6cB3kv_iRb5u6kTte64xrV1jwWb_zcaTDrRnTmynbRH0RAXElGhvw2v_nkwCJkMfI9nr2lbz9zmQ/PZsYXW7be-saOkQz236b377gM5QlVu2WKNRmp88wCks",
+                "width": 59,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/I8tuFtjvR8zfj5g4a2GsZQ/WO41CY8gIHZOv7YQhsFx9_46gR75lvZiOa_H_yjA13eos4bivM_JG37xJemTH3Er-UvBxl4seeyODo84EcsSTtrDahSgdVDje0leRzewd1Umr0eEMMlmWoqj6oE_asXSS1OyqIPZAdgmZITw4iTeTA/h8gswELF0aN9sRw6JtrQhnAb1JGW0ehkYa920KKHT8c",
+                "width": 836,
+                "height": 512
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/La31mwhimm-EORatA3jeTQ/zntkexQX4oIcMj33pluPJVJvlkaVdYITom3FIRKjf60UgcwJTnbHjHjvBFOrnPoONh9UKXkipvsCx9C4UqOUxMUdYdiZwsfwWoA9ZNPPqet-nhLxh6DYAHG205UQ4ncj-sjuoUUzHmbV523oRRzpUg/V4cE08H74p3fPJS51RAnduVqMelLmssbrMzOJvSUmE8",
+                "width": 1280,
+                "height": 784
+              }
+            }
+          }
+        ],
+        "Status Tracker": "Live",
+        "Source": "Form Submission",
+        "Department/Unit (All)": [
+          "Agricultural and Resource Economics"
+        ],
+        "Story Tags": [
+          "Conservation",
+          "environmental tourism",
+          "Sustainability/Biodiversity"
+        ],
+        "First name": "Andy",
+        "Production Phase": "Live",
+        "LONG": 6.276,
+        "GeoJSON": "{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"geometry\":{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[46.421300,6.276000]},\"properties\":{\"name\":\"Vaud, Switzerland\"}}]}",
+        "LAT": 46.4213,
+        "Last Modified": "2026-06-24T20:14:57.000Z",
+        "Card Image Alt Text": "A natural landscape with a small river, tall pine trees, and mountains in the background",
+        "Start Date": "2024-06-01"
+      }
+    },
+    {
+      "id": "recXQFOhaMTsxPKRk",
+      "createdTime": "2026-04-23T15:08:58.000Z",
+      "fields": {
+        "Date Added": "2026-04-23",
+        "Status": "Active",
+        "Project/Activity Summary - Story Content": "<b><i>cool tagline</i></b><br>Understanding the interplay between biodiversity and climate change is critical for the implementation of effective and lasting solutions to climate change and for maintaining biodiversity and nature’s contributions to people. The USGS was charged by the US Congress in the Fiscal Year 2022 budget with conducting an assessment that characterizes the state of understanding concerning linkages between biodiversity and climate change for the United States. Drivers of biodiversity loss and climate change impacts cross national boundaries, and accordingly the geographic scope of assessment will include neighboring nations, particularly Canada and Mexico. Andy Seidl provided direct inputs on transboundary finance mechanisms and policies to the report. USGS is the primary convenor of this assessment with strong involvement from CONAMP and other agencies of the Mexican and Canadian governments and scholars from first nations/Indigenous people.\n",
+        "Type": [
+          "Outreach"
+        ],
+        "Other Partners or Collaborators": "United States Geological Survey (USGS)",
+        "Brief Summary": {
+          "state": "generated",
+          "value": "USGS leads a US-CAN-MEX assessment on biodiversity-climate change linkages, with input on transboundary finance and Indigenous perspectives, to inform effective, lasting climate and biodiversity solutions.",
+          "isStale": false
+        },
+        "CSU Affiliations": [
+          "rec0scLExpYcBzVhl"
+        ],
+        "Email": "Andrew.SEIDL@colostate.edu",
+        "Faculty Photo (from Faculty/Staff Involved)": [
+          {
+            "id": "attcFbR2Nr6C7yU6J",
+            "width": 260,
+            "height": 293,
+            "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/pqOZsiUxeDPF92C2BEMwog/JPXyZzSh2aGMEffA1djsdZCTzUZERNceKldFQW-F7yE1GiIs8iJMmAgknj8TeGXiCjYh4LEg1Iwas8Z84m9BBsx0PwQLDIrvRk7Gb0XOttOkzsLuI5e6kJizAlBR0h1HAMmYeyGlw9mRIr5yuJy5lFHyk1hADHqG06AoigBiqSo/30NOx6YOnSp-WhabhnBinTrZdayAyc1OV6DRTpKbVmM",
+            "filename": "download.jpg",
+            "size": 115444,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/CePjfNdxoM7CpTzhy2gWKA/bGkK4Z55mj0kTqUu65j2Dq2bWcVNct-gXv6_ZMzxg6ZzmblglxfHp8CYhN7_wnWFFvkaHWkgkCS_xWVUNeg1a6C9yn2wxNb7EdMVMg-8p-3wgPNEVPO50weLY3In2TxrILr9cPcnjyi2E1VPJkeZKA/MFPds4DbAg2gq-DqsgZfbrkK0FDnWVg8of5aX7gJDUo",
+                "width": 32,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/c5ythyJdhYUqQZm0nyqbxw/9iNdzlQk7m0jmcm6SInoo3lj6nDqxZJ5NLV3__ni0PyniDnCcyKA2_ZIyUICzcFUfqS9HJ6eTqZgelXiIqnu1rKxMfh7_ITh5zRD0UxFGV_nXGxDhqH68mB87T4INodDYG-RkW-emHfebOYQAfNqMA/I_Peai1T5o_z_v8EnK9F2yru7S2GKAP-Gy8d21ePgjc",
+                "width": 260,
+                "height": 293
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/rV_tgxJ9k8ysoBIw4KSrRQ/vpc2DklaX4xAosqAKE7RVm6SM4BK-oOSESIfw6RT1PmbCF0mAYrQQF0KZNHFu46oE7avnoD4XoLPbtHt7bg3jTa3PSsQT8FKWld6mLet9YbSxzdPBEcgMWDBD1tTkN6Tnsa8FiLX2DldrxAJVjKVNg/zpbXzc4L_tsijrCCt4OZzVLdDXv6VcNsKBpPYBtSQ1Q",
+                "width": 260,
+                "height": 293
+              }
+            }
+          }
+        ],
+        "Name (from Faculty/Staff Involved)": [
+          "Andy Seidl"
+        ],
+        "Continent/Country/Region": [
+          "recIfG4l25fG0zd5w",
+          "recQe7p1pglr5qqEi",
+          "rectGlSqXhHdPXOJb"
+        ],
+        "Links": "https://www.usgs.gov/programs/climate-adaptation-science-centers/science/biodiversity-and-climate-change-assessment",
+        "Date Last Updated": "2026-06-25T16:17:25.000Z",
+        "Project/Activity Title": "North American Biodiversity and Climate Change Assessment",
+        "Last name": "Seidl",
+        "\"https://forms.fillout.com/t/7ixrzaFakBus?id=\" & RECORD_ID()": "https://forms.fillout.com/t/7ixrzaFakBus?id=recXQFOhaMTsxPKRk",
+        "Department": "AgriculturalandResourceEconomics",
+        "Continent/Country/Region (from Continent/Country/Region)": [
+          "Canada",
+          "Mexico",
+          "United States (USA)"
+        ],
+        "Faculty/Staff Involved": [
+          "recLaA3AyGJZG5cpa"
+        ],
+        "International/Institutional Partners or Collaborators Beyond CSU": [
+          "recgmTVHnEzOzfElQ"
+        ],
+        "College/Division": [
+          "College of Agricultural Sciences"
+        ],
+        "Department/Unit Primary": [
+          "Agricultural and Resource Economics"
+        ],
+        "Card Image": [
+          {
+            "id": "attNZem3QANjWQtBZ",
+            "width": 1280,
+            "height": 853,
+            "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/gUdlv5ufugWPWFtK1y8HLg/0P0POhf8gCyKgGS84AqbWiIUHWx9bc4QjzWsNRmzzn23X-nngVwKeWtoBQ2IFU1b7jrHTmtm4xSQc8BX_X_6lKZ-jkkPfl8HF0FTBralMfbJS5xflpD1r2s_2I50Huj6Hf3brdn-OeQCcO7XOMBM_E-SnQqfWQa1vvvFBsiYrnI/NZruHwa4z0kKaeGdliQwglQVcx6m8vhRl1Sur_K1AVU",
+            "filename": "desert-4376898_1280.jpg",
+            "size": 338423,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/XX_EMg6RJg-pU-jNDWwM_Q/bjWVpUlDN_l1WbzJwF0PXa4mKNxBTqwuxTomHAHTsVM8ROtYbIiB95rMQgxrzg4hgy3E5SkVUaYPTHASpz8nuQXaczJLLJLRQdwLNKEyMqxp0LBjfDEUWN_IbznMgMbeP0iYjsCuKvOVEYq7RM9TLg/3NyParyRld4EZ7RCo4c712IMF-h5DJlg0zWSWGAPwe8",
+                "width": 54,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/XdoyfeyKpe7tBmzjRbMiIA/8C2OGXXx3c-JlcbCb7OLidlJK1kT0aFsiaSxFBRn4D_k20gD05KQnbJs-5pTHWRBFMb2f6A6ydK1obmwn7V5FWT-Hj6f1MGc4ISRA7t4DQUkybdgD27IMYumpiiInMGTXYfcoim5opNiyLiaSBd2fw/w5iAhvxY5oa58DK6gr_bjxp5LJPbNZtILBPrXKNQT30",
+                "width": 768,
+                "height": 512
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/5h_9gLFc3DaRDd01gQSsFg/r60kcE41tB5ouzzBjbmS3PiRPfNO47sd-Acyw6NtDcYIz2VzwBZ9nxQjU7yhsHYwRnJRjywYCKF5nGzz9iu6WfgpCrrObXQHyw3k8ZvG_7LgoXzXLCPhURAnpuECvt-9S6dXxByOb2lPIBM_o-L_LA/GAMX9iNA9MiqCz2UCCRGC1M3nOpun3prPM0mFmZ1cTs",
+                "width": 1280,
+                "height": 853
+              }
+            }
+          }
+        ],
+        "Status Tracker": "Live",
+        "Source": "Form Submission",
+        "Department/Unit (All)": [
+          "Agricultural and Resource Economics"
+        ],
+        "Story Tags": [
+          "Ag Economics",
+          "Agricultural Sustainability",
+          "Sustainability/Biodiversity",
+          "Climate",
+          "Conservation"
+        ],
+        "First name": "andy",
+        "Production Phase": "Live",
+        "LONG": -93.36,
+        "GeoJSON": "{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[46.440000,-93.360000]},\"properties\":{\"name\":\"Minnesota, USA\"}},{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[53.574003,-92.933279]},\"properties\":{\"name\":\"Ontario, Canada\"}},{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[18.884698,-101.590218]},\"properties\":{\"name\":\"Michoacan, Mexico\"}}]}",
+        "LAT": 46.44,
+        "Last Modified": "2026-06-24T20:15:07.000Z",
+        "Card Image Alt Text": "A desert plant in cracked red soil",
+        "Start Date": "2024-05-15"
+      }
+    },
+    {
+      "id": "rec1czDI5cukeoW4K",
+      "createdTime": "2026-01-21T22:36:57.000Z",
+      "fields": {
+        "Date Added": "2026-01-21",
+        "Status": "Completed",
+        "Project/Activity Summary - Story Content": "Farmers in Malawi face the dual challenges of low income and substantial post-harvest losses. Drying fruit offers a viable solution by preserving produce that would otherwise be wasted and allowing farmers to access high-value markets. However, no existing literature examines the demand for dried fruits in Malawi or the profitability of selling them domestically. This project investigated the economic feasibility of drying watermelon for sale in Malawi.\n",
+        "Type": [
+          "Research"
+        ],
+        "Brief Summary": {
+          "state": "generated",
+          "value": "This project assessed the economic feasibility of drying watermelon in Malawi to reduce post-harvest losses and increase farmer income, addressing gaps in knowledge about domestic dried fruit markets.",
+          "isStale": false
+        },
+        "Email": "nick.magnan@colostate.edu",
+        "Faculty Photo (from Faculty/Staff Involved)": [
+          {
+            "id": "attSesJ72kUKpqd16",
+            "width": 257,
+            "height": 290,
+            "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/EpJbJVH83czuj0vFSjPe9A/FZ75buC8T-KIm-uyhXpV2YfVsJbjqUraH8W3uGI40N83_cCyoXvoTmFHI0m5vILPVsyIxJiRivm21OxWyuuvHuY8MXnvhgoXZ93aGxIhxioh765Hz-qbaGCzHbUO7_3SJDdrBHrsixGTBWvKN4RD20LKgC162D0bSndMeEOweFE/mbhcoU9GrCp9ot66jooUQ4ZCLS_RH-eIXsgBgiqo7U8",
+            "filename": "download.png",
+            "size": 135123,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/veolUGbMxSwnASrPRdGwYg/QnERx26ZhNqENtYlhs24VenZL0bSEHBegj6si9McvfNtvIiMdocP_-3Mf6TmzQO8IU-LGFERCtcfsWYx97nfoP44e8EeFG5FGZeZKOcPQh_eP0BacwnbGJWQYghJOVg3AbGeMa7RY3w709h9m2kZow/-pRqPpJveIBn7UCdY3FqneqOexeB2CL2rO1vrPZUiNU",
+                "width": 32,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/mSZSGZS-ynZ0W3loycMF_g/MWILe0rv_B5LP9aODYdrTjkjW4gtW82aY_csVIWg4-YfakVxo58xLjAeRPUxE5YvXrLE11J6NevBxBsy-FeTJ_Lfi4gbuIt2ap_o2WkPRcGp6ytvcQMaXlOSjuPNFxjfAjVeR419_mk3LTqkSnYTYA/UL0lBs7zQm_btzIq7uau-PtCG0hhBp9JFO8O8Y2Jk30",
+                "width": 257,
+                "height": 290
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/ouZtnR6S93Hux9G_O8KQzQ/xqYkOghi0s8DR0gmYRTYQ4kz8LURrQGfW1aMmrQIgTd0DJJtpJHYymZA2pL2AZUnX5pPMEVyjuQbYgyCOH8DBBtsMqjoQRnEK0HP-RTIufptrdUDw2woKa4AZug6l_RK-7JVCG5_jCtYz9vBJ7deIA/FmbWYQsh082WJGAW0qx-d3hPFTilJHt3u68kNgFh7GE",
+                "width": 257,
+                "height": 290
+              }
+            }
+          }
+        ],
+        "Name (from Faculty/Staff Involved)": [
+          "Nick Magnan"
+        ],
+        "Continent/Country/Region": [
+          "recxwcs2cdAI7LoYA"
+        ],
+        "Links": "https://mountainscholar.org/items/d073c57f-9a48-4b14-b817-4bc15865d6b4/full",
+        "Date Last Updated": "2026-06-24T20:15:24.000Z",
+        "Project/Activity Title": "Dehydrated Watermelon in Malawi",
+        "Last name": "Magnan",
+        "\"https://forms.fillout.com/t/7ixrzaFakBus?id=\" & RECORD_ID()": "https://forms.fillout.com/t/7ixrzaFakBus?id=rec1czDI5cukeoW4K",
+        "Department": "AgriculturalandResourceEconomics",
+        "Continent/Country/Region (from Continent/Country/Region)": [
+          "Malawi"
+        ],
+        "Faculty/Staff Involved": [
+          "rectUlmsadGZJLLRx"
+        ],
+        "College/Division": [
+          "College of Agricultural Sciences"
+        ],
+        "Department/Unit Primary": [
+          "Agricultural and Resource Economics"
+        ],
+        "Card Image": [
+          {
+            "id": "attw0EXv5cyVJXQAR",
+            "width": 1280,
+            "height": 960,
+            "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/DEo5hqHX0qWAkqV6ycTpUA/CpcFV3T34myI6N_Qayt5aJEnNYtOKhmqLeUnlCa8gWe3xt6rSmeotghiclsAlq3Mn-0V6TCmb8Ge14fvPaxRK84GKFRuwfTw99Nv8mz0JLTkdIKvOWvp4JDZylZ-oIcSa4FM4CavtL0J7L7J9MH15TdQHuqXIuIJfJ8tPFMIsq073Y_dzYVMa_UYSmFHukxf/utj49FFsXbQnnsaVuVNK-9p6q7dnymrkpDbyia-b58E",
+            "filename": "watermelon-551235_1280.jpg",
+            "size": 450444,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/bG7CttIJuem4StgyHvJhLw/RpqhlZUB-gkPdoYldYUUhFc3tDMxKwZK7jOvkU6Xgs53uaT2pSNhDU4V76rbe6O_VTMYmYEgoeyuxxHPHSelvXM3KWiEhRAHwBRkR7ECaE1bOSCf36_bZavZN2R5oAl8j0oaQs6YXw5_a1SPpbSCag/bbDG2512AjA3rQT9oJbhdbg3JcqMXxAc_rMTQQ3GJvo",
+                "width": 48,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/2t3X14rwkGwqwYNcAlWeHA/oh2_NzdT6se247YEUL-jtPm5ZCMCzzk4ErSgeGa6IfABuqwgjKUeEH9p6udT1KsUPCVROiPqLL-KIwsjohTIn6pPQMCPwNclQPM08-Qn7uGjXtca6C2iaRx-Dc1ar0rrkc-J8bXoctxyyaqI-QGaiA/ziHYbGAoZjdYk59CfDVvQltJDG_a3nSHR65-4hVZqys",
+                "width": 683,
+                "height": 512
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/fWo_jSYSJn__bvfvQCxbDQ/VSizGIiIGAwBmaXsqjSSU_nJvoB1uhpFZ2SMVTLwTSvuwY9NBkU5exJl6MFVtcD9-EPVWM0vIhOHBW4e0T6_9llNNkIpSZwN5JkePJscCTF2s9QrD3UfAge5DyoWnZxrz6bmza0f1lu_jb3Z95MfWg/3jN1nw6WYXcqwP-DxezjKRD0Dy5XqbZxT_Hi12zIF8E",
+                "width": 1280,
+                "height": 960
+              }
+            }
+          }
+        ],
+        "Status Tracker": "Written (ready for review)",
+        "Source": "Entered by Team",
+        "Department/Unit (All)": [
+          "Agricultural and Resource Economics"
+        ],
+        "First name": "Nick",
+        "Production Phase": "Live",
+        "LONG": 34.3,
+        "GeoJSON": "{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"geometry\":{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[-13.250000,34.300000]},\"properties\":{\"name\":\"Malawi\"}}]}",
+        "LAT": -13.25,
+        "Last Modified": "2026-06-24T20:15:24.000Z",
+        "Card Image Alt Text": "A watermelon still on the vine"
+      }
+    },
     {
       "id": "recoNNfLoARJ4gbYs",
       "createdTime": "2026-01-21T22:39:38.000Z",
@@ -14,18 +912,62 @@
         "Type": [
           "Education Abroad"
         ],
+        "Brief Summary": {
+          "state": "generated",
+          "value": "CSU and Lincoln University offer an immersive exchange focused on agriculture and sustainability, with fieldwork in New Zealand and a new U.S. ranch internship for hands-on industry experience.",
+          "isStale": false
+        },
         "CSU Affiliations": [
           "recFurKSFppExwpnI"
         ],
         "Email": "christopher.snodgress@colostate.edu",
+        "Faculty Photo (from Faculty/Staff Involved)": [
+          {
+            "id": "att3Y9n6RBnwA6uuK",
+            "width": 257,
+            "height": 290,
+            "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/CWKDp4h6o4b_bKOM39ji4w/tFCzkzvEEwAAe6sJWY7rS3j7lL0f0VwAw6s3hx9UoB1s--QGstAPaJ5roSVGagpG8qjzCOxHvDJnrqSGfkRAOE1uz0rKlsziOXrKnUcsBLzVlqv9uIBwgWyS72URNHgWd0pI6uSlb6uhST0JFQ-4c2V8D7yTQxgFADZsNgzZjkY/z0w-EzJl70XbfZA2HC0tx-tp6midWnwukdsWFD_PZtI",
+            "filename": "download.png",
+            "size": 144880,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/qaG3UHLwzOyJqIQz_gc7iA/4REp5qMik4h5r5IBr7ip17vTqS1E9_MwWJrlDr9xRQUrdo8q7uQBuPJwkmthkIIwBQwEwjl3MCKycYNotX5hU71v_BqWi9PtPYEhvMiw8IpycZiNmg2Wqfbht8MWZBYR0mOv93jJkfBUYfSWEgq4XA/j2ylQPe472paLooagG6KcKWRvjnBhgMKjVKoTVE24Gg",
+                "width": 32,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/RxCfiw2vxw0_2R_47mBCug/pwBu-ix9R4nead51lSyBae94PekZwkTnv90sdt4b9YGHBde8wZXa3kRVztcPk94Yop95GnTmEqfCLluf6c2Ume8d4fCWblzHiwaaJQsHcEjCuyqVnm3Tj22JlbdxL2Sgm3vK9rjskQZWBQEbTUFlpw/ifACHoUms73OOHoBfQqeAByz0yo3aEfUdWyOrlI1McY",
+                "width": 257,
+                "height": 290
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/wUBCGHt_3NAuVP7D1Kbidg/_NMvM6releIEXHBEaby-HrJFvwe_iHE-FTfyNiHU-IERDnuEGNoSZVYmyu99I5AwouqO-uVToJPN5VXAZLyT0HDdx0lm-kgDAAWdj2mCKSP8fbOW6hZCug3VaTKwtOhTj-izalEjSntg5zZo5maqdQ/kuRMBGuPW1t4dwH9sJTKHa0uIaIvIc4x87V_JHZ86Zs",
+                "width": 257,
+                "height": 290
+              }
+            }
+          }
+        ],
+        "Name (from Faculty/Staff Involved)": [
+          "Nathan DeLay",
+          "Christopher Snodgress"
+        ],
         "Continent/Country/Region": [
           "recu82uiYQ45QwJZk"
         ],
         "Links": "https://myedabroad.colostate.edu/index.cfm?FuseAction=Programs.ViewProgramAngular&id=10031",
+        "Date Last Updated": "2026-06-22T23:01:20.000Z",
         "Project/Activity Title": "Lincoln University Partnership",
         "Last name": "Snodgress",
+        "\"https://forms.fillout.com/t/7ixrzaFakBus?id=\" & RECORD_ID()": "https://forms.fillout.com/t/7ixrzaFakBus?id=recoNNfLoARJ4gbYs",
+        "Department": "Other/All",
+        "Continent/Country/Region (from Continent/Country/Region)": [
+          "New Zealand"
+        ],
         "Faculty/Staff Involved": [
-          "recRI7h1kNNbiQkq9"
+          "recRI7h1kNNbiQkq9",
+          "rec9EqCacKKcQeHN9"
         ],
         "International/Institutional Partners or Collaborators Beyond CSU": [
           "rec3ay8RmIeARxIRh",
@@ -34,307 +976,167 @@
         "College/Division": [
           "College of Agricultural Sciences"
         ],
-        "Department/Unit": [
-          "Agricultural Biology",
-          "Agricultural and Resource Economics",
-          "Animal Sciences",
-          "Horticulture and Landscape Architecture",
-          "Soil and Crop Sciences"
+        "Department/Unit Primary": [
+          "Other/All"
         ],
         "Card Image": [
           {
-            "id": "attNGImmr2rjv7Mlx",
+            "id": "att1t8Bm6Lsy1nVqt",
             "width": 275,
             "height": 183,
-            "url": "https://v5.airtableusercontent.com/v3/u/52/52/1777068000000/RXXfDcPXtMuuvP-VJ_T-hw/vtM8uT4-WpfPlgM_IGhRSmMEVb2x-TSWIvkq5modDVWLfgwpOJFBvjSxXVhw1HwuX4RSoTuPQLGnk9I-zEZd2KqVzDuggoDz4FbnSgmaQ1DAieuTF0PpbmNAQyTXgSQW8VE3kRiKXe--mtm1F5b1HUGxoZP50fKaptteucgbXp4/YSbO9GSRw-fiwK-oKsWZ6QzwQeVZhESlr21dPa2V4s4",
+            "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/CpTUsREkeNCfxUDE7ltrqQ/tLxu-Q3xzsAzBTmIRDNkEmWey4s2G2N1saJmQ0q-UjlbCnZUB5JMrLLUn8KrG0eImg_4GGHR0DDfU4cjCS4ylo5nf4JgNfMog6UfOfFterJSnbUgDH7qg2fPTwGfZ9i0lrPe_dLWqKZQ4eE9wRHEhHHo22ftqiNf8GP2dLqDCz8/FQ_tqjHLW70cbNgiH-FNT202oixYAhFcrTbJtaDjllI",
             "filename": "images.jpg",
             "size": 11459,
             "type": "image/jpeg",
             "thumbnails": {
               "small": {
-                "url": "https://v5.airtableusercontent.com/v3/u/52/52/1777068000000/ljBgFVyIjMP9wqD8Mmi8aw/5OOVR_j1bPK0Vqhzj_PsMer3mjAmBoAS-DmoR_T963i0T3yrdiOVbl_aCq3cpInhPCIpnrn076z5h5yJm_mEbBoz-mtW5BNFekVtkbNXDuLG4jXXBb0me_ph4lRmODLuq8OXvMnf4hnQlyvQVZ_0Yw/KgoUuKG1F0VpcZ0LdbZyL4YFPOwmI5vLYMxxpWnZEtM",
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/5doQcpIKDecIkk7w2VCPbQ/I_6lO0pV1oETg0SnLTV6vFQOPjwf1WL_AoRsf7oyh7O1rJ1z_4DvkYuabttBfYHDyVVcqiBuQqssvfS7hfTMBbukS_GZ-epDZODdJuSWke5Z0Vdcrhg7DpuE5Xfr1m8mAWpnXUm1bZJBf45gDsJKHg/SBexYFEJ7DkyR46ooCRxxuOAo6ARU1-7QVDiwQ7n09Y",
                 "width": 54,
                 "height": 36
               },
               "large": {
-                "url": "https://v5.airtableusercontent.com/v3/u/52/52/1777068000000/RhH3Xl3qM_Qy9LD_UIsRmA/0Yg1zZl_kmoISkl76UhxGiQgL-2bm9Xy4s3v5eEgmsRbNQv1ZZUUxywELPBC7z4qOkRXkRfQtjIaJnzxVJ2qD_Fh4HRb_z5scZ3jNbTs_p1HtPXT358VWonn0agBXqxaSOhq20Fvc1kRh-_GWLZHdg/lKXouJ6fOVaKxow96cYadmk0sajLLwTxXTrGugsR-fQ",
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/rAmZM_MwnsSzPnkn10utug/cqkLRgu3jbpJgG-3noxkif-pYMO4hlXHQJgpERbM8CHk3_dW0DivlNVSacUlBZpNzyxhUUpAjoSItSbxyRKqeE1DfXxp3sPpCbVHGU58R_56YK_QX9f1JvVUS1IVkxegLtugSAzgEAjXsuadStT1eA/_hXhM7N7KkBvjL4bLIbkJv2hfobwaTv_sB2IOStA4H8",
                 "width": 275,
                 "height": 183
               },
               "full": {
-                "url": "https://v5.airtableusercontent.com/v3/u/52/52/1777068000000/LSxgOgsvmvKJGaIax3s_6g/pKrrfussD7fupPMwI2WnESAlPS1pCxucm3j33-kysHv9LozM9Im6AIq6ZaWI0xpFtFxT3LdDQLans_xT9Wg_oMF49jIF5NlumYzQCKUHvRqgZDo75GL6vH85PhvRzKli6h9IreTxPWKPM1P24qabEQ/hd7002hNSIyDnbk3gXpUwEmLXds5Vtt1NCFuVk6gtSI",
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/rJiestXx3Pj589mg4_bFxg/dqKhpLHeGnPV8cE7QxKLOw4aoUhAG16oRt2RxCtJai3I_eP0J1J2-HusG-GHt2YxPKRe6INFQZRRPByKvyPDbtsZhyksWIZ-WWgrYpfjcPaikpu3y3aU9-JyX0vkViBukTKoEP_jph8QlWqowuH34w/chjp1mo777hFdTkQzWd7-IuUQKRgpqEh7Qy1iQtR0qA",
                 "width": 275,
                 "height": 183
-              }
-            }
-          }
-        ],
-        "Status Tracker": "Written (ready for review)",
-        "Source": "Entered by Team",
-        "First name": "Christopher",
-        "Production Phase": "Live",
-        "LONG": 172.4642,
-        "LAT": -43.6454,
-        "Date Last Updated": "2026-04-24T18:51:10.000Z",
-        "Last Modified": "2026-04-23T17:20:03.000Z",
-        "\"https://forms.fillout.com/t/7ixrzaFakBus?id=\" & RECORD_ID()": "https://forms.fillout.com/t/7ixrzaFakBus?id=recoNNfLoARJ4gbYs",
-        "Department": "AgriculturalBiology,AgriculturalandResourceEconomics,AnimalSciences,HorticultureandLandscapeArchitecture,SoilandCropSciences"
-      }
-    },
-    {
-      "id": "rec0jW5axmDvfPD25",
-      "createdTime": "2026-03-10T20:29:41.000Z",
-      "fields": {
-        "Date Added": "2026-03-10",
-        "Project/Activity Summary - Story Content": "Sponsoring a post-doctoral student from Brazil in equine sciences.\n",
-        "Type": [
-          "Teaching"
-        ],
-        "CSU Affiliations": [
-          "recjxM5MlBEp0XLIG"
-        ],
-        "Continent/Country/Region": [
-          "recbQiWePNjCCsioI"
-        ],
-        "Project/Activity Title": "Sponsoring a Post-Doctoral Student",
-        "College/Division": [
-          "College of Agricultural Sciences"
-        ],
-        "Department/Unit": [
-          "Animal Sciences"
-        ],
-        "Card Image": [
-          {
-            "id": "attVdHq75KAHtKBqa",
-            "width": 1280,
-            "height": 853,
-            "url": "https://v5.airtableusercontent.com/v3/u/52/52/1777068000000/YM6R2QZ4bSSjFCvcUFyFPQ/96BPHgjb-dJ0X5k42tH80sctzP38xhrBSX74pESpii7HJgUUFDYlMjxv_ixGeTzF7HBYNSwuNpB6yQ_B0qWKWtWIQ5d_0tqojKFc7vrP3z6yTjm_wts3ACKLQTWMkVelO_M59wOvlDSdattNCryiPmld7bRo0R_edeSOMMppPEg/S3-KGpY0odHe8uV2evsvzo-Eq2KlXdyPtD4vNt3fSz4",
-            "filename": "usa-4582711_1280.jpg",
-            "size": 373401,
-            "type": "image/jpeg",
-            "thumbnails": {
-              "small": {
-                "url": "https://v5.airtableusercontent.com/v3/u/52/52/1777068000000/1aKAf7cVk6W-idehtM-27w/GZch7ovz21iOcjvm-Q_DJDAQL-ZqQ_y4pKQf67nhXaB8gyRJZsPIcVbIKqB5sbjZ8DdCyMpb6ScDTKa5f8-v9NGQX2bw8LIcLtG8FKs_cnX8v8gtnNaT3rUbm_ta22jGWH2ruhy1MGE7UPn3oszX9w/06HvLHMIjOp4GAlIS3LyHuotQf56eQ19goHvAtcVkqU",
-                "width": 54,
-                "height": 36
-              },
-              "large": {
-                "url": "https://v5.airtableusercontent.com/v3/u/52/52/1777068000000/L68IZbAsB2nVgT6ZKk47bw/UUT7aBSuWMhNzRiuSZijFXR992VeUDeYD1QNhqwaAsmULdGh1wTMTDBA-0mNuO6GxLtNG1KnofzCoLungVNjPug7NZkdmJxDMSurOW0HUV4Fmvh4mNQtJeL-a-zgOfejWMxMqKfaRsrzUjR9yLp7aw/oW1tttnoimS82osgZOgk5ek6e4Uxab4eqTBNQPlcRlI",
-                "width": 768,
-                "height": 512
-              },
-              "full": {
-                "url": "https://v5.airtableusercontent.com/v3/u/52/52/1777068000000/gQmgcn9DlrxknC8WCsQANA/9ggrfzOOWswX_xThrJDhRaj_FPL94i8OsgmEmEjZCoFsOeDvgoxf7WC6tOtbkc8TEVasyc8nORv9apY94_8d7O3S1Jbfng_NCO4oNZh4eYbcSHDlLg-vpxbFnTbbzs6cniPQQAHtryy78lKpTwnSKg/Gy__bfmR-qZvfFpvpeC9Mk9N71nBPULMWqYA4vuQkHs",
-                "width": 1280,
-                "height": 853
-              }
-            }
-          }
-        ],
-        "Status Tracker": "Potential Story",
-        "Source": "Entered by Team",
-        "Production Phase": "Live",
-        "Card Image Alt Text": "Three horses stand in a brown field grazing",
-        "Date Last Updated": "2026-04-24T18:45:35.000Z",
-        "Last Modified": "2026-04-23T17:06:51.000Z",
-        "\"https://forms.fillout.com/t/7ixrzaFakBus?id=\" & RECORD_ID()": "https://forms.fillout.com/t/7ixrzaFakBus?id=rec0jW5axmDvfPD25",
-        "Department": "AnimalSciences",
-        "LAT": 14.235,
-        "LONG": 51.9253
-      }
-    },
-    {
-      "id": "rec96BOdmMyO9iWHw",
-      "createdTime": "2026-03-10T20:41:01.000Z",
-      "fields": {
-        "Date Added": "2026-03-10",
-        "Project/Activity Summary - Story Content": "Elevate preparedness for Colorado producers to handle African Swine Flu and the impacts of tariffs on global trade.\n",
-        "Type": [
-          "Research",
-          "Outreach"
-        ],
-        "Email": "jennifer.martin@colostate.edu",
-        "Continent/Country/Region": [
-          "recIfG4l25fG0zd5w",
-          "recKcpQu4jNL5r5iv"
-        ],
-        "Project/Activity Title": "African Swine Fever and Global Trade",
-        "Last name": "Martin",
-        "Faculty/Staff Involved": [
-          "recarv3NKXHaQEHFn"
-        ],
-        "College/Division": [
-          "College of Agricultural Sciences"
-        ],
-        "Department/Unit": [
-          "Animal Sciences"
-        ],
-        "Card Image": [
-          {
-            "id": "attxiRmZ1pP2EDOd3",
-            "width": 1280,
-            "height": 853,
-            "url": "https://v5.airtableusercontent.com/v3/u/52/52/1777068000000/WD7ex2rcSvAXjW1Vx4A1TA/W0lULtiTTtO-mMnfA8_F4UEGulGPE7TSxIR9DrXcjFaEW0Ql-yYd9DumoCJs-FPbBnlXeWNg6Mu2IAf_3FxZKa9MlIC2oPYhPeazdKzctWv-LKxo_sDrTP3rr7pRd7-BjojNuFPDGyQRmNWwKPE9WiPvCNWgaJgXXM4ZqD_F8n8/S9OE5g1FCSzgRtoKa4pjo6eRAjLIVepea5LyyBpjaPI",
-            "filename": "pet-3770140_1280.jpg",
-            "size": 415505,
-            "type": "image/jpeg",
-            "thumbnails": {
-              "small": {
-                "url": "https://v5.airtableusercontent.com/v3/u/52/52/1777068000000/ZlSbwBEPpXwzTWMMpvDufA/ZQ13ZdhGaYcbnsCpcn616CSMeKjORrx2HbyAxe9iJ40FyeUpZVmHl0kuMRcaZn9_7LZ71FIX-0LDMsRbriHNlctFsNihuSh90mXZGvZvTy9VcRyqG8-ElhzVZSUS3LGBBA2cB3TL0pN4PDtXw46Iyw/GMwiY6-q2tA7ujOYl7x_KS5aVzwJWOm2YdYfZfsEHVA",
-                "width": 54,
-                "height": 36
-              },
-              "large": {
-                "url": "https://v5.airtableusercontent.com/v3/u/52/52/1777068000000/63yam4sJNSfYkTxjH09bQw/-sFUozyV2ODxOaQb58sfmEQ1nqMZYg3k9SgRKiG_rlmYLGpZnzpSPkbxKV26GvqevQi9NiFKS9aGQuoaCL5y8W8E73aXl4QA1bOhvi9NMPix-CZG_5vsNhcPwnqbyU-YyWiMTRwDMq4Xgz4Y-4-SAA/1XA8XjAI8n-skWUMUi1mvGCuT9qDTNUQP3nf8P8PUuI",
-                "width": 768,
-                "height": 512
-              },
-              "full": {
-                "url": "https://v5.airtableusercontent.com/v3/u/52/52/1777068000000/RJO80YbEo49rTPDNC3zSsw/NFKFWvjYu6_Y50-PF15BaEpjlY_526OPtBxclmGja5eUsiJg8E9yRd2Ur2wjf9001NSCrL-BabbZcdbKlM88QP8ApaK9-Y4XFRazA6gS3yq4BDPvLeWqRJe2Ulw2yFraWtp4lQFew_UkNWlQM9wXqw/jUO83flC7cNJi_UFy8cR0KN0WY8pltzgMCpdD5a6qyg",
-                "width": 1280,
-                "height": 853
               }
             }
           }
         ],
         "Status Tracker": "Live",
         "Source": "Entered by Team",
-        "First name": "Jennifer",
+        "Department/Unit (All)": [
+          "Agricultural Biology",
+          "Agricultural and Resource Economics",
+          "Animal Sciences",
+          "Horticulture and Landscape Architecture",
+          "Soil and Crop Sciences"
+        ],
+        "First name": "Christopher",
         "Production Phase": "Live",
-        "LONG": 133.2096,
-        "LAT": -25.9469,
-        "Card Image Alt Text": "A hampshire pig noses the ground",
-        "Date Last Updated": "2026-04-23T16:46:21.000Z",
-        "Last Modified": "2026-03-30T19:07:31.000Z",
-        "\"https://forms.fillout.com/t/7ixrzaFakBus?id=\" & RECORD_ID()": "https://forms.fillout.com/t/7ixrzaFakBus?id=rec96BOdmMyO9iWHw",
-        "Department": "AnimalSciences"
+        "LONG": 172.4642,
+        "GeoJSON": "{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"geometry\":{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[-43.64540000,172.46420000]},\"properties\":{\"name\":\"Lincoln University \"}}]}",
+        "LAT": -43.6454,
+        "Last Modified": "2026-04-23T17:20:03.000Z",
+        "Card Image Alt Text": "Lincoln University: A red brick building with white decorative edges"
       }
     },
     {
-      "id": "recbfYvXpnKoHVw3V",
-      "createdTime": "2026-03-11T23:43:26.000Z",
+      "id": "recrZC0ue3jEuhoRR",
+      "createdTime": "2026-03-09T17:46:39.000Z",
       "fields": {
-        "Date Added": "2026-03-11",
-        "Project/Activity Summary - Story Content": "Professor Jessica Prenni’s international research collaborations are centered on the Periodic Table of Food Initiative (PTFI), which aims to standardize the characterization of food composition across the world’s edible biodiversity. Her work involves analytical studies of foods and close collaboration with international partners, including training in laboratory methods, joint data analysis, and co-authorship of scientific publications. Through these efforts, she contributes to building a global research ecosystem focused on improving understanding of food quality to address interconnected challenges in human and planetary health. Her collaborations also emphasize education, mentorship, and capacity building for early-career scientists, particularly in the Global South.\n",
+        "Date Added": "2026-03-09",
+        "Status": "Completed",
+        "Project/Activity Summary - Story Content": "This research collaboration between Heifer International, Professor Nick Magnan, and other academic collaborators examines how hybrid distance learning can expand access to vocational training for rural women in Nepal. The project focuses on training women to become community animal health workers (CAHWs)—a critical but hard‑to‑access profession in remote areas where women face mobility constraints and heavy household responsibilities. Traditional CAHW certification requires 35 consecutive days away from home, a barrier that limits women’s participation. \n\nTo address this, the team partnered with Heifer International and the Government of Nepal to design a hybrid training model combining short in‑person modules with tablet‑based home learning. Women completed a five‑day orientation and a ten‑day practical livestock module, while the remainder of the curriculum—covering animal health, breeding, disease diagnostics, and bookkeeping—was delivered remotely. \n\nA randomized evaluation led by Magnan and colleagues found that hybrid training significantly increased completion rates (from 30% to 51%) without compromising knowledge, skills, or long‑term job performance. Their findings demonstrate that well‑designed distance learning can meaningfully reduce gendered barriers to professional training and expand economic opportunities for rural women in Nepal.\n",
         "Type": [
-          "Research"
+          "Research",
+          "Outreach"
+        ],
+        "Brief Summary": {
+          "state": "generated",
+          "value": "A hybrid distance learning model for rural Nepali women increased completion rates for animal health worker training, reducing gender barriers and expanding economic opportunities without compromising skills or job performance.",
+          "isStale": false
+        },
+        "Email": "nick.magnan@colostate.edu",
+        "Faculty Photo (from Faculty/Staff Involved)": [
+          {
+            "id": "attSesJ72kUKpqd16",
+            "width": 257,
+            "height": 290,
+            "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/EpJbJVH83czuj0vFSjPe9A/FZ75buC8T-KIm-uyhXpV2YfVsJbjqUraH8W3uGI40N83_cCyoXvoTmFHI0m5vILPVsyIxJiRivm21OxWyuuvHuY8MXnvhgoXZ93aGxIhxioh765Hz-qbaGCzHbUO7_3SJDdrBHrsixGTBWvKN4RD20LKgC162D0bSndMeEOweFE/mbhcoU9GrCp9ot66jooUQ4ZCLS_RH-eIXsgBgiqo7U8",
+            "filename": "download.png",
+            "size": 135123,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/veolUGbMxSwnASrPRdGwYg/QnERx26ZhNqENtYlhs24VenZL0bSEHBegj6si9McvfNtvIiMdocP_-3Mf6TmzQO8IU-LGFERCtcfsWYx97nfoP44e8EeFG5FGZeZKOcPQh_eP0BacwnbGJWQYghJOVg3AbGeMa7RY3w709h9m2kZow/-pRqPpJveIBn7UCdY3FqneqOexeB2CL2rO1vrPZUiNU",
+                "width": 32,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/mSZSGZS-ynZ0W3loycMF_g/MWILe0rv_B5LP9aODYdrTjkjW4gtW82aY_csVIWg4-YfakVxo58xLjAeRPUxE5YvXrLE11J6NevBxBsy-FeTJ_Lfi4gbuIt2ap_o2WkPRcGp6ytvcQMaXlOSjuPNFxjfAjVeR419_mk3LTqkSnYTYA/UL0lBs7zQm_btzIq7uau-PtCG0hhBp9JFO8O8Y2Jk30",
+                "width": 257,
+                "height": 290
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/ouZtnR6S93Hux9G_O8KQzQ/xqYkOghi0s8DR0gmYRTYQ4kz8LURrQGfW1aMmrQIgTd0DJJtpJHYymZA2pL2AZUnX5pPMEVyjuQbYgyCOH8DBBtsMqjoQRnEK0HP-RTIufptrdUDw2woKa4AZug6l_RK-7JVCG5_jCtYz9vBJ7deIA/FmbWYQsh082WJGAW0qx-d3hPFTilJHt3u68kNgFh7GE",
+                "width": 257,
+                "height": 290
+              }
+            }
+          }
+        ],
+        "Name (from Faculty/Staff Involved)": [
+          "Nick Magnan"
         ],
         "Continent/Country/Region": [
-          "recZFtfzZVyXkfk8u"
+          "recKaLwZVkr1khzLP"
         ],
-        "Links": "https://foodperiodictable.org/; https://agsci.source.colostate.edu/csu-contributes-new-periodic-table-of-food-initiative/",
-        "Project/Activity Title": "Periodic Table of Food Initiative",
+        "Links": "https://www.eurekalert.org/news-releases/1072769",
+        "Date Last Updated": "2026-06-24T20:15:12.000Z",
+        "Project/Activity Title": "Accessible Job Training for Women in Nepal",
+        "Last name": "Magnan",
+        "\"https://forms.fillout.com/t/7ixrzaFakBus?id=\" & RECORD_ID()": "https://forms.fillout.com/t/7ixrzaFakBus?id=recrZC0ue3jEuhoRR",
+        "Department": "AgriculturalandResourceEconomics",
+        "Continent/Country/Region (from Continent/Country/Region)": [
+          "Nepal"
+        ],
         "Faculty/Staff Involved": [
-          "recVnmmXpCWyqSjsB"
+          "rectUlmsadGZJLLRx"
         ],
         "International/Institutional Partners or Collaborators Beyond CSU": [
-          "recBNFKNrVS9OWcOL",
-          "reczTMq4iyjM43Do0"
+          "recSumBO38fW9xMcq"
         ],
         "College/Division": [
           "College of Agricultural Sciences"
         ],
-        "Department/Unit": [
-          "Horticulture and Landscape Architecture"
+        "Department/Unit Primary": [
+          "Agricultural and Resource Economics"
         ],
         "Card Image": [
           {
-            "id": "attfHMCtTLya4BGJS",
+            "id": "attpMmNVVZGCPUFvp",
             "width": 1280,
             "height": 853,
-            "url": "https://v5.airtableusercontent.com/v3/u/52/52/1777068000000/hSJjf__kWDdoVcNR-zoDNQ/7QQCEby08x9A9xuCggZlqsYcoOHnWViR36DklgQB8Zj5VZGbEUkYJrYSvLuy5OW4l3DrLp1dqqn5j_Enx10lMfFpk5K-GjflIhoQQV2ZfN8be9H9_402N2cRmO3Zlht5TWQ-FzY3oXT22G0oGXPoUlQ4LHE0vQOcz1-yPcZ5K9I/SvfIyShWCH8LZLfPYrdnGkrt8G_b3wZssKO0S8MYBcI",
-            "filename": "grapes-4367140_1280.jpg",
-            "size": 230976,
+            "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/bsPV2x9ZgjQcZ25BOSt-nA/2upIkI0LlMdSiBF3hItW7tEvZBUlLrkxqXyjLS4x3U8eKP17XYVxhbzneYHnzflSmQeS7eS4ZCceToJcUo4vosaeWd-gL6q71K6cNQ3po27Yo8EGv91xh9HjehuyNQONJcSL61pVR70RsBs3keKLrKOlOIe1vN2eWlMF-FJvt88/oaYp4h7LsphtltYZyuSl5EwyDOxMDxgnlpnzlZnTjNI",
+            "filename": "nature-8138143_1280.jpg",
+            "size": 349719,
             "type": "image/jpeg",
             "thumbnails": {
               "small": {
-                "url": "https://v5.airtableusercontent.com/v3/u/52/52/1777068000000/O9Fl_nFTCR6zj99poc5NAg/iEY3ADPyVu7lJdzKIwFWqpys9iGgqeMN0kTSl9cuDKCBPsu3ncl0m06KqRZuaJA2O6nfU3SkZGahJpjuPQ5zAoLr9PtvnbCOVzQ8K5dTZ_JZ-l6VUYm9jRNhioysejuo1ENEkrqaFo2JqMT5aJfO0Q/HpYDRItFVPFTqxqOvMzeGV2vHzD57roA1ARzEBATFxE",
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/AYvJy-ffVytrKF0BrWjqcQ/neWu0k2IENAwVAoC2pg2msfELuN1J-u1tA1CWLxtZ6k4LkuP95_Yr3TgnghfABUqH6Ehxi5mQHqs4tYGY_MRsvLRGdjfaAXud7FcJF1PTcH34YKzZBHNqoaUHlAZ6in6sxqpUvF6IE8TnBX9QI6F4g/ceScxZJr81L4SkZARka4vfNDTI6itVDfiuUWuhy2DOM",
                 "width": 54,
                 "height": 36
               },
               "large": {
-                "url": "https://v5.airtableusercontent.com/v3/u/52/52/1777068000000/2jzd5xbW5WnuYjKKdGULaQ/AnceisVDBRXIRSAbMSHluR-XPNXE-U9Il3c5SUnfOws_D5WzIADjVr3S1ndL6c7XyymZRigUDDytrT3twsacOwhT7_oooQPAUzPEsCW733P9s7hYKnQGRHywNVKKYowSXfPK7bf0Kq8Wqlg6pjkm1w/o2MrDiIFk74soCTRzrU_q-NmRGLLGSAvdqfggNvwizw",
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/jAknFdCdeEi2bd_sQqBuMw/faOm2Vr6O6-wg0mERVCm1CgXH26mlCcCudD0fT4x0WyLgs9ympfM3afu3tMuiDRVO3lH9dEYa410jFQLUYLW4Id7dBpWVrYE3Bf8xpctv6k8VO44xNIgrRvt2yt5j5hxknxn2kkg5xtE126Lq35EGg/8LBfpGARQQ5MgPx75lJrgt0BqI-riC0X6srkIQlTCrU",
                 "width": 768,
                 "height": 512
               },
               "full": {
-                "url": "https://v5.airtableusercontent.com/v3/u/52/52/1777068000000/IXGcuXuTawxQ4ada8yc_TA/rAK34W84m7cA7GBmblDXX88xvP-Qw_jMH2DETGFCo-oaIB3anQRqBLCfSJYiY0QSJ2HtDmi4_pVnvZzdAjJ2O45biBPX9K8kYzwznaTce_lBYxjLGyJMpriqtYor_GvXVYQA2JaAZKoBKnUZHHH87Q/LiGmRAwjWOSrZxonC3vz4nJMzckbueCR_sZHSKcf5OA",
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/R7OmYjIckHGC7imaLyOgSQ/dRMkDQ5N72pQs6YV9neg-6662mkPNWDUPmFa32rTpMj2-0x9ltMv2Sqkz3GW8-hyjODoAMhy_La9tbAdQem7Q4qsBfQmgCZbR22oB-hPxzAQBSAwv6Z-jR3uNVSgsVbf1ZN9dEv78tYQktJhlbkWyg/e4_BgRu25bAG41oO6mskvx-2HJdqmbe6qz0GJvpqSU0",
                 "width": 1280,
                 "height": 853
               }
             }
           }
         ],
-        "Status Tracker": "Potential Story",
+        "Status Tracker": "Written (ready for review)",
         "Source": "Entered by Team",
+        "Department/Unit (All)": [
+          "Agricultural and Resource Economics"
+        ],
+        "First name": "Nick",
         "Production Phase": "Live",
-        "Card Image Alt Text": "Sunlit purple grapes on the vine",
-        "Date Last Updated": "2026-04-24T18:46:02.000Z",
-        "Last Modified": "2026-04-23T17:20:58.000Z",
-        "\"https://forms.fillout.com/t/7ixrzaFakBus?id=\" & RECORD_ID()": "https://forms.fillout.com/t/7ixrzaFakBus?id=recbfYvXpnKoHVw3V",
-        "Department": "HorticultureandLandscapeArchitecture",
-        "LAT": 40.12345,
-        "LONG": -105.0258
-      }
-    },
-    {
-      "id": "recwVw9R4uInYCpGx",
-      "createdTime": "2026-03-13T16:07:09.000Z",
-      "fields": {
-        "Date Added": "2026-03-13",
-        "Project/Activity Summary - Story Content": "Studying insect suppression in agricultural crops, horticulture, niche crops, and urban forest to reduce transmission of plant diseases. \n",
-        "Type": [
-          "Research"
-        ],
-        "Continent/Country/Region": [
-          "recIfG4l25fG0zd5w",
-          "recO6UDHOt8Vpppp1",
-          "recEm3WAxaoDZWMwH"
-        ],
-        "Project/Activity Title": "Global Integrated Pest Management",
-        "College/Division": [
-          "College of Agricultural Sciences"
-        ],
-        "Department/Unit": [
-          "Agricultural Biology"
-        ],
-        "Card Image": [
-          {
-            "id": "attlhxMVK40aEaoaL",
-            "width": 1280,
-            "height": 853,
-            "url": "https://v5.airtableusercontent.com/v3/u/52/52/1777068000000/quQYG9oH_YrIJNjdTjfjzw/uvzyELmoYpipS3Dm4fKQIEujy0NTnPZQANb_Kah_mGLmWmqek9tSoI52yupRaqYP093sz34yz__8Yo4s4dWhOSxENujh99snKn0hmrJauyr1kFGlkNcOMLVUnDDTVxrtcZY1ldj7D695AIc-siSc7vDSJDpVlR5olNUzfuxA6do/6EbWgcB7FVKI3n4YHb_yUO2DjcvVEOIKxqyZTzkr0DI",
-            "filename": "aphids-789242_1280.jpg",
-            "size": 177868,
-            "type": "image/jpeg",
-            "thumbnails": {
-              "small": {
-                "url": "https://v5.airtableusercontent.com/v3/u/52/52/1777068000000/c4amoBrBAQCuHKtufLB97A/ar7wnnoDiCrCoqJ1wIAj4hUCg1-rAVqk5-LUaSI7Bry_PYmLYJEwozcd29vdqJQgF-qu9x5ibk5i4Ar2WIFpO4C4K_PgQ60iSsDfCfTVKIVXHcDtba9ZWdzuN0XoL0qRefwTzBWfazocMUt43C2Klw/WznW_GElRYAi-J_zn067IPn5SU5IBdvdTHRA5drAivM",
-                "width": 54,
-                "height": 36
-              },
-              "large": {
-                "url": "https://v5.airtableusercontent.com/v3/u/52/52/1777068000000/___oTVo1piF9SdnBiSAYiw/s7x4XmlHJk2d7mg7TRbrb9_jUDHh3mxBsyr5khDGuoB7-voDZ9_jT3RQiV2vw7TTDVQCpWj2aUlFbrCIaCNATxS_Tf76pxD5nEanAlVJnr_sTBvCnP4OJWYQce4BAsBgkdFjzFUtzTFY0dNRqSOFyQ/3kj936hIXeqv4KxKsxmPHkqi5sojY53JHSudXw6BIZI",
-                "width": 768,
-                "height": 512
-              },
-              "full": {
-                "url": "https://v5.airtableusercontent.com/v3/u/52/52/1777068000000/xp2z60QBgHMV2FQ7ethgRg/Nqw5Yvb2b9c3XdLdZQdgSMpZ8xWgy_ivysLVgxEkhSJtRwj-ZeOLPX-kzn_QCaRzV9lVEa9pOUdxZP5ubr_cIut3YVzDaA1lpLZMNsBi8fflTa6l_QdE5OyszyvQfzrkrvPA_BLCvKd8UYjNJmaUSQ/IqKcwCrJNDokYeUcUq_FtckdnBjb5dP2EN7VDIZ6wKU",
-                "width": 1280,
-                "height": 853
-              }
-            }
-          }
-        ],
-        "Status Tracker": "Potential Story",
-        "Source": "Entered by Team",
-        "Production Phase": "Live",
-        "Date Last Updated": "2026-04-24T18:47:17.000Z",
-        "Last Modified": "2026-04-23T17:20:40.000Z",
-        "\"https://forms.fillout.com/t/7ixrzaFakBus?id=\" & RECORD_ID()": "https://forms.fillout.com/t/7ixrzaFakBus?id=recwVw9R4uInYCpGx",
-        "Department": "AgriculturalBiology",
-        "LAT": 56.1304,
-        "LONG": -106.3468
+        "LONG": 84,
+        "GeoJSON": "{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"geometry\":{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[27.771379, 84.810781]},\"properties\":{\"name\":\"Central Nepal\"}}]}",
+        "LAT": 28,
+        "Last Modified": "2026-06-24T20:15:12.000Z",
+        "Card Image Alt Text": "Four brightly dressed people work in a green rice paddy"
       }
     },
     {
@@ -342,68 +1144,88 @@
       "createdTime": "2026-03-24T15:37:41.000Z",
       "fields": {
         "Date Added": "2026-03-24",
+        "Status": "Active",
         "Project/Activity Summary - Story Content": "A short-term CSU faculty-led program in Germany & Austria provides opportunity for students to follow the exploration of European culture and history through immersion in the European equine industry. International focus on breeding, showing, managing and marketing of the horse is also an important part of this program. Students will have opportunities to visit several horse breeding and training facilities, major manufacturers of equipment, as well as observe training sessions, plus a variety of local cultural activities.\n",
         "Type": [
           "Education Abroad"
         ],
+        "Brief Summary": {
+          "state": "generated",
+          "value": "CSU faculty-led program in Germany & Austria immerses students in European equine industry, focusing on breeding, management, marketing, facility visits, and cultural activities for international experience.",
+          "isStale": false
+        },
         "CSU Affiliations": [
           "recjxM5MlBEp0XLIG"
+        ],
+        "Email": "christopher.snodgress@colostate.edu",
+        "Name (from Faculty/Staff Involved)": [
+          "Tiare Santistevan",
+          "Christopher Snodgress"
         ],
         "Continent/Country/Region": [
           "recdqxcKU2L1gIxdr",
           "recFeg6eDu2mzXiPu"
         ],
         "Links": "https://myedabroad.colostate.edu/index.cfm?FuseAction=Programs.ViewProgramAngular&id=12371",
+        "Date Last Updated": "2026-06-22T23:01:09.000Z",
         "Project/Activity Title": "Equine Science in Europe",
-        "Last name": "LeBlanc",
+        "Last name": "Snodgress",
+        "\"https://forms.fillout.com/t/7ixrzaFakBus?id=\" & RECORD_ID()": "https://forms.fillout.com/t/7ixrzaFakBus?id=recU8mSvvHgiyJ8gR",
+        "Department": "AnimalSciences",
+        "Continent/Country/Region (from Continent/Country/Region)": [
+          "Germany",
+          "Austria"
+        ],
         "Faculty/Staff Involved": [
-          "rec6CruR6b0gWbrVk"
+          "rec6CruR6b0gWbrVk",
+          "rec9EqCacKKcQeHN9"
         ],
         "College/Division": [
           "College of Agricultural Sciences"
         ],
-        "Department/Unit": [
+        "Department/Unit Primary": [
           "Animal Sciences"
         ],
         "Card Image": [
           {
-            "id": "attcJwRqsZpC416D6",
+            "id": "attCi88D3GnPeja64",
             "width": 500,
             "height": 333,
-            "url": "https://v5.airtableusercontent.com/v3/u/52/52/1777068000000/zNaBhlcoNRwUd2DRSwtKsA/G6_F8kfHKjL6Zk1lsVXZTYoVBRgYgjDH0Rc5MwOXnw_rNJHD30NjFaTKqkbNpZVgQ39s2ax76jWzllKQXGTz95TRVOxUfGRBUBiyEfwNJf6v9k8ZUULeWRYHJMLKqvmy1hv3UtwwGtNZbe80rknAjQ/1HneiduLgFBEV6160wHElFl4s1qe8vugKgnonb8Lsw4",
+            "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/cc-55xNiKvkEIcaLWl1_zQ/xuWzhIxqM_2mKt92eySNAXOAUFi49z6fGzBrN_ikJuUiU3uph9yfyc8nYvrpBdM8mZ1JL9M65tBKoB-Dc9NRL1f50iy8bEehgwMXeFoYLjn5mZpPJuoz-SLhhqFXgpldgQ1669_iSDKUrJ7gpFq_IoQ1CkXm3FXWfFY7ASO41xk/7c0Up-FCuqyUxl5qXv0Kp-ymwXwibc33i8RmxrbIcoI",
             "filename": "EQS 1.jpg",
             "size": 46217,
             "type": "image/jpeg",
             "thumbnails": {
               "small": {
-                "url": "https://v5.airtableusercontent.com/v3/u/52/52/1777068000000/_3CA8sO4itauxzUcZa-9rw/m3P_X4URHhLFrMPqqDb8Srwd8erb09EcEcQWferMdb2zAZfkwzqI7RsfVjmtxqvJEywYsTAx4DKJxjxbENBW1oCcPy04UwRJCXDx-kxj2DcTVmMRmR4Bc60e62fyOnZZB95i1Awu7hDKYPVcKVgvDQ/GpZQ7m5NwBjXo9baA6LfRQIl0tlEhJA1C-pBMjLJKfw",
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/CAJ-2miH7c9xmZmt4M7mqA/75dhf08lROyRXRatzxvTrCpDYgjebFXkHfjNjx0AAtgrMog5C7tW04OJiG0MbH1HoM5A-gOn_KBaX87pmn2u5w7XwLYULNayPRTdGD2eoavlV6AdADEbukYR5bS9ADLUcyH4Jh621Yu3ATOBBHxAAA/LF3jR8oHDPFReX1ryk1Dw1GV8AnRlx22ZqycQ4KwP_8",
                 "width": 54,
                 "height": 36
               },
               "large": {
-                "url": "https://v5.airtableusercontent.com/v3/u/52/52/1777068000000/iGVqfIoiWPHirKa72Pbzhg/SwmbjGKJ9U5wFk30rOapLwYlgahKLijBri9Wxi4J5f0eS4BYlGopc3qnEMF9eZ2pbvqGfFxUpbT_fWabshhp0eX9BQ_eNUzZMUIaq22qhBkT2DyBb70TdM_ZrehYE7VNCREFRrCGmbgf2BwxBnrHqg/Hx-H5s8G2HxiKIkAFlMM2JPZn65Yzex4QI8RA4Vhm6Y",
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/ckEkWfYJhKbVykrEpL1Eaw/96df28sbyTgfBzrAoLeWdVItZ9DzpxehnmJs7lssA2qbgwX07rjO2Xbh_37uNcNGVJHC-IQCxV1wFlBMH1BXAGSkTnY0VJtAk13l4tPd3Kugxi4yF8zUKT5fn-pB0cHl_cQdWv2yrPvF51JUTINpQA/klUHJgSrE_PbMf8PYbVj15RRtYkVj2Ruyj-_8hIRco8",
                 "width": 500,
                 "height": 333
               },
               "full": {
-                "url": "https://v5.airtableusercontent.com/v3/u/52/52/1777068000000/r3s_OKnMzT0t-mTlvXgnlA/pOEgQNDL-kNYbxcR-RYYXbq0QF-YzZtumjM-i1VyMTTt1MDKj9KtFEwuOWo5I555rXoTXoxU7L8H6GDZGjszpdgDqhmJaKy5YjSl_J8v7qs_BF8YpAM-_uJujIErIth0pFOyd9KmKr3U2Q6i6w1SAw/7EhlsqQ9yv-Upf9fyA2bdDiwmqN8ZBLNjFrYTcQV2es",
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/iTGOWARFwx_KznOxrWY3nA/hRzCoTPJT_eVn8SHnBXImn-qduv6_2afF5xfShKr-zwo67da7srRazqwNx9Q7oAgVWHm2bx7gi-X_qmvhOXsyOfbIVXzlVf499G63jgJa8GeuotDjkxwzwJWVn2YI9rZmI9a4H7gLXDXI5Zi6NCgng/Xsa_gwH2wWzL9mZimwPmlQFIB2a0K33TkBqk1MI_ceM",
                 "width": 500,
                 "height": 333
               }
             }
           }
         ],
-        "Status Tracker": "Potential Story",
+        "Status Tracker": "Live",
         "Source": "Entered by Team",
-        "First name": "Nikki",
+        "Department/Unit (All)": [
+          "Animal Sciences"
+        ],
+        "First name": "Christopher",
         "Production Phase": "Live",
         "LONG": 13.349319,
+        "GeoJSON": "{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[47.69754300, 13.34931900]},\"properties\":{\"name\":\"Austria\"}},{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[48.357814, 10.160360]},\"properties\":{\"name\":\"Southern Germany\"}}]}",
         "LAT": 47.697543,
-        "Card Image Alt Text": "A brown horse with a rider walks down a hill in a competition arena with an audience in the stands",
-        "Date Last Updated": "2026-04-23T17:06:41.000Z",
         "Last Modified": "2026-04-23T17:06:41.000Z",
-        "\"https://forms.fillout.com/t/7ixrzaFakBus?id=\" & RECORD_ID()": "https://forms.fillout.com/t/7ixrzaFakBus?id=recU8mSvvHgiyJ8gR",
-        "Department": "AnimalSciences"
+        "Card Image Alt Text": "A brown horse with a rider walks down a hill in a competition arena with an audience in the stands"
       }
     },
     {
@@ -411,67 +1233,308 @@
       "createdTime": "2026-03-25T04:57:54.000Z",
       "fields": {
         "Date Added": "2026-03-25",
-        "Project/Activity Summary - Story Content": "This CSU faculty-led fall semester program takes students to live and learn in Florence, Italy. Students are able to study Food & Resource Economics through experiential learning opportunities that go beyond the traditional classroom setting.  \nFlorence is located in the Tuscany region of Italy, on the banks of the Arno River, surrounded by the rolling hills of the Italian countryside. The city has the essence of the Renaissance and stands out for its culture and history. Florence museums, palaces and churches house some of the greatest artistic treasures in the world.  \nCoursework integrates economics, policy, and culture, exploring how Italian food and resource-based industries are shaped by history, markets, and sustainability practices. Students engage in experiential learning through field-based activities and required excursions that connect classroom concepts to real-world contexts across Florence and the surrounding countryside. \nBeyond academics, participants experience daily life in Italy—gaining firsthand insight into local food systems, regional culture, and the role of place in economic development—while building a global perspective on agriculture, sustainability, and international markets.\n",
+        "Status": "Active",
+        "Project/Activity Summary - Story Content": "This CSU faculty-led fall semester program takes students to live and learn in Florence, Italy. Students study Food & Resource Economics through experiential learning opportunities that go beyond the traditional classroom setting.  \nFlorence is located in the Tuscany region of Italy, on the banks of the Arno River, surrounded by the rolling hills of the Italian countryside. The city has the essence of the Renaissance and stands out for its culture and history. Florence museums, palaces and churches house some of the greatest artistic treasures in the world.  \nCoursework integrates economics, policy, and culture, exploring how Italian food and resource-based industries are shaped by history, markets, and sustainability practices. Students engage in experiential learning through field-based activities and required excursions that connect classroom concepts to real-world contexts across Florence and the surrounding countryside. \nBeyond academics, participants experience daily life in Italy—gaining firsthand insight into local food systems, regional culture, and the role of place in economic development—while building a global perspective on agriculture, sustainability, and international markets.\n",
         "Type": [
           "Education Abroad"
         ],
+        "Brief Summary": {
+          "state": "generated",
+          "value": "CSU’s fall program in Florence immerses students in Food & Resource Economics through experiential learning, integrating coursework, field activities, and cultural experiences to explore Italian agriculture, sustainability, and markets.",
+          "isStale": false
+        },
         "Email": "christopher.snodgress@colostate.edu",
+        "Faculty Photo (from Faculty/Staff Involved)": [
+          {
+            "id": "attCVmDMtgtkB8XOq",
+            "width": 257,
+            "height": 290,
+            "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/qKSAwtZtc9jGM0DA3nligQ/3mzwEEBOGmZS8VB-NYH2oVJ_3h3A3KPWvQRnrJCerQ9b4vqaYpw32C2bb86oSid9HzqS_KEUDOao0Y8iw1AkrNNVGOTDEQSA2mhaQuT0nL7PSz515vmf4ct7Bnlpqcz7o2yjYw3nFVhiQmQi6pcEhQnrBwnw7YM-CqtSNlsvx_k/8mU5BfWau88ZQepBq0jeVUOYdoBNFKuJYiVFGpCSVqg",
+            "filename": "download.png",
+            "size": 117566,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/iS0-vfy-Qr7eFTDotMTskg/C0cErhnUYozr_mzwOx4b1LsgJaBWt1IUjh0gJreCb8sHMJC8iqclBR4fy3Xht-0FdEqwK4j6frKSQ2d_hM1buuIZGyoFZnOwG9DoW71-TLUgXMRDp_K8tLJadzMNhu5awES25Id5s7JB7qCGgxW03A/xfotk-guGyrxl6VZ7dyXVXIqylmD1Lr16Fd1kexAngk",
+                "width": 32,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/4QOrURhDMy_dSh2DtZlTAQ/hRLgV1pqR4mUQQXDjnPBV_wRVC94cc-5bA4IA2VRLFGWWbZ26M6bJ0WHgvx9qo72v9XIolUQahHZjX7k3dlHP4KM6PpouQYLWE2qWDMYlbqamfC6_ncCmLAAnW2V8DxjiW4zCC93Z03pETnzVZe06Q/YncH5lq4TN0Bd8SRQ14OuXAZjIPwU6z7vWfwXE1TdQo",
+                "width": 257,
+                "height": 290
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/BXGOkcyYnjk7J5Ct4hNoag/aFT6eYrd2pZECETiuOrim9LUdhuez3AYNUTU08K_L3g2l4USIxDIhpTI0syLZ6dN2oB6UaLXGAWy8FD5rbG2cA0s6KdjphoWervukxhQoANU0GXY_KkqxbjSxEcm_6gS4oN_LZ0Z84EhnzFuTgn5eA/bF5_zhusiw-2DRbjTRv8xtmSMoFgiGKN6Gyxcboryck",
+                "width": 257,
+                "height": 290
+              }
+            }
+          },
+          {
+            "id": "attiaqP1WHUsbj0GS",
+            "width": 260,
+            "height": 293,
+            "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/_0TNT9hC6C0LmxgXijT_Pw/_Pbu4fb7tPfplX3BXySpG5JW16EsHzmitvES9hlaUGFtyLbkIIYR1ST8sooESmHubse4TtMaNN-IptPtGhWJxCcvTQ0qUNXgbLghISHjG_mNUQL1pEgf3DDbQbjraud7WS6R5Pj8rl8m30cpe-pMjsGdjHQ23OYn2DlSSMBOigk/4X8v84i2SVjwXc9u_M-ifI9GzlduuwpQKqUb1s5U3Xg",
+            "filename": "download.jpg",
+            "size": 81957,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/Pdr9cVpiWUiPKw2wQC9YgA/LqoylSGdhskNI5qbdTIQ1I5SzEcHe8fCK1xD3FGkJfgJEZ3ylSWBURTUaPlq3LUnexOr_SXHFZ8BuRS0PH1WMYKmYAu1dRiY28DZ4jf8z6Q4f-C9XM8Z3k8b0n6obEMezFuX4-2sui_UlYFvMy832A/4jqdU5MdRHp83uQTfOpNdWn39peCHQ_9ts_HmENxubQ",
+                "width": 32,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/na8VllxSQKndUvid-ckzsQ/UshVPMz5-RTnuJnHqRIokboKCtG8d9o2xyIk9CH-s94A1D-6lMM_44GYlnHH4vYN2MfdeX30WLI_RiNOGLeiv38AKAKYeT77uwGyK_4UvTJzYBIigocJ-X_wB3fu-Bs2yWRPW9gASHlnMe3WZgy16Q/FPPnWBDVKxDSIQIwSctiqaX6DJ2-HpFL4i9h_XZCcME",
+                "width": 260,
+                "height": 293
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/xI-wIuAuRB8GDKTF9R1wqg/VlKdEw6aCaVblS06oq-iOgQxsFwQo7FdQQRYITIjyxMamjmAGON7VT9YEgMXeUnE1C1lTx1Qa2-pwdIY62hmw-0LE1U-OgTdJRXFdWAsH4Hn2Cslg4ZJafXmRiHCHI-9bozzWPnYcO-4K392aOC7Hg/wk2S7pLumxkjLD2DKE6xR4qG2Lno8qcO-LKqEnPyhho",
+                "width": 260,
+                "height": 293
+              }
+            }
+          },
+          {
+            "id": "attzKLICDuNq2dUUA",
+            "width": 260,
+            "height": 293,
+            "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/FKv3jDzSpC8IMs6gZ_HIlw/8oOUaZIO-daoC8ko5BwzSeZ8cKgOhsYLN6b3XPfNJpCEMiE4lSK9Ci93DFZXYbZ3pszCJgh0rp57NpQWD9NPXLR6SCNFoFWiyrMebemfW4yOwhMiPXH_vD1z9XsTDaOSgBwYtktUKpZDv5hvT4uitpmvnatcELegi0E-z2813gY/17XrQuKcw-eq2L7ehXks31Yxr3Uk4UZzODF5S0U_jRA",
+            "filename": "download.jpg",
+            "size": 61835,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/brp2O5DZUoPUWJikLk93YA/Qmw0NFqHMxAwHLTrHEx76P5Dvf0YSMCbq78q1ISKOKiJ5A3TVhyond46W7Vb80COyJIL97Aef_89ZgKzesRgYbnKj2poBX-CCEn9yCK26OuBnqEC-tO17gD2xR0P0oKfWsuGOTpkAmFg_lVSt159zQ/H4fkpKUlKzqsFaRCfF2FOUtgtfe_d0SDbzv7WIGYy8M",
+                "width": 32,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/_-hxfQb7nF8iZTlCChNaUA/dxzMhF5vWPG2ZIJNFBM0cwU47d4QN8d_7e1nkO7NVS576zSSN74_02ebFqfEXAjWHnxR_5HDeDudXdgbtBj9C43r0B-unTdnH9WkTQcu6A__MxJfAOgI4vGisnHunvoS1ESbvF28kNXErps5Sgh37A/EQBUS8-pT4nmRq_YRpWeqVvJb1orn7oNw-W6ZSd5tfw",
+                "width": 260,
+                "height": 293
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/UvTzdpbnwBJjS3wa-taWUA/d1lHGjBbTDz4Z3QrolwBbyWMsM8NhEf2tvlsd7icX-s-l_AEEpG7Dvij1oVqN-3t6PkGU0-nXjxbrEpBYVcXDE_uQioZdobh3fixOBXsuUM9PNfFOhIsHq5ueRk-JRq9VDcOMKKC0ASwerpDc8LX6g/99v2drCKs1Q0TLEZ4xKFOh67x9REdd_7Z7zr0EofE90",
+                "width": 260,
+                "height": 293
+              }
+            }
+          }
+        ],
+        "Name (from Faculty/Staff Involved)": [
+          "Lynne Lewis",
+          "Stephan Kroll",
+          "Hayley Chouinard",
+          "Christopher Snodgress"
+        ],
         "Continent/Country/Region": [
           "recAYRw0uCTYfY4JM"
         ],
         "Links": "https://myedabroad.colostate.edu/index.cfm?FuseAction=Programs.ViewProgramAngular&id=11972",
+        "Date Last Updated": "2026-06-22T23:01:12.000Z",
         "Project/Activity Title": "Food and Resource Economics in Italy",
         "Last name": "Snodgress",
+        "\"https://forms.fillout.com/t/7ixrzaFakBus?id=\" & RECORD_ID()": "https://forms.fillout.com/t/7ixrzaFakBus?id=recgYX6veNAjqc9D5",
+        "Department": "AgriculturalandResourceEconomics",
+        "Continent/Country/Region (from Continent/Country/Region)": [
+          "Italy"
+        ],
         "Faculty/Staff Involved": [
           "recZu6Z09k4dE2swQ",
           "recaNf4t1cwaqTonj",
-          "recCI9ZwCHl1pxZ0q"
+          "recCI9ZwCHl1pxZ0q",
+          "rec9EqCacKKcQeHN9"
         ],
         "College/Division": [
           "College of Agricultural Sciences"
         ],
-        "Department/Unit": [
+        "Department/Unit Primary": [
           "Agricultural and Resource Economics"
         ],
         "Card Image": [
           {
-            "id": "att9R6NcnMMJ5hNfQ",
+            "id": "attaFjHd4UCyInM4i",
             "width": 1280,
             "height": 854,
-            "url": "https://v5.airtableusercontent.com/v3/u/52/52/1777068000000/1-JF1TNHPVaGErbtPA6NTQ/OkEBWBqT9UouwxxVAEDos5GABefvNclVaMOqRXx1mH3Tunz8ou04akYd5XuNN9iywxPFFT42soYY3moRWn8gTSfDalbHWVZ1fhBoDJniqnbSW8FZUJK4otR5GQLKEQcb_TWKL-2zlHb-b5PBtBF36zt9m1p7kVNyo4I5vNN6cod-Y4I1xFj6c5_DLP5NNk6u/OWGxd3uEnOXziQPokA7kUmCiyE1ddkGEszZMll69UIQ",
+            "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/048eAL0EX-Z4j1WhWANMBg/zmvUmm_iM-BWRokc1vFpX8Hv0G-8MIBGTq3PzF2Ml_Gj-ZSDBfag6WZgEVHZLjljyQPVYl__U42h4lb_eBLFji0R0bNHwgYfUlhr3eKubdBZ4dZMQ4tLwheyPvrDHm1erznMqAWaRrUF22a0pvY1sj2YCmW6M_nbKnBgwxmJY-XUBJdl_AVHVi9Qezh4QSUn/kpqb8YN88Vf8Rut5bH9wtx_lixc_U1JL4DT4dy-iNWI",
             "filename": "cathedral-5881418_1280.jpg",
             "size": 530421,
             "type": "image/jpeg",
             "thumbnails": {
               "small": {
-                "url": "https://v5.airtableusercontent.com/v3/u/52/52/1777068000000/08-ZGqaH_mjnnkkJmIUAYQ/texv1-zImC3-cD1ZqDzz2rO6HuJu-AbqPZ45Agy-JGHhf80nueEQEDqquaiGX0O60cODm1LyHfC9IDNm0B9zwyJCcrLRyy2uZFXuryPBKQhR6ejySgM0wAdEn05LViO8rRtXkrXYmt4B7ZDkLDnybA/alYGTImSXJjNjlKg_gRVD_0qNxNOOOSx1eTRob6ZeYY",
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/XH-Bs_EVDhgNAJ4iTA8gww/lCBjtX1h7RShb6ehPz7kR9puRPBbvncnG7gUpHsok22H72zoszmM8_0UvCM380Kf_2xOKtUHLFX5r_jH34LXH3qhKsFtke6-OfZ-6EsXsfbFUiUomGQQolVRsdKoATcfqCIEgLiIY_fj1S-VXkfLOA/RnLbakHhMqu2fepKRpgY70UFwDTw-lXjPyiwmI1lfhI",
                 "width": 54,
                 "height": 36
               },
               "large": {
-                "url": "https://v5.airtableusercontent.com/v3/u/52/52/1777068000000/1OuZLFiMcgRCMvMXTFFPVw/EW1HkjwgouVDGaUb5KuYaOcb5AOAGJU5dKPjUYpmJFiKYEdR3orYArTg0oL2j7v48dPRbs-0ceLWBuT0Xa98odZHynyf48q3_Pn5ZRB9nniq3Bvz-ZY6ZdhfXrd7DqIJ4yS-jzpJhKEen-hU0VxBnA/CBCeP6b-63eJcTV1D5nQMIQeBsXsn8VbAuI6sPl85HA",
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/cc3kpuECQrvySoOkiB8ANA/Oy_fxWo3NiOpVutMHLZb0JWLe-9Yq073Lj29dIibESfCfVL3jyNMBjehw4CU7P9RJrnxf3_-foKmZpD9CPB9Z3fK7EdRpoePrQWRPdIBErD_Yc4DJYHIByl0QNeeesUC1reWFebiVtyiXAkJXN9Xdw/vpX_y5zE5VPrLah8V-Nxgf6wV9X5Hcu2f4SqiYFUCNc",
                 "width": 767,
                 "height": 512
               },
               "full": {
-                "url": "https://v5.airtableusercontent.com/v3/u/52/52/1777068000000/UoAebC3G3hOU6EkpjdmqTg/rcsd3bzmsfjH4L_uSvoZBMxCeOk7ZOQg6U65Adkvy7AefUSpe1WYyJOcpRS7CixrozfnbDaAu8X1JmlatnaRysnkGLyJP07M6ExGTcyHXKpJC9oZ8g2khn70LkPV27yjWIpXNdn5hqWTfLc16orysg/MNUnJnMb-op3h5tPZuUEG2RntELRqqqCfH11_vhCSQw",
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/OxiMU2znalXkLmEmZb1kzA/lwDlK2vePSd96V45-zv06KD6dq4YRuaX-mrW7HnZPKPhPP09R9raabrjWCVUo9sPc8DmtmTC-Y7_NSWjKy-WI3FwiJkqQCS5992jyxvvVb_iMC3yq_9gbYtR-2UQ3rYyH8KaLzF43zUvZ8hxUu6-GQ/eSiujdHajvYj5LjQlTOlJdRv935ZT9Tl932SCC80-JI",
                 "width": 1280,
                 "height": 854
               }
             }
           }
         ],
-        "Status Tracker": "Written (ready for review)",
+        "Status Tracker": "Live",
         "Source": "Entered by Team",
+        "Department/Unit (All)": [
+          "Agricultural and Resource Economics"
+        ],
         "First name": "Christopher",
         "Production Phase": "Live",
         "LONG": 11.246,
+        "GeoJSON": "{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"geometry\":{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[43.77900000,11.24600000]},\"properties\":{\"name\":\"Italy\"}}]}",
         "LAT": 43.779,
-        "Card Image Alt Text": "An image of Florence, Italy prominently featuring the Florence Cathedral and other historic buildings with mountains in the distance",
-        "Date Last Updated": "2026-04-23T17:19:47.000Z",
         "Last Modified": "2026-04-23T17:19:47.000Z",
-        "\"https://forms.fillout.com/t/7ixrzaFakBus?id=\" & RECORD_ID()": "https://forms.fillout.com/t/7ixrzaFakBus?id=recgYX6veNAjqc9D5",
-        "Department": "AgriculturalandResourceEconomics"
+        "Card Image Alt Text": "An image of Florence, Italy prominently featuring the Florence Cathedral and other historic buildings with mountains in the distance"
+      }
+    },
+    {
+      "id": "recoinYwLjUTuNFko",
+      "createdTime": "2026-03-25T05:07:38.000Z",
+      "fields": {
+        "Date Added": "2026-03-25",
+        "Project/Activity Summary - Story Content": "This CSU faculty-led summer program gives participants direct exposure to the rich history of landscape design in Italy and France. Students will visit many important landscape architectural precedents and pursue research on various topics including land planning, urban design, community design, and insightful garden design for public and private places. Students will travel throughout Italy and France to explore architecture in many different cities including Venice, Tuscany, Florence, Rome, Versailles, Normandy and Paris. Specific site visits may include classical landscapes in and around Rome, medieval hill towns of Tuscany, remarkable private gardens and villas of the renaissance near Florence, royal parks of Louis XIV in central France, and the modern public gardens of Paris.\n",
+        "Type": [
+          "Education Abroad"
+        ],
+        "Brief Summary": {
+          "state": "generated",
+          "value": "CSU faculty-led summer program immerses students in Italian and French landscape design history through site visits, research, and exploration of architecture in major cities and significant gardens.",
+          "isStale": false
+        },
+        "Email": "christopher.snodgress@colostate.edu",
+        "Faculty Photo (from Faculty/Staff Involved)": [
+          {
+            "id": "atty65gfNrvTwF1bJ",
+            "width": 260,
+            "height": 293,
+            "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/otT_qN3j23QqwzVvbLhylg/4EcJ8P0W6m9bJ-0bKx_7rMm9UDAcjoCnK2BpBFdMv1uBF8yoxmMc0kNLxCDRK5vMjG2jfTKWY8JB1BjnilWgMXtTBc-CYjC7aqyiOOAv4QS6O-U5U74Z402o4HlU02iuCIyeWsRPGHg5s5kEX-T9zVOMwk5gL9AW85PLsmQ6fpU/Rr97_pAl2jnb5OQEYApLUonEBBFXyKTYPxR3zQiaZJA",
+            "filename": "download.jpg",
+            "size": 74444,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/_E9bgnDrDL0PJ5XYxgnTbg/l2jYRx_jHRdxNhagGFmF1g-uB-SGkgLe3lo6V4DyaZb98Pdf92pyjNpTT8ersTcFibZBiPFXVkN7Jcj0xeO4XRniBD3A3qtP0mnGh9DlnHX58o4wAB2VW9SE-lRMDrlxeYg0PT7G0UC8TeCZh8ng1Q/qfYrt_pdgmvbCbs5naveDJoEpx-x72MKQG3VQyLU4JU",
+                "width": 32,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/rg4glK_oJABaZkEJsub1zQ/LcJgvk6FVZgOqxfMiDqQ4PpU0sMGGZ-KEMDx9h51IuXl8_xZUYen3RvcaCh_LDVODxloN6ej1Kn_daobeKbGJ0uaJyPtaFRNqsR4cnx0cQjjkD_xhKaj8kkwRYcRPwkkGk_m4jv_UjjuN0ZxVFt9tA/Rdq0J8BFkRoiFrd4frLCNMLDfZyvfQizBFjmSxqFsK0",
+                "width": 260,
+                "height": 293
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/2ap8lKNojrTZdLaGH9382A/MQ7mK2j_2zYLn6L6eDMQ8QyXmYVkcqWLfn_6EsDuz6xBB7cdbIZHln8yXzLHgDlZGrIWuGrELWqDjuxtLIxfKYEhW1gD8FQQCJ0MUIODNGWPlqvFiWlmPkMv2gVO9kh7LlCHRKtSz-s7lvQ5RbvePQ/O7959CnYmgIsr_zHMYtyzPyBoMVDr27juv3oGq9aLPc",
+                "width": 260,
+                "height": 293
+              }
+            }
+          },
+          {
+            "id": "attYMdXWESIKKIqD8",
+            "width": 262,
+            "height": 290,
+            "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/48wF3ZNvaQJVbwKVmUVx0w/-prwL7PEHx5eSVv5jyktX8phH2nDXS5gavP3GU65-MQTOLTSss6_DWD3MhrmaP0IclBciZczST-_vThmYBMQohFXfdkEayoBLcL-icOlx-B5qxp7zHvc6Q43mij2sR-I4Ufl5sFZTpndqBy7DvE3cUuOJh2xRBEiP_F_fSijQlQ/TouOLp_N9oVHnZI-vfs7r436FPsAMkGrYup-6xP1jVQ",
+            "filename": "download.png",
+            "size": 165471,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/t4SA5f0U0GdIFWa-0Ua5EQ/XIsbgKdqjeOlsFE0QW2fzwu0Mu_hYfrK0uujQRKGipN2dcl0bcGvxG8v9oAN8AuufkoQ9fy08BhyClXl1XvKtxc4DYsHGjk9SYMz3KV7vkN9enkt0qggoKYcVSYdjeI2LZCmngKmSNrrB5jUQ_4OwQ/7N6_2_vSAEkQD_L3LX4rv3hNZaPvtQZ0bCEEmiJRqTE",
+                "width": 33,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/osyvREgXKHMFYLOUl3Lx_w/ZVx3REKfsZsfT1vQKDnHgAtFlAYZ47q1AdkpP9qNfFdY2fsEuyr6vrvk2C3O3pzYZABn1c_CbN2DpbaYTfxcDxEL6_lwTepOtS7ir2A7nHTjEv7Rt7wPX8lh8iSpwe2SG28SvUOV2Blmy7Lb8BizhA/NXO7rlqI6svcj614rgl1JV3v9rW3QX4ks22jQAKA-Hw",
+                "width": 262,
+                "height": 290
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/2KtiQjQUoRJuf2IZRE1Qgg/LcS2JMfb2-3YJb5dXRXyFlPc_IfufUQ3lZ6TI7Xv2I1qInQkTYipOhXHrBOBQUi_XchNjdZYOoxOEm8nqwsONuYKDjzCKbJm3UR3PBzrz_auFniq2lxhaND3mv_yz-mOFkPyxk0L38aOHsgbArSrHA/HyPJvFAPXh2URJj57Tnlya9KeO2etjP-AaxhdAPEm2A",
+                "width": 262,
+                "height": 290
+              }
+            }
+          }
+        ],
+        "Name (from Faculty/Staff Involved)": [
+          "Bradley Goetz",
+          "Scott Carman",
+          "Christopher Snodgress"
+        ],
+        "Continent/Country/Region": [
+          "recAYRw0uCTYfY4JM",
+          "recKWXyB3yQ6zHX6O"
+        ],
+        "Links": "https://online.colostate.edu/courses/LAND/LAND455.dot",
+        "Date Last Updated": "2026-06-24T20:15:04.000Z",
+        "Project/Activity Title": "Landscape Architecture in Italy and France",
+        "Last name": "Snodgress",
+        "\"https://forms.fillout.com/t/7ixrzaFakBus?id=\" & RECORD_ID()": "https://forms.fillout.com/t/7ixrzaFakBus?id=recoinYwLjUTuNFko",
+        "Department": "HorticultureandLandscapeArchitecture",
+        "Continent/Country/Region (from Continent/Country/Region)": [
+          "Italy",
+          "France"
+        ],
+        "Faculty/Staff Involved": [
+          "recSaQXn1KuqeCWSw",
+          "recF8FxVCf5F93MSi",
+          "rec9EqCacKKcQeHN9"
+        ],
+        "College/Division": [
+          "College of Agricultural Sciences"
+        ],
+        "Department/Unit Primary": [
+          "Horticulture and Landscape Architecture"
+        ],
+        "Card Image": [
+          {
+            "id": "attStAyap6KuHIXtK",
+            "width": 500,
+            "height": 333,
+            "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/iDCmDSA7-1ANPnX8DwSELQ/8nW0AydhaMvDbxjf6c9zRuxIlROicX6f-jLA_H-zU4JeQBd7dpCryzLMIaS9Yc5wqEiOxWGNSuzi6zfAyWm-5gY8Jtl09c6M8__19wRY6QJHZeDE9MCSn8-OKk-C8tA8-X7_twiMlq3gCrsdhwb6vnxvfoY9w_wk8Hg70Bas2416q0HM6eAknS3mI0ZC4yr5/k20THT6eoaJrs6-8U1kdz0jWHUPpP6SefswKtfLB-UI",
+            "filename": "Civita_(Bagnoregio)_-_Panorama.jpg",
+            "size": 58185,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/AzdCgIVTB1I_rqK_OBYGhg/M271m36Yo8es3gLOU-TULz3wyluICk-ME4NmiMTqXMa9-f0kPi9vKbEhxYyn108vxvtQGDNhLYaElZxGRLwm8EhkM8c0wUluFPGLkg26k5hSRLbBGqKRQNtr7pu88gw_Oo6_AR_5mHrY4J6vg7egkg/3ararIaDXSXKNSAEM6dtNMwLGlPwyfW6XmKwFi2HyG4",
+                "width": 54,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/_Xlna2d8OVR_0D8CckE3hQ/pynEh-eKfAQUFcQSnkmBzdNLEVli6aYwcV54b4XF3cPTrlTxajP0EsYT5wiKIdzaSglF5UfM4mH7ikEpJI8r38XE1DHr8ohKsaW7dFbfAuv2vvR8wY9grx3RBNGGiKieiNxPP4_yBF7OIPFMR_lnNw/lo_HrxuadWzNm2swyN66i-Jm6SOHZ58E30H7U2dG6FY",
+                "width": 500,
+                "height": 333
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/aKpYxwK__9elNIBId-umig/GdbP4xD1PU3jXuURN8h9yqNCcQWZvrB8mc8C9xlpM1cTRpSzPGl8gxMrkj86pOXDQelRmOKnvnizdJ8h1BYIyqhUusSQG36VyUsuDM6YFAnViQvMrfs8q0Sfn3qzFZV9UZ4C-LfgclcnKvcq2lllwg/5LuB3JjU_JgBpVAANmAixaJBnfh6ywz3J7IK-XouZ18",
+                "width": 500,
+                "height": 333
+              }
+            }
+          }
+        ],
+        "Status Tracker": "Live",
+        "Source": "Entered by Team",
+        "Department/Unit (All)": [
+          "Horticulture and Landscape Architecture"
+        ],
+        "First name": "Christopher",
+        "Production Phase": "Live",
+        "LONG": 12.1136,
+        "GeoJSON": "{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"geometry\":{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[42.62780000,12.11360000]},\"properties\":{\"name\":\"Civita di Bagnoregio \"}}]}",
+        "LAT": 42.6278,
+        "Last Modified": "2026-06-24T20:15:04.000Z",
+        "Card Image Alt Text": "Italian village Civita di Bagnoregio "
       }
     },
     {
@@ -481,259 +1544,725 @@
         "Date Added": "2026-03-25",
         "Status": "Active",
         "Project/Activity Summary - Story Content": "The University of Glasgow's School of Veterinary Medicine, has an internationally renowned reputation in Veterinary Medicine, and is fully accredited by the AVMA. CSU is working with The University of Glasgow to offer a unique opportunity for high quality animal science and equine science students who wish to study veterinary medicine within the global context.\nSelected students will study the final year of their animal science/equine science degree at the University of Glasgow as a study abroad opportunity. During their time at Glasgow, CSU students will study alongside students in their first year of the University of Glasgow’s veterinary medicine degree programme (Bachelor of Veterinary Medicine and Surgery, BVMS – which is the equivalent to the DVM).\n",
+        "Type": [
+          "Education Abroad"
+        ],
+        "Brief Summary": {
+          "state": "generated",
+          "value": "CSU partners with University of Glasgow to offer animal and equine science students a study abroad year, integrating with Glasgow’s veterinary medicine program for global veterinary education experience.",
+          "isStale": false
+        },
         "CSU Affiliations": [
           "recFurKSFppExwpnI"
+        ],
+        "Email": "christopher.snodgress@colostate.edu",
+        "Faculty Photo (from Faculty/Staff Involved)": [
+          {
+            "id": "attqoB6P4E1Di6gaf",
+            "width": 260,
+            "height": 293,
+            "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/IM95iNRIJ4OBw9QE78HN6A/45PR7EuFF0XgMw329wb1UNAOOEqGjCAlXzaPgMzeQRjScYGwqlU9Cu4_E5Dv1AiL4n4TH3sTc0iow99AMZ6aV5DL5zu87KGv0yq3grgPNYGmI56QioDdzC9VH7v4ZDblwxtCpCJ2RU0_2rZdsLWMnbgh7Simk1rze3_P3kozK-w/gAjWTvcVn0cPHWcDP-oURzCtO_3phFvmhvmH24g0CDE",
+            "filename": "download.jpg",
+            "size": 56774,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/Ti7VcyQSvfaQc6XSd2OVQQ/yWGm0h9NjwJuTztQlmGl71ETG4j174lCurKw7FsSAjlwKV4NbrIAa2nS0DXru3OeiDmFJF14wjOPSPs3kQAYRfIOBi4l41eWVVmDmQYZPgu8wX8GEZH8PxdB8lTXdedVFrYTtNREfoZFoaj2R0wXLA/tyvYbfD2M0w9dCM-SadY4SPh3zS6mI8s3SOYY5-bMUU",
+                "width": 32,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/NgTqm7os9nvKCrHpHxIm4w/Pw4E8Lj3Xi089y3k3ZlxWqYkrXXjIh-h9HeoQz864UNP16BpUM5dmeXM2gpt3wUaAJKdb-Yx-JTjsLTuz8pQcr9K7jqBBDvZaK32WigZTxcI69A1IUQTO4MKeOG-qaMzl2IrZQZMbkkXFerAjBKSsw/SqukhegQiDGMJKAzZMmeY6pCG_Y5u93IWFI3xjyGgqw",
+                "width": 260,
+                "height": 293
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/y8LetXR4vdlnp_ChHxPM6Q/BuAHrR2kupoLN3hbBon_z6jhhRTTuTsunonUt1OqCqQiYUtjFNsLCMrxBS5wBemHQG9AiIz2BJJTwtkEknDMWhGbRLtmVtoxCbC1ZwR4pVw8LIR9GD_VvhA4L6RxLviL_YZJ2P5IqvUFem76wnIbJA/Myq48npB3FP3Cp5HZ1wMfHeE5dRN4pINqY74Ky0ZSeA",
+                "width": 260,
+                "height": 293
+              }
+            }
+          }
+        ],
+        "Name (from Faculty/Staff Involved)": [
+          "Christopher Snodgress",
+          "Shawn Archibeque"
         ],
         "Continent/Country/Region": [
           "rec1l6KeHlSPOUPYU"
         ],
         "Links": "https://myedabroad.colostate.edu/index.cfm?FuseAction=Programs.ViewProgramAngular&id=12326",
+        "Date Last Updated": "2026-06-22T23:01:15.000Z",
         "Project/Activity Title": "Glasgow University Partnership",
+        "Last name": "Snodgress",
+        "\"https://forms.fillout.com/t/7ixrzaFakBus?id=\" & RECORD_ID()": "https://forms.fillout.com/t/7ixrzaFakBus?id=recIPat8aarlTMcUU",
+        "Department": "AnimalSciences",
+        "Continent/Country/Region (from Continent/Country/Region)": [
+          "Scotland"
+        ],
+        "Faculty/Staff Involved": [
+          "rec9EqCacKKcQeHN9",
+          "recO8qsPfHvLXosuA"
+        ],
         "International/Institutional Partners or Collaborators Beyond CSU": [
           "rec7U7hz2nAAFX1uO"
         ],
         "College/Division": [
           "College of Agricultural Sciences"
         ],
-        "Department/Unit": [
+        "Department/Unit Primary": [
           "Animal Sciences"
         ],
         "Card Image": [
           {
-            "id": "attqt51N8tvL5IxyQ",
+            "id": "att5qi7S4WMb4EILN",
             "width": 259,
             "height": 194,
-            "url": "https://v5.airtableusercontent.com/v3/u/52/52/1777068000000/-WdYxz-BHk7geReExLJwhQ/d0qdwtNf81hQO7J8tVxGJiA0VTWUwForaiq-CHcRd43h0jQ7vHa0nNTCOqhWnmLQwfom9gbXIWLq1ftmXNGiQrt1dIFFaA_UtoKes5Pe35M8RfjJ0B2dRvSRpV1t2YX-IoiFDmXhA61MEGLBVgT9w0BOkJU0hiVkoo6yn24sdGc/2IK08b52YAQxP8GlnG8ugyp6_rTOpeJzWnL9S_7HSG4",
+            "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/La98vSdBUfm3weXEH8XofA/xG-IHjJUCaPzMafw4gmWpWsJXbyoa-5hr7DVyWmDNjSnXpJF2PZivpW4mlcouF7Qf3CLZ4UHDPEuXHFLJppwfvYsCJIQzB0ge6mNzeSqHSB9ATMZhxbex3oylGgZsiBO72fDou_vD1OJAyyI-lKMrwxxxtb7wYfFKqbEfaCvriU/Pri_0OzR1zHONFuTnMauZjHAhAoD6kffbkBLRxVMBBU",
             "filename": "Glasgow Vet Med.jpg",
             "size": 14102,
             "type": "image/jpeg",
             "thumbnails": {
               "small": {
-                "url": "https://v5.airtableusercontent.com/v3/u/52/52/1777068000000/6gYhOHTs59ki0Eku9Gzf8Q/7b4OEANE91cbxcBjFkymVBDK5XvnEEc_C5a8iFtJolJ_PW40WY06zmW0nQ9XBTh5WIH32as25XQsZA5aEgpv6wXzrBBnojgV9QtIOrCKqp31FBOsz6bw1a8qRrf9UEuciqZjuGe3eNRQSBsLIpLvzg/R5cokf-_qvOgzZdL-iSQYh3pQDdfGBcIbQfsqIB1l8A",
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/usvkal1mbhv7ZSBP3Tq6OQ/KHmbNjB1rY4GrXOrf2zUWlQn4bS2N9046_A6hN9Cnyctjx6XxrvrZSqriREuPL7-BSntfjKGmggY4Sr23xwG5tCEdRdfM9vOjwmfgHc5iimVqu5gXrImSvWE1rADy34NFm5L24fbT5dhqyCOFUlFvg/ahAJ9ZjhM9TqzAFgig1Q2av0g3yZMao25MvQYj_3DL8",
                 "width": 48,
                 "height": 36
               },
               "large": {
-                "url": "https://v5.airtableusercontent.com/v3/u/52/52/1777068000000/Fn5FCr541JuZepExhCRCMw/yCTnKMaTljV-0ZbTyrk-D5yD6jzSepXsi9myo6Lb_5CfoUrO5pzwgn5Db0ufGtrq1Bv8cIno822BOSpjd4WlMBHme0mfZNR3-dVy9TEDXlcgyqK8cCEmiiWP4s8NEEpxBBmaNix2756I4hXZpoBJ7g/yMFKxHQkLx7O_gda4qGswS1IbxTotooQGSju1ufKWWI",
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/6pQT4TNh-DpwfG9LZmJ4lA/67P3C0SZy7wjXU_yTkp8V0KwGJIxx9Q45H9edQZ8Ft9OkZB9FBzoBsktqIvgpbicJ35awLYBauf5V5yRooDkEQN7zbuhHyHFn-j0DET88pQMgz2jI_Blj_H3zwVeUZclhn_bmiCVLEEU4gsb59ESdQ/Ljid_tkzvFv21BE4B30LaROXcIDFzhPeohWnjMXAeYc",
                 "width": 259,
                 "height": 194
               },
               "full": {
-                "url": "https://v5.airtableusercontent.com/v3/u/52/52/1777068000000/oKD2DZPKMsTnp1sePy9GKw/LFN1txLq3XWuykrxATc9aKFJDTuT5xPQ_Ntrf11fUCVTH9M17IQ1D1vQNONOmFS_jw1d-nD4Ecu5tyjX3V4xXzD3iySl-A38CoLbDSAlEnw3JMAO8iugQHP2CTH_98W6tH5hVnNTdsquMRKdKmOVvw/xhE8MOgXVFQup8kMUp3Hd4jC-NcTzir4z1Mk6MNW7_0",
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/jDxGV9Dh0XOsBmF-cvM16w/bAwAfLsUndiXZNcoUHLM5M-b0lgZznk_vA8EygBczu3qoIa4yzOwnkb8faxY2mNPGaVKq_7Exw1cGK0J_j1ZJdNH3dL1-1vKYMUWED3IbM42SPAYE_Oa2GOvJ50_yF6Q9KvTqR1j-tfU9A8esWau9w/Cb41ZLJuJaNzmiip2-RLdwVpLKBqRYf9pxjNSSbrPlo",
                 "width": 259,
                 "height": 194
               }
             }
           }
         ],
-        "Status Tracker": "Potential Story",
+        "Status Tracker": "Live",
         "Source": "Entered by Team",
+        "Department/Unit (All)": [
+          "Animal Sciences"
+        ],
         "Story Tags": [
           "Education"
         ],
+        "First name": "Christopher ",
         "Production Phase": "Live",
         "LONG": 4.29,
+        "GeoJSON": "{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"geometry\":{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[55.87244000,4.29000000]},\"properties\":{\"name\":\"Glasgow University, Scotland\"}}]}",
         "LAT": 55.87244,
-        "Card Image Alt Text": "Glasgow University Building",
-        "Date Last Updated": "2026-04-23T17:06:21.000Z",
         "Last Modified": "2026-04-23T17:06:21.000Z",
-        "\"https://forms.fillout.com/t/7ixrzaFakBus?id=\" & RECORD_ID()": "https://forms.fillout.com/t/7ixrzaFakBus?id=recIPat8aarlTMcUU",
-        "Department": "AnimalSciences"
+        "Card Image Alt Text": "Glasgow University Building"
       }
     },
     {
-      "id": "recifUfo3un63NH8f",
-      "createdTime": "2026-03-26T02:48:51.000Z",
+      "id": "recR8n2qNjLNh4QNj",
+      "createdTime": "2026-04-02T05:16:43.000Z",
       "fields": {
-        "Date Added": "2026-03-26",
-        "Project/Activity Summary - Story Content": "The Colorado GROW Youth Institute at CSU Spur engages high school students across the state in global food security through research, mentorship, and hands-on learning. Students explore agricultural and scientific career pathways, connect with experts, and develop leadership skills that advance community and global well-being.\n",
+        "Date Added": "2026-04-02",
+        "Project/Activity Summary - Story Content": "A sabbatical at Chalmers University in Gothenburg, Sweden--in the Chalmers School of Entrepreneurship--inspired both a new graduate program and a new line of research at CSU. \nThe masters in Agribusiness and Food Innovation Management was developed by Dr. Graff and colleagues in the department of Agricultural and Resource Economics to be offered at CSU Spur. The program adapted key design elements from the Chalmers masters in entrepreneurship, including a team-based degree project in which students develop and seek to launch a new product, technology, or even a startup. Instructors in Sweden have regularly provided guest lectures in this CSU program.\nDr. Graff has also collaborated with faculty and Ph.D. students at Chalmers on research to understand how the dynamics of the venture financing lifecycle influences the success and thus the economic impact of startups. This line of research led to a recently published study on the venture financing of agtech startups in the U.S. \n",
         "Type": [
-          "Teaching"
+          "Research",
+          "Teaching",
+          "Outreach"
         ],
-        "Email": "aryn.baxter@colostate.edu",
+        "Brief Summary": {
+          "state": "generated",
+          "value": "Dr. Graff’s sabbatical at Chalmers inspired CSU’s new Agribusiness master’s program and research on venture financing, fostering international collaboration and innovative, team-based student projects.",
+          "isStale": false
+        },
+        "Email": "gregory.graff@colostate.edu",
+        "Faculty Photo (from Faculty/Staff Involved)": [
+          {
+            "id": "attBAvKIE786beSp7",
+            "width": 257,
+            "height": 290,
+            "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/IY1YMlmc7p_J_378lC-I2g/sxbwEgkvLSKrf0yyELhecktUHXKdjqHPAKpll7CfXyFgNQT0axLbkl9UJVuWliejWYPm1PMBWahOWi7pBMdr7LT6IbS4aqaNpZeUNZ5h3xJUcapN4MZ_pkMRDT5bjlSvU89l7uE0GrtaDqVKzjikidTSi0Yi4kTCaiywIpED8SA/f4ua06EZ2gsL0ArZMWye8noYrusxswldNnl3FWcsyRw",
+            "filename": "download.png",
+            "size": 86771,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/S7HujNXgciSXoLsRoGzF3w/4wBy7A1LzCvsEjK-1giYUoA3cupJGimRtQXsKBAj1VLJ10s-FhhY6gGCYBQH-i0T--TENcm6K_Fi51JK_FjY87Vp-ZsnXbSS1xnt1ELuNkJpsajfcFRGQ15bpLLg_pAQHnJ7NcFKlnKhXtDDsr_02Q/zFlhEPj1gZYIZsMZ30YQ1lSChr3yz5-l69nvpyggauU",
+                "width": 32,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/4UyPPFMrwOyuFN2ntoUXlw/liCOzEwvENBK9m9uL-Rm65r2FbmnObgM4vI-ZWM6TraK4VIPX63ugpVl-MPAmbnevl-MfpBmFd2YPLyj_In-igzTmdCytdXg6zCH8oyRT4gnytkUCnDIYthixVatC8OSU4GiqoEbp8UP3Ivis5Y0yA/_DqwDjhwrBt4zdnQMQ_mdncWi2acTJ2BhU7h7RSsqiI",
+                "width": 257,
+                "height": 290
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/GgACaqb7RaLYN_OTWZ0OKA/n9l_cdYt8IBGbuhqJxaIBCqH5ZX_VYUiTySNRSf5g0PHTPJuqqtvfxDiDdd2FPMmgkWFMGsFIjl6SQWQbTmNjX277XnHBZ4JIr3tOyooX_wDo4ubOicoF7lsmX7OaQ3_nvbsksZTqc0HJWla-MNYLw/BHKgWd0TMuZxKbEdDwMEbaQy8vymRes_pxO-p67yZEM",
+                "width": 257,
+                "height": 290
+              }
+            }
+          }
+        ],
+        "Name (from Faculty/Staff Involved)": [
+          "Gregory Graff"
+        ],
         "Continent/Country/Region": [
-          "recZFtfzZVyXkfk8u"
+          "recOddYAR2FDkfyR7"
         ],
-        "Links": "https://csuspur.org/grow-youth-institute/",
-        "Project/Activity Title": "Colorado GROW Youth Institute",
-        "Last name": "Baxter",
+        "Date Last Updated": "2026-06-24T20:15:16.000Z",
+        "Project/Activity Title": "Chalmers University Collaboration",
+        "Last name": "Graff",
+        "\"https://forms.fillout.com/t/7ixrzaFakBus?id=\" & RECORD_ID()": "https://forms.fillout.com/t/7ixrzaFakBus?id=recR8n2qNjLNh4QNj",
+        "Department": "AgriculturalandResourceEconomics",
+        "Continent/Country/Region (from Continent/Country/Region)": [
+          "Sweden"
+        ],
+        "Faculty/Staff Involved": [
+          "recIiIb3grWm2yGWL"
+        ],
         "International/Institutional Partners or Collaborators Beyond CSU": [
-          "recGx281xwWEM42NX"
+          "rect0ETwxYwYOPNul"
         ],
         "College/Division": [
           "College of Agricultural Sciences"
         ],
-        "Department/Unit": [
-          "International Agriculture"
+        "Department/Unit Primary": [
+          "Agricultural and Resource Economics"
         ],
         "Card Image": [
           {
-            "id": "att5tSNusTG9TflGC",
-            "width": 1280,
-            "height": 853,
-            "url": "https://v5.airtableusercontent.com/v3/u/52/52/1777068000000/1Ds6Qko7adzSRlgN3VvUFQ/ttVrMAYb04_KXjdlkE4CfQApDY4uBtN2C0iKOcEEiDDXLmRapsmACINUdBQz0HeBu-PR0v8rGwVDspBmJrW1_t7GxrTbyYx2013aQ0XKkgkjU4tV0IxD7Swv8NY9oyx6UFrDDuGy3r1gZTR2WNDgScSRRJUr4OsIc5hJfGTQcyCwO6mndGJ7MSRiwK2Rudjn/BDMz7uPTKBSQ0qarJNshBHHqjb7UegOeLioGGOnZnlU",
-            "filename": "vegetable-3267624_1280.jpg",
-            "size": 183975,
+            "id": "atthlvvqRp0b7yO8d",
+            "width": 2540,
+            "height": 1425,
+            "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/iLZpoR5ve4qhimJkJvNhag/8l3uA-Geq3q2dvc_7ONImgyuYzkqWa-RoPhLjVH_Qa93bkuHvsGLHgsRN6ZvT-bEGD4LiiKUy9cI2sjNGBYdNBez-_Tnz8Ub4cCy7AUzKtd87R5M43RarMOrPHYlw8LbqXlVCZzgL2Ryz3YeYSyQKXol36CKM4-taIMRBVQIagY/7rd-OvMmwREjvczQ2PbPt3DRsnB3RiiyJamGg7LXPjE",
+            "filename": "20160627_150152.jpg",
+            "size": 644905,
             "type": "image/jpeg",
             "thumbnails": {
               "small": {
-                "url": "https://v5.airtableusercontent.com/v3/u/52/52/1777068000000/DRDxvjEELCQZlUv2Zdb89g/oslBs3GhsqfoZBypevpbRHEhu4fKW6tVvzR8xivydHBukDInGQV8Gy28W7lNWPPTdKi2RIhLhhwNUJWBuTbF2VZjXLjWdLQymCKcGNEXU3c6dZvBJ0sZAHFi3q83z8hjo9tzd7lbTeik9wCkHMa4HQ/7LiDxP4a8oFUXBRaXwbADQBdo45SMwsc9l6HIHnI7Cg",
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/bXpQOOimKqyAGQ_Knpx3sw/lJUdNDC1FFwVbo6Vt3DDvaFk4tp5YqJ9YLXQ8VX8w0_UWJ7ersaEhjz6uUT7wg9_kJD0fjD5cJC2HiNsApNE7l3tcuZcyTNSqu1eSuV1oSZjILRfC6ZfnM6t0yyWE23wjyiInhIIeGYmukyY1Wv67w/WHAbMJie10lzuHs-lS56u7gDk5Yu2iCjE5odmm4aFFY",
+                "width": 64,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/MtUtTWu9gScP6hKaekI6Jw/E2jnUG6OOYK3j0P6C6kMZMj6J1cR6BnUcS2z3hba5xhxmEqs1mJeCP_8UfPk0KWh7Mb1bnj7EyDKaFuLc3khW1jVQfngqStelpN8Fnof5PKSz3-4R_jmiGBfpB0ORVldTyrmHPZ0al6k4pEQclgJgQ/HGF8R-9I3n-pHRCk64_ji-G-2c4UeCNrZX876Z_TU9M",
+                "width": 913,
+                "height": 512
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/BCHXb7svgwMiPZHwYzbugQ/o4TlFbQnEPZyB-j32rz5z29hKZNellylG__EZ_V51_77FPdqv0sCrehG1Ffai9SiLdL9dZtKv3sgj4cToxSB0NmN5OO6CLA8CqbGlvaVeQ_ZPiUJpCF655NCdDGyUGvueeqOofeskO2mag699Ok8lg/nNxTXTM3WqgiA98d3YVI9HJfHZxoaSU7ThKcbSi_nYc",
+                "width": 2540,
+                "height": 1425
+              }
+            }
+          }
+        ],
+        "Status Tracker": "Written (ready for review)",
+        "Source": "Entered by Team",
+        "Department/Unit (All)": [
+          "Agricultural and Resource Economics"
+        ],
+        "First name": "Gregory",
+        "Production Phase": "Live",
+        "LONG": 11.977,
+        "GeoJSON": "{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"geometry\":{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[57.689300, 11.977000]},\"properties\":{\"name\":\"Chalmers University\"}}]}",
+        "LAT": 57.6893,
+        "Last Modified": "2026-06-24T20:15:16.000Z",
+        "Card Image Alt Text": "Chalmers University in Sweden"
+      }
+    },
+    {
+      "id": "recQe0hzN2ViB87fR",
+      "createdTime": "2026-04-12T21:29:29.000Z",
+      "fields": {
+        "Date Added": "2026-04-12",
+        "Status": "Active",
+        "Project/Activity Summary - Story Content": "Faculty from the Department of Agricultural and Resource Economics regularly participate in a faculty exchange with had Vietnam's Foreign Trade University. \nEstablished in 2008, the CSU-FTU Vietnam Economics Curriculum Project originated as a curriculum development initiative, specifically to help FTU align its undergraduate curriculum with international norms. The project was established and supported by Vietnam’s Ministry of Education and Training, who funded parts of the project for the first three years.\nAs it evolved under the leadership of CSU Professor of Economics Bob Kling, the program became a multi-dimensional partnership between the universities. Since 2014, more than 1,000 FTU students have taken courses from CSU faculty in Hanoi, while almost 200 FTU students have transferred to CSU to complete their CSU degree.\nBeyond the success of the core programming, CSU has welcomed more than a dozen FTU graduates and FTU faculty members into its graduate Economics programs; provided short-term research methods training for visiting scholars; and extended cooperation to also include Vietnam Forestry University and Vietnam Water Resources University.\n",
+        "Type": [
+          "Teaching"
+        ],
+        "Brief Summary": {
+          "state": "generated",
+          "value": "Since 2008, CSU and FTU have partnered to align FTU’s economics curriculum with international standards, resulting in student exchanges, faculty collaboration, and expanded cooperation with other Vietnamese universities.",
+          "isStale": false
+        },
+        "Email": "stephan.kroll@colostate.edu",
+        "Faculty Photo (from Faculty/Staff Involved)": [
+          {
+            "id": "attiaqP1WHUsbj0GS",
+            "width": 260,
+            "height": 293,
+            "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/_0TNT9hC6C0LmxgXijT_Pw/_Pbu4fb7tPfplX3BXySpG5JW16EsHzmitvES9hlaUGFtyLbkIIYR1ST8sooESmHubse4TtMaNN-IptPtGhWJxCcvTQ0qUNXgbLghISHjG_mNUQL1pEgf3DDbQbjraud7WS6R5Pj8rl8m30cpe-pMjsGdjHQ23OYn2DlSSMBOigk/4X8v84i2SVjwXc9u_M-ifI9GzlduuwpQKqUb1s5U3Xg",
+            "filename": "download.jpg",
+            "size": 81957,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/Pdr9cVpiWUiPKw2wQC9YgA/LqoylSGdhskNI5qbdTIQ1I5SzEcHe8fCK1xD3FGkJfgJEZ3ylSWBURTUaPlq3LUnexOr_SXHFZ8BuRS0PH1WMYKmYAu1dRiY28DZ4jf8z6Q4f-C9XM8Z3k8b0n6obEMezFuX4-2sui_UlYFvMy832A/4jqdU5MdRHp83uQTfOpNdWn39peCHQ_9ts_HmENxubQ",
+                "width": 32,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/na8VllxSQKndUvid-ckzsQ/UshVPMz5-RTnuJnHqRIokboKCtG8d9o2xyIk9CH-s94A1D-6lMM_44GYlnHH4vYN2MfdeX30WLI_RiNOGLeiv38AKAKYeT77uwGyK_4UvTJzYBIigocJ-X_wB3fu-Bs2yWRPW9gASHlnMe3WZgy16Q/FPPnWBDVKxDSIQIwSctiqaX6DJ2-HpFL4i9h_XZCcME",
+                "width": 260,
+                "height": 293
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/xI-wIuAuRB8GDKTF9R1wqg/VlKdEw6aCaVblS06oq-iOgQxsFwQo7FdQQRYITIjyxMamjmAGON7VT9YEgMXeUnE1C1lTx1Qa2-pwdIY62hmw-0LE1U-OgTdJRXFdWAsH4Hn2Cslg4ZJafXmRiHCHI-9bozzWPnYcO-4K392aOC7Hg/wk2S7pLumxkjLD2DKE6xR4qG2Lno8qcO-LKqEnPyhho",
+                "width": 260,
+                "height": 293
+              }
+            }
+          },
+          {
+            "id": "attsgzeuqJGxU1c7B",
+            "width": 260,
+            "height": 293,
+            "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/y6mJDjNLOTqAe_kDBzRQjA/cGCUz2Px89gCGnax5MdjJ0Z5uBSuiuHHJnoruAp12Q4EaH6aBy_g-J54YvtByNB5kw_dI0tzTMsRRx5yCV0XQlV-Ev0ojTBcMiFmKFv9Hqi0_Q3BVtJOdFjWIWRopZ1VWSBrymvKYo9Fw3MlwIxbJkyvfEGO70BI8g1LatXewMg/0HsVUicbAfGRQ_f2GebjIkccHSae4SJMTxDo8sH7FR8",
+            "filename": "download.jpg",
+            "size": 86121,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/zGgeIerR2pRyni-GOO1mhQ/e1PCsL4xjzwkRoiNayQrsgr6ep_3zTYbMPlpqXdjUDnsEd-wdfsp9mI2MGZKR223-eLJyCx4KMCSUigL9frAObx44D52mtX_xJEEQoZuXUIw8V4oeqtU4mXk161aOtdPwybL9HRXLGxWAURUo3l2tA/clfJnXzGsrOamOJcOmSTYc8ApSmS0bf6_jTfsjuzZjk",
+                "width": 32,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/Ttw8530IIpOnSZjK0kBBIw/TP_ov_dGDP3P6BPpvK9J-8xlS_emgFbSdV30GcBiTZ_4pwc49aO2tkgnA54_2vAiVq-wUzMgaaP2GQq2z4aruXUYhc3TNRqmNLcC2Sb5TNVrdD5PqvoroYvzM_BpJ8lxYc7nhCz7Kfw_yw0lG0UXnA/iB35PqpIBzUmb8aNbBPKWDVJUPIqehTWj6o5eJH_two",
+                "width": 260,
+                "height": 293
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/rcXzE36rS8r9RkcwN0zvcg/u387TM0sPN-vZSY_kVZoFnYVlUpygnIpKQliqX_7ZYkk3PT8YdIUN5rWAZ83AY39KdCCSdj2LZOAyOQ6HNsIeSX9vcWo6N2QNvyb9l1i_-4PPQDiieBzBgGwCL0f18-k3SApQXZUpOKozqaldg9t4Q/LyOrWOURRXdhr8N6PqqAWlgmY4LcoPpG_Hjcg3kOphw",
+                "width": 260,
+                "height": 293
+              }
+            }
+          },
+          {
+            "id": "attg1UGnXcIK3kcmf",
+            "width": 260,
+            "height": 293,
+            "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/GMYwEzwoIGD59eMD8-R0kg/KJy7iECnuCsWA0HUt6mxAfYcDPofwf5gfeILAeyIYHjjs-YkRyEF0CDEkRBTyBK1Nm-eGSB3KEFgNuOUsU4LLTrC15oJ5brETls7dsIySRjKh3z20v_IF6sqZ2f_U8mvE9dB55GuRkhLa-4NdjuBE4K5lh2n8jeMU-8N4IFX35E/2BNZXCGqW1oRUoZdKtrUzqtk53rL_3PUI9mfs-92m2o",
+            "filename": "download.jpg",
+            "size": 50730,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/ZqUTIZ4AHSiz1g2oRkD9vg/p0LJg-pXNWx2u8-6iP7HDzHMNQED8BX5pYp1rkIzdh2KK0ULsOMktg6RarPHTGpvOmpv29cXNQHp3_Y_FI-VARIA4WqvnNQmWm8aDTMGyBYd0YpLS3mGN7kJpVJcO69Ek4PKR4FVqENJ7AVCRKMxwA/HjL9TMTmlmRKn2wz_u_LaBfhWM4-cQq0V-wj9Bb7224",
+                "width": 32,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/_nSCLgHsJ_frDJANtQ8TLw/c_M7r7Jy8MLO8-sQ7cE49Qw96lQGHY5aY52VV5ZgFkt4uux5Drvi6P8X1eVqeiMZhzLu0m0gS8QEvBcSqvos2QqRY9TxGFHx-hsu7DJ47l1suxE00jYXsT-JsueF1-ftoamPHS3hMHY01qF7t-TIdA/fWOtotYwqAjtTbeglDWFkH6_CtDVIzr6HVQTMUqAUJQ",
+                "width": 260,
+                "height": 293
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/F3UF5wDCnpH_DbJk0cF-qQ/Ziput35TIobwMmtVM1bMfZU9zL_ra88VStgtyEfMiYjGd_wmXC91G2y49FQ_UQWTLW77SwPEKjnT2GfCF-TNJMLmXyYOwyRBzGUtZn6fo_H5Bvjj1Uf9SAT6jKGWTwvBb0LDl6RIvayu_V-Q8VBJeg/yUKBhqsjG770NaRkvdN-0kgVcmoe29Gcilsnqru1TSg",
+                "width": 260,
+                "height": 293
+              }
+            }
+          },
+          {
+            "id": "attsZOWlKSLz7DgBZ",
+            "width": 260,
+            "height": 293,
+            "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/mOMpJ_9aGu-YftpuyQOqrA/4Lp0SYxoBqcD2Ti1fVJjJLCyldAK3TLC9pqsZQsQAPBagRsX1Ef8YEDjzS_WvktNfuIQsPfaIehfxqq5j-_DktSGD0vI4-8OTzti_BvUAeUZLQSuiPl1nsM2IFeafnr-uBnb2QoeofJOAqoHAWdP0Sd9dQr0tho37lyn4mOMugw/1h3yrGV70hAK2F4ngkoOI4TTbhynLifqy9796ptZFBI",
+            "filename": "download.jpg",
+            "size": 110261,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/KVDZaHWje6DAK7_QyW6hYw/YjzRX990_ieHtWSiuHHYzt220vylxFAEgxfcboID26yZal8IP8kOffQSPNjCMu6j7GVOb0-eaxRH6Z-Lsz3enz1DP7reYcPTEDNn6H_jroZ625ooDlgcTtJs4636VPLlhUZHGo3hhhDwCUwpX772Vw/j9ahjBApc54QLf3-gsO5ge0UnSOwWGGyE-adgFT4A5w",
+                "width": 32,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/TWoYceBPDI1Gc3Qyty1Gzw/EzEh-rfzVi0pGenQDZP2PYFjKYbYbYdLPNttnG3hWJL94CqBo10YVDl9ZrIwFZe_1M8hWLenBjis5n0re7UIVyyr3iZYEAJh4B0PsBC1DfHM4ZxL-SYRVDqX65Wiq-1fNQA1UmL9l2G5q491XidkvA/ZcZrvaLthGN96cq9S5Jgo78uLBLclHef8Qt1cPzhptw",
+                "width": 260,
+                "height": 293
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/LX238kn83w6XnXJq1SS4iA/uekeNb3bjbEz7B7hcsvybizYLXFDi98Ll1NF14_Py0E6IT8YWX5qWA0pX04jEFyX-Wx5oHaHdxe2NmQdAD1ov05vUZxAjks_Tb_WW1QkD2pX1CgKEWHRLQIHnWIEwWZVKb5DbVJHLMfdbRiHlhMCIg/zg-iQ-1cLPEJgpDYWMESYSM_daq7ecHMsPB_5FagNWk",
+                "width": 260,
+                "height": 293
+              }
+            }
+          }
+        ],
+        "Name (from Faculty/Staff Involved)": [
+          "Stephan Kroll",
+          "Marco Costanigro",
+          "Jude Bayham",
+          "Stephen Koontz"
+        ],
+        "Continent/Country/Region": [
+          "recEFj7BptWPOIzPg"
+        ],
+        "Links": "https://economics.colostate.edu/about/foreign-trade-university-program/",
+        "Date Last Updated": "2026-06-24T20:19:15.000Z",
+        "Project/Activity Title": "Teaching Economics in Vietnam",
+        "Last name": "Kroll",
+        "\"https://forms.fillout.com/t/7ixrzaFakBus?id=\" & RECORD_ID()": "https://forms.fillout.com/t/7ixrzaFakBus?id=recQe0hzN2ViB87fR",
+        "Department": "AgriculturalandResourceEconomics",
+        "Continent/Country/Region (from Continent/Country/Region)": [
+          "Vietnam"
+        ],
+        "Faculty/Staff Involved": [
+          "recaNf4t1cwaqTonj",
+          "recDEZteZjQxoI6Hb",
+          "recZlN5urTwFWK43h",
+          "recoS777C2iDuCH3S"
+        ],
+        "College/Division": [
+          "College of Agricultural Sciences"
+        ],
+        "Department/Unit Primary": [
+          "Agricultural and Resource Economics"
+        ],
+        "Card Image": [
+          {
+            "id": "attwbzZwWkoYpbiNP",
+            "width": 1280,
+            "height": 853,
+            "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/VO780hx_5rAGtrtD6kWGug/HN2a59Zv1Od69aG3J_GWCZ9RrI3Ho8_b9YZnL2D-zDNogj68eXtrKdkiYj4JDP855u7o1fiErUDJxd4vyg4MXmgrgZykf-WLq73wnxxMRBnkrcJQWYavMQfj8awP75cnt1k3_6lx5ryDIfBqxXxBmgFgFjyX-okc45LwMkDmpbI/SX-pm_nfVAcR5NkW1iRSBj3J6TmG_crQAYen5dWiXgI",
+            "filename": "vietnam-6634082_1280.jpg",
+            "size": 571195,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/HFUmctR-dcuLB6JbjTJLEQ/0rP6dSfH7XixT3UjhpvVFNfxxJE_Iivzxvgw92MWShfGNO0mYPYI-djQQaNFLE3eB1aCwNozPQa2tbMAnj2niKa3bs4Vl9gH-Lwp4Vhbr0qMYAsPMHqWc5XnEYriMQZlAPqQRF7UkORBJ36aM2f2Xg/6ebqwd29tnuEHYsRXOAhgJ3XNZkrtckrqMX6OEilfYo",
                 "width": 54,
                 "height": 36
               },
               "large": {
-                "url": "https://v5.airtableusercontent.com/v3/u/52/52/1777068000000/K9elyRduiOk8YoQ70YtbFQ/62U8NafFroFEqhSbWh0u3SYXEsfCPoDvOdoj-MG6uOKuWSDn9QWG0tI4cAy-mjI2VCaXwLUC2x8SxDQSB8E0ClvQS-oZv_9wzERDLzxHJbn_jLSyAT6j4Vsm39Uwlv2v3K6V0qKIkuIpayCyOvPncg/-asHR3ce3x8wXuofj9_gsOO_jJI2Bb75vBAsxAGpXOk",
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/KVDA-M7Z51tvg1JYNG8Z7A/NdXrk0cqcdy35PNGOr5JC8N-7FpR735nvP_9MhRTlmRZUrvrwKudFhYJJJ7wfFUOuGf328iu_liBv1CUYIDfITBjXb5zXHpxI6BQciuRSDPnOEsDVqe-BDMC25xfOaLijpj3KT2MR3blPhTH3qZHuA/RvKKXbhjN7BtUZECWvap7WnDireRekNmliLd4rmFAaY",
                 "width": 768,
                 "height": 512
               },
               "full": {
-                "url": "https://v5.airtableusercontent.com/v3/u/52/52/1777068000000/TAx3vOOHIVUKZBW-Xk4B-Q/VsbITxF61nm1QLTnhZOY5QwRw8DUvznn9P9cJXYPnr47aa9K5hARllkf0tsqQNNIYFypYE3zRQPX5xt-2DtRtsAglPcCPw1kSW3FYsOhIwotRlcRXcSUHBRC-Y0dKU6F-I2WhHVatnAZc1OBFIG_9w/ygyn9GYGOnadEDlQny3znHYwy654whEnZ7kaduu29vE",
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/fR0fzL7cw4XpEnw1kDqN6A/0dPjjnRMNGGBuCwY3nqecCD3DSQRDyIc1SjOEpsTsiqzxzNfoiYAdpnSybtOgUynuzHCFEUlyv37gtdqXkd0PwpDaGtwRJ6I5_060EDTCqdq96HSuuBNs9zLTGzM95SZzEEOunp8zFbS4pPHboRwFw/VCnJd5A8fVNFDEIm7gWsMAGVAaAJgEXKIwbhU5bLt3k",
                 "width": 1280,
                 "height": 853
               }
             }
           }
         ],
-        "Status Tracker": "Live",
-        "Source": "Entered by Team",
-        "First name": "Aryn",
+        "Status Tracker": "Written (ready for review)",
+        "Source": "Form Submission",
+        "Department/Unit (All)": [
+          "Agricultural and Resource Economics"
+        ],
+        "First name": "Stephan",
         "Production Phase": "Live",
-        "LONG": -105.080856,
-        "LAT": 40.573219,
-        "Card Image Alt Text": "Whole mixed vegetables with a dark rock wall in the background",
-        "Date Last Updated": "2026-04-23T16:46:21.000Z",
-        "Last Modified": "2026-03-30T19:05:53.000Z",
-        "\"https://forms.fillout.com/t/7ixrzaFakBus?id=\" & RECORD_ID()": "https://forms.fillout.com/t/7ixrzaFakBus?id=recifUfo3un63NH8f",
-        "Department": "InternationalAgriculture"
+        "LONG": 105.8412,
+        "GeoJSON": "{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"geometry\":{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[21.02450000, 105.84120000]},\"properties\":{\"name\":\"Vietnam\"}}]}",
+        "LAT": 21.0245,
+        "Last Modified": "2026-06-24T20:15:31.000Z",
+        "Card Image Alt Text": "Terraced rice field in Vietnam under a cloudy blue sky"
       }
     },
     {
-      "id": "recheUBwh7pPJ18Lt",
-      "createdTime": "2026-03-26T03:04:24.000Z",
+      "id": "rec5bizi8e6mk9KU7",
+      "createdTime": "2026-05-28T20:27:58.000Z",
       "fields": {
-        "Date Added": "2026-03-26",
-        "Project/Activity Summary - Story Content": "The NAAAN is a North American platform among extension and rural advisory services organizations promoting and supporting innovation, knowledge utilization, and information sharing in Canada, Mexico, and the United States. We share North American best practices and facilitate learning from global expertise.\n",
+        "Date Added": "2026-05-28",
+        "Project/Activity Summary - Story Content": "For the approximately three quarters of the world’s poor who live in rural areas of low-income countries, agriculture and livestock are key for household income and economic growth. Opportunities to sell livestock to meat producers for revenue offer a channel for households to turn illiquid assets into liquid ones, bolstering household income and enabling consumption smoothing. Livestock are therefore an important asset and caring for their health is an economic investment. And yet, households face constraints in caring for their livestock and selling them. Veterinary care for household animals in poor, rural areas is limited, constrained by a low supply of knowledgeable animal health workers. Rural households face challenges in coordinating and executing sales to meat producers, constrained by diffuse communication networks and information asymmetries between buyers and sellers.\nIn this study, Dr. Magnan used a randomized controlled trial to test the effect of the introduction of two novel digital technologies to livestock cooperatives in rural Nepal. The first tool, an app ecosystem we call “digital collective marketing” is aimed at reducing information frictions in the market for goats raised by farmers in rural cooperatives and sold to urban meat producers. The second tool, a mobile app we call “digital mentoring and continuing education”, is aimed at improving the knowledge and skills of community animal health workers who care for the health of the goats of farmers in these cooperatives.\n\n\n",
         "Type": [
-          "Outreach"
+          "Research"
         ],
-        "Continent/Country/Region": [
-          "recQe7p1pglr5qqEi",
-          "recIfG4l25fG0zd5w",
-          "rectGlSqXhHdPXOJb",
-          "recOJcKhfHRoPLs1K"
-        ],
-        "Project/Activity Title": "North American Agricultural Advisory Network",
-        "College/Division": [
-          "College of Agricultural Sciences"
-        ],
-        "Department/Unit": [
-          "International Agriculture"
-        ],
-        "Card Image": [
+        "Brief Summary": {
+          "state": "generated",
+          "value": "Dr. Magnan’s study tested two digital tools in rural Nepal to improve goat marketing and animal health worker training, aiming to boost rural household income and livestock care.",
+          "isStale": false
+        },
+        "Email": "Nick.magnan@colostate.edu",
+        "Faculty Photo (from Faculty/Staff Involved)": [
           {
-            "id": "attxdlNoQXIiXZW48",
-            "width": 1280,
-            "height": 721,
-            "url": "https://v5.airtableusercontent.com/v3/u/52/52/1777068000000/qUMpDRXqKI7iRcAE3uhkgg/czKYNvYpcA-2W7ngFS4W41PhRUkzvoNV0iVW-9flBp9BcBFh_TL6Pbx1f57_i4e7-AFp419xLjd2Jb-KYaKRJN7H5-QspC4gyOMJkLXVGGWyM2juSbTMrpJuBe8DSL0LHgP60f74FaIuLE3jN3puAnP_L87UhxgUcLd-4mbryZPKSPKswWRgZykkSz39kwK8/geGF5KJCabqlGw0Eqg4BAYdY_8QeVUpZ7s76OYotq9o",
-            "filename": "corn-fields-5893667_1280.jpg",
-            "size": 205453,
-            "type": "image/jpeg",
+            "id": "attSesJ72kUKpqd16",
+            "width": 257,
+            "height": 290,
+            "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/EpJbJVH83czuj0vFSjPe9A/FZ75buC8T-KIm-uyhXpV2YfVsJbjqUraH8W3uGI40N83_cCyoXvoTmFHI0m5vILPVsyIxJiRivm21OxWyuuvHuY8MXnvhgoXZ93aGxIhxioh765Hz-qbaGCzHbUO7_3SJDdrBHrsixGTBWvKN4RD20LKgC162D0bSndMeEOweFE/mbhcoU9GrCp9ot66jooUQ4ZCLS_RH-eIXsgBgiqo7U8",
+            "filename": "download.png",
+            "size": 135123,
+            "type": "image/png",
             "thumbnails": {
               "small": {
-                "url": "https://v5.airtableusercontent.com/v3/u/52/52/1777068000000/_Ka3hXLj41M-02nJlI_Gwg/130XjAF0gefrPkg_SeeyLH5U4aiEmjzwWTgCYrov37YK0DrHgf3hKI3oJIdI3do8RPe23UL_pROwfTYAGX670Q27NduaYLoe8u-BX5AxMLjAtZGG2hZs3vyB89WtiYvsewpfbrHsKsZrorIusB4TFQ/Z2RJE802-ThwRWq1R9xgLDRuzxj-1qRIGm_t2K196g8",
-                "width": 63,
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/veolUGbMxSwnASrPRdGwYg/QnERx26ZhNqENtYlhs24VenZL0bSEHBegj6si9McvfNtvIiMdocP_-3Mf6TmzQO8IU-LGFERCtcfsWYx97nfoP44e8EeFG5FGZeZKOcPQh_eP0BacwnbGJWQYghJOVg3AbGeMa7RY3w709h9m2kZow/-pRqPpJveIBn7UCdY3FqneqOexeB2CL2rO1vrPZUiNU",
+                "width": 32,
                 "height": 36
               },
               "large": {
-                "url": "https://v5.airtableusercontent.com/v3/u/52/52/1777068000000/Q_QEmPEgug6J9dhFf8GWNQ/QgEDcys8gamNoz5Fahx_TMu8nBrZt6aDt2Lq_i0p6Z7SmbPpr74UaDeMUKJudwPDB3fpMlHzH0OIAu-hUPbDfaeOreFUirU1xZ6lGHLF3EvqFGXkxFRp5a7qkc812GtWkgtS2aAbPHvahu21vLIoQg/EoXUTTXruai1YTvdEGeNrdhRD0t5xxdRzWIHzLfVFPA",
-                "width": 909,
-                "height": 512
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/mSZSGZS-ynZ0W3loycMF_g/MWILe0rv_B5LP9aODYdrTjkjW4gtW82aY_csVIWg4-YfakVxo58xLjAeRPUxE5YvXrLE11J6NevBxBsy-FeTJ_Lfi4gbuIt2ap_o2WkPRcGp6ytvcQMaXlOSjuPNFxjfAjVeR419_mk3LTqkSnYTYA/UL0lBs7zQm_btzIq7uau-PtCG0hhBp9JFO8O8Y2Jk30",
+                "width": 257,
+                "height": 290
               },
               "full": {
-                "url": "https://v5.airtableusercontent.com/v3/u/52/52/1777068000000/zqZp1fKoNx_EWYCF7PNb5Q/FkucHZgjKjCABzaUIoxJWr_h2_fZr6bt4lFNiOJL5fu42ZW_8kqKQP-XvwentyJ0zVR-dugARAHd5a6Xk0-wJ5DzbkGar4-_jIJwLJtZHuP6m8R9A7i1gPa16pR7iIx1WjFol0e9q874n_qccqlSow/I-37oOdenD3wflddHwj2TEEgIeByuwYCbTD8kXPXr_M",
-                "width": 1280,
-                "height": 721
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/ouZtnR6S93Hux9G_O8KQzQ/xqYkOghi0s8DR0gmYRTYQ4kz8LURrQGfW1aMmrQIgTd0DJJtpJHYymZA2pL2AZUnX5pPMEVyjuQbYgyCOH8DBBtsMqjoQRnEK0HP-RTIufptrdUDw2woKa4AZug6l_RK-7JVCG5_jCtYz9vBJ7deIA/FmbWYQsh082WJGAW0qx-d3hPFTilJHt3u68kNgFh7GE",
+                "width": 257,
+                "height": 290
               }
             }
           }
         ],
-        "Status Tracker": "Live",
-        "Source": "Entered by Team",
-        "Production Phase": "Live",
-        "LONG": -104.97,
-        "LAT": 39.78,
-        "Card Image Alt Text": "A wheat field at sunset",
-        "Date Last Updated": "2026-04-23T16:46:21.000Z",
-        "Last Modified": "2026-03-30T19:05:30.000Z",
-        "\"https://forms.fillout.com/t/7ixrzaFakBus?id=\" & RECORD_ID()": "https://forms.fillout.com/t/7ixrzaFakBus?id=recheUBwh7pPJ18Lt",
-        "Department": "InternationalAgriculture"
-      }
-    },
-    {
-      "id": "recS6tPTfL5qouekv",
-      "createdTime": "2026-03-26T03:18:34.000Z",
-      "fields": {
-        "Date Added": "2026-03-26",
-        "Project/Activity Summary - Story Content": "Soil is one of the largest natural carbon reservoirs and an important climate mitigation tool that is ready to deploy today. Accelerating the adoption of regenerative agricultural practices that build soil carbon on working lands offers the potential to substantially draw down atmospheric carbon while improving the environmental, economic and social sustainability of food, fiber and bioenergy production. We use the latest science to predict and quantify carbon drawdown capacity, enhance farmer livelihoods, and avoid unintended consequences. And we ushers the latest soil carbon science toward innovative applications.\n",
-        "Type": [
-          "Research",
-          "Outreach"
+        "Name (from Faculty/Staff Involved)": [
+          "Nick Magnan"
         ],
-        "CSU Affiliations": [
-          "recPCM0PuGS5qrDD1"
+        "Continent/Country/Region": [
+          "recKaLwZVkr1khzLP"
         ],
-        "Email": "lauren.gifford@colostate.edu",
-        "Links": "https://www.soilcarbonsolutionscenter.com/",
-        "Project/Activity Title": "Soil Carbon Solutions Center",
-        "Last name": "Gifford",
-        "International/Institutional Partners or Collaborators Beyond CSU": [
-          "recm94ahXJzWtUVxs"
+        "Date Last Updated": "2026-06-24T20:15:29.000Z",
+        "Project/Activity Title": "Strengthening Women’s Livestock Cooperatives in Nepal with an Innovative Technology Bundle",
+        "Last name": "Magnan",
+        "\"https://forms.fillout.com/t/7ixrzaFakBus?id=\" & RECORD_ID()": "https://forms.fillout.com/t/7ixrzaFakBus?id=rec5bizi8e6mk9KU7",
+        "Department": "AgriculturalandResourceEconomics",
+        "Continent/Country/Region (from Continent/Country/Region)": [
+          "Nepal"
+        ],
+        "Faculty/Staff Involved": [
+          "rectUlmsadGZJLLRx"
         ],
         "College/Division": [
           "College of Agricultural Sciences"
         ],
+        "Department/Unit Primary": [
+          "Agricultural and Resource Economics"
+        ],
         "Card Image": [
           {
-            "id": "att8sVMobjzDkcbsU",
-            "width": 3984,
-            "height": 2656,
-            "url": "https://v5.airtableusercontent.com/v3/u/52/52/1777068000000/Mj5uWcce3iLSe_jsYx8Vqg/T3k8dDc1OTKoCcsTRRbBWZ2TW3cDVtgNH0i6Nz9mMGNMgmzmuNhqsO1rCgPXrPXEBa22jhqdfE6LzkXKJjox2fZfJWnHN6s1NjJmPVSB8i931a7cA2cno7fgr-sbv-B-wKBBYkgReosP3WtUKnxvgKxeP7QSMYLqX21YVkxQ6DDuhuemyzZ_GLh7sRRM8TgwL2R9g0pfZ86MUErshuVKwg/gUSFG-FTOwYnNw_oML_kwa9uSIAfhMmbnS7Ld1h4jTs",
-            "filename": "alicia-christin-gerald-bQ9y93kdk4c-unsplash.jpg",
-            "size": 983234,
+            "id": "attQX8rc9spZXOHkX",
+            "width": 1280,
+            "height": 853,
+            "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/9QpzL_V1W03RDUD8_osuqg/QFMN1y-1Yz7nZxDxG86KBHcv0DMPan9ILb9cOT9VZRVjcBZEM8MyuQfnmPQrpkcvceA72ucxT_oXkjTryWelIdXL0qr0yRVeLM2DamL88Jj4hlNlw5IrJsJ11myfKwMj6b3eajCGs4HAMWIuK5jSSygyGof0__OLz40lZkqD91Q/4Lk0OelhKYexNlxc5Fxj9iZwSuubSpyiuSTeSydW3Jk",
+            "filename": "goat-4600484_1280.jpg",
+            "size": 506881,
             "type": "image/jpeg",
             "thumbnails": {
               "small": {
-                "url": "https://v5.airtableusercontent.com/v3/u/52/52/1777068000000/GmBWYHx7zc5turWsQTWo-g/oAvY3t4kbD5-IJ9nSTSV1bPHPKw4WRXzeUZxlwFvP-TJw-jokg44_SBsh-Bo82L1lpQgDmEsD9RfdxAayhD4cac5FwWTy7kTmFAT5-frkEEuP8pSoBV1Wmvt118oaQu0V10KZ8IHyH8b1RbYJp7yAg/ycMxnmJRhe8gSt_zB8B3RMoUM7zOBp_snQlDp-1o5qA",
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/wZ_PFlFe300-D__sVeEs8g/yMR255cpAL-Vsp0m3FAoES83_sGGfXu-oBo6TV2AOP-k4iG9J96grp0h6LykPyibYk3bkT3mlqglFLZWJShzYXYC-CNQw48FJKNNmWg0j9XmNA_7PiqI1rh3BNAQipKWPu87T5qBsUZPGXCBO-AzjQ/t8lYMfDVy61jokakHRh50IQPU5l9h_FLEQkEgglIlKw",
                 "width": 54,
                 "height": 36
               },
               "large": {
-                "url": "https://v5.airtableusercontent.com/v3/u/52/52/1777068000000/3t2IiHvQd-d4_GN4VnWQkA/I10wfv1HF2_zD42IwS1vLIzUKdKKOlwS_TRtUQtSN-yXrJPIK4zWMyTmWV5_SkLFmJrAQm05uwnjMQN5o--c-ZXbicciI8qRAzyTITG8RCCyHPR_7XorTIA2tglxjb4xu6Dw3690tgayqHnD-P569g/l49jeZ-TRywROEzAUpX8tLBk-rKk8Q7MrfAg61E1Yus",
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/wT45mx89nNFmhANJIdCQZA/WCXE2thaJ23zLZd2AKiPjcuijNBdFLqhR5Z5tnyU5dZDBc-w3zP-no_qNZ50Ba-NaEHyyhH1VxWwuU_bGZHPwfYzM667PGDf2K-1H9zgIkx3ANklpBMZBFCt1s43f-eAsx18fNN10i0svBwJ6B8lEg/TZ3UD_vlvpZHlU8NatIj8VOL0VhCy6MB5glXLjYzQ-E",
                 "width": 768,
                 "height": 512
               },
               "full": {
-                "url": "https://v5.airtableusercontent.com/v3/u/52/52/1777068000000/gN9qgfSEoc6C_Q-JttmIFg/d_C2SMziPh_hCeUpeswnUHUXhvHryefFQwtCLiCPppWR2If6NcDvK5IswQGveSVrkoaZuPsa3hvAcW5SsJJYZy_s7ARxY7SqnAIakRD35PMUC9ePTrCd1ohkJeEpjpA1pOKtfPCrn4GkOGMOJVaCtA/Ab8ig8NBG2NR1Fmyrfrfw1dzDdqev4RgvWfbUNuca44",
-                "width": 3000,
-                "height": 2000
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/zhbLXNTBlt-xNyKqf4845Q/x0Af873gSNWHH27tKt1VQCeL5fqlTDQuigcAtIf-fWL6Rg6WEDoDJITOvVr6C3tRC6O_wHknsupPqbpf6jUz9Xil1WuBEUDhBnAXs_-F6v9IIq-80bEYN2m6sd4Vgga_lzUNhOEntl-xYp4VFDkVvw/OUgAvuKTJZSWVW3ywCdGC61oJYlb9349PsUh5YBBoYM",
+                "width": 1280,
+                "height": 853
               }
             }
           }
         ],
-        "Status Tracker": "Live",
-        "Source": "Entered by Team",
-        "First name": "Lauren",
+        "Status Tracker": "Written (ready for review)",
+        "Source": "Form Submission",
+        "First name": "Nick",
         "Production Phase": "Live",
-        "LONG": -105.087207,
-        "LAT": 40.559225,
-        "Card Image Alt Text": "A hand lifting dirt",
-        "Date Last Updated": "2026-04-24T18:43:09.000Z",
-        "Last Modified": "2026-03-30T19:05:46.000Z",
-        "\"https://forms.fillout.com/t/7ixrzaFakBus?id=\" & RECORD_ID()": "https://forms.fillout.com/t/7ixrzaFakBus?id=recS6tPTfL5qouekv",
+        "LONG": 81.412402,
+        "GeoJSON": "{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"geometry\":{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[29.462860, 81.412402]},\"properties\":{\"name\":\"Nothern Nepal\"}}]}",
+        "LAT": 29.46286,
+        "Last Modified": "2026-06-24T20:15:29.000Z",
+        "Card Image Alt Text": "Two goats, one black and one brown and white, lay on gravel with a goat herd grazing in the background"
+      }
+    },
+    {
+      "id": "recc2PCQWsxtSXsjw",
+      "createdTime": "2022-07-23T18:56:14.000Z",
+      "fields": {
+        "Status": "Completed",
+        "Project/Activity Summary - Story Content": "Professor Andales joined engineers and scientists from Colorado State University, the Israel Institute of Technology, the Hebrew University of Jerusalem, and government officials from the U.S. and Israel to participate in the Sustainable Agricultural Water Workshop. \nThe workshop focused on how Israel and the western U.S. have similar semi-arid climates and a common interest in water sustainability, which allowed both nations to think reflectively about the challenges and opportunities for sustainable agricultural water.\n",
+        "Type": [
+          "Outreach"
+        ],
+        "Brief Summary": {
+          "state": "generated",
+          "value": "Professor Andales joined U.S. and Israeli experts at a workshop to discuss shared challenges and opportunities for sustainable agricultural water in semi-arid climates.",
+          "isStale": false
+        },
+        "Email": "allan.andales@colostate.edu",
+        "Faculty Photo (from Faculty/Staff Involved)": [
+          {
+            "id": "attXb5f3a5QdG1nsC",
+            "width": 260,
+            "height": 293,
+            "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/0tMdI_BSENDt_TqA4pjJog/ZMN2Uy0V5m15zkYs9MlPBIjYt5gqBWhxM_ldWc21Sgfh7d3W2rqOD-iwWHXR_DFfx0tvQHf10UwVTFM57SsuSjGFx9KDhRDouPl7hfcbetpQbDYKTeKo8Z-qv-UzmmRsb8JdV4hPKZNJ89L_kvGRgZhOQYFUN7NsEvbKWb_oRwM/mtzk9Xw9PVvTG3JvOdOrh9pUwL4a78ZPwoyhjmUmoe0",
+            "filename": "download.jpg",
+            "size": 54233,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/lgVjhh9bKKJ_rqLiFINPIQ/jnlOAWIhSdE69Vz72KwqVcwGYbJ5GvnWgl4Iex7mUA9De6CQM9D3_BibgbYxHn3JhR5V0u0M1mS1DV2RAYBN5rKcVMuPEushm3csmIjgNJQQCicFtbfPztGVVmf4XQr7U2U7X-c3GzYpocjrLQ8YPw/oZzPTswSzXBVgwxQ97OBRb5leM2x1JvF9tkS63PO4bM",
+                "width": 32,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/7qSOZfYoav1aUgEtNUlOHw/9O81vcZrYKz49ZyaPN0wSuyb-nyNg8h7i8h3f-luPinlnPvYum8tPbqgwmctpjsIai29z_4P1Q7dCs6CeQPllf3IVOhZBhARuWKCeRmy0U0MB1ev8M38MK6UtciMk08ErgP8tNTcMPtABr3H6UDUOg/xTJr6d0thVemqaQy76iyw-jygjGOdhiE1vSaHa9bZ00",
+                "width": 260,
+                "height": 293
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/NofDjZBPV_nroNnlbVQbWQ/XKpOlVtXddi_e_t6Kwv3XZdoaE9VyREn5I8RKtz8K52IBz2PnmFgpoFjjbymZmYmYPR0BoJ9s_TluAobYkBn6Y29k31jb7AeKRU7VxIWfbvlNWhWoCFsvfchA-vxrLwGgNU50GEIXaQkmRElDUMW3A/KrGDI8IpXpCbt596GUPOpHkfD_e4nLOQ9y1U4d7E-nk",
+                "width": 260,
+                "height": 293
+              }
+            }
+          }
+        ],
+        "Name (from Faculty/Staff Involved)": [
+          "Allan Andales"
+        ],
+        "Continent/Country/Region": [
+          "rec8jUH3NEP6G409d"
+        ],
+        "Links": "https://engr.source.colostate.edu/csu-israeli-experts-address-sustainable-agricultural-water-issues-in-workshop/",
+        "Date Last Updated": "2026-06-24T21:03:48.000Z",
+        "Project/Activity Title": "Sustainable Irrigation",
+        "Last name": "Andales",
+        "\"https://forms.fillout.com/t/7ixrzaFakBus?id=\" & RECORD_ID()": "https://forms.fillout.com/t/7ixrzaFakBus?id=recc2PCQWsxtSXsjw",
         "Department": "SoilandCropSciences",
-        "Department/Unit": [
+        "Continent/Country/Region (from Continent/Country/Region)": [
+          "Israel"
+        ],
+        "Faculty/Staff Involved": [
+          "recQE1JVfftVK3jQ9"
+        ],
+        "International/Institutional Partners or Collaborators Beyond CSU": [
+          "rec9pYi9Yo2tUXBkx",
+          "recYK3LH4QBtehsyk"
+        ],
+        "College/Division": [
+          "College of Agricultural Sciences"
+        ],
+        "Department/Unit Primary": [
           "Soil and Crop Sciences"
-        ]
+        ],
+        "Status Tracker": "Written (ready for review)",
+        "Source": "Legacy Impact(O) Story",
+        "Department/Unit (All)": [
+          "Soil and Crop Sciences"
+        ],
+        "First name": "Allan",
+        "Production Phase": "Live",
+        "LONG": 35.02436447,
+        "GeoJSON": "{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"geometry\":{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[32.776481, 35.022923]},\"properties\":{\"name\":\"Israel Institute of Technology\"}}]}",
+        "LAT": 32.776309,
+        "Last Modified": "2022-09-02T21:06:25.000Z",
+        "Card Image Alt Text": "Image of center pivot with crops and a mountain in the background"
+      }
+    },
+    {
+      "id": "recTcacQka2HzOJcb",
+      "createdTime": "2026-05-29T21:20:56.000Z",
+      "fields": {
+        "Date Added": "2026-05-29",
+        "Project/Activity Summary - Story Content": "Under a sub-contract from the University of Utah, CSU contributed to research mentorship and curriculum development for the Hydraulics, Irrigation, and Drainage MS degree program at the U.S.- Pakistan Center for Advanced Studies in Water. The U.S. Agency for International Development (USAID) provided 5-years of funding to Mehran University of Engineering and Technology and University of Utah, USA to establish the center. Dr. Andales collaborated with Dr. Timothy Gates and Dr. Jose L. Chavez in Civil and Environmental Engineering to provide research and curricular training to the faculty, staff, and students at Mehran University of Engineering and Tehcnology. From 2016 to 2019, Dr. Andales hosted a total of six visiting scholars from the Center for Advanced Studies in Water for one-semester periods at CSU, where they were mentored in irrigation management and field or lab research methods.\n",
+        "Type": [
+          "Research",
+          "Teaching"
+        ],
+        "Brief Summary": {
+          "state": "generated",
+          "value": "CSU supported curriculum development and research mentorship for a Pakistan water studies MS program, hosting six visiting scholars for training in irrigation management and research from 2016-2019.",
+          "isStale": false
+        },
+        "Email": "allan.andales@colostate.edu",
+        "Faculty Photo (from Faculty/Staff Involved)": [
+          {
+            "id": "attXb5f3a5QdG1nsC",
+            "width": 260,
+            "height": 293,
+            "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/0tMdI_BSENDt_TqA4pjJog/ZMN2Uy0V5m15zkYs9MlPBIjYt5gqBWhxM_ldWc21Sgfh7d3W2rqOD-iwWHXR_DFfx0tvQHf10UwVTFM57SsuSjGFx9KDhRDouPl7hfcbetpQbDYKTeKo8Z-qv-UzmmRsb8JdV4hPKZNJ89L_kvGRgZhOQYFUN7NsEvbKWb_oRwM/mtzk9Xw9PVvTG3JvOdOrh9pUwL4a78ZPwoyhjmUmoe0",
+            "filename": "download.jpg",
+            "size": 54233,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/lgVjhh9bKKJ_rqLiFINPIQ/jnlOAWIhSdE69Vz72KwqVcwGYbJ5GvnWgl4Iex7mUA9De6CQM9D3_BibgbYxHn3JhR5V0u0M1mS1DV2RAYBN5rKcVMuPEushm3csmIjgNJQQCicFtbfPztGVVmf4XQr7U2U7X-c3GzYpocjrLQ8YPw/oZzPTswSzXBVgwxQ97OBRb5leM2x1JvF9tkS63PO4bM",
+                "width": 32,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/7qSOZfYoav1aUgEtNUlOHw/9O81vcZrYKz49ZyaPN0wSuyb-nyNg8h7i8h3f-luPinlnPvYum8tPbqgwmctpjsIai29z_4P1Q7dCs6CeQPllf3IVOhZBhARuWKCeRmy0U0MB1ev8M38MK6UtciMk08ErgP8tNTcMPtABr3H6UDUOg/xTJr6d0thVemqaQy76iyw-jygjGOdhiE1vSaHa9bZ00",
+                "width": 260,
+                "height": 293
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/NofDjZBPV_nroNnlbVQbWQ/XKpOlVtXddi_e_t6Kwv3XZdoaE9VyREn5I8RKtz8K52IBz2PnmFgpoFjjbymZmYmYPR0BoJ9s_TluAobYkBn6Y29k31jb7AeKRU7VxIWfbvlNWhWoCFsvfchA-vxrLwGgNU50GEIXaQkmRElDUMW3A/KrGDI8IpXpCbt596GUPOpHkfD_e4nLOQ9y1U4d7E-nk",
+                "width": 260,
+                "height": 293
+              }
+            }
+          }
+        ],
+        "Name (from Faculty/Staff Involved)": [
+          "Allan Andales"
+        ],
+        "Continent/Country/Region": [
+          "recDKD5exbwTOnRt9"
+        ],
+        "Links": "https://water.muet.edu.pk/",
+        "Date Last Updated": "2026-06-24T20:15:14.000Z",
+        "Project/Activity Title": "Advanced Studies in Water",
+        "Last name": "Andales",
+        "\"https://forms.fillout.com/t/7ixrzaFakBus?id=\" & RECORD_ID()": "https://forms.fillout.com/t/7ixrzaFakBus?id=recTcacQka2HzOJcb",
+        "Department": "SoilandCropSciences",
+        "Continent/Country/Region (from Continent/Country/Region)": [
+          "Pakistan"
+        ],
+        "Faculty/Staff Involved": [
+          "recQE1JVfftVK3jQ9"
+        ],
+        "College/Division": [
+          "College of Agricultural Sciences"
+        ],
+        "Department/Unit Primary": [
+          "Soil and Crop Sciences"
+        ],
+        "Card Image": [
+          {
+            "id": "attyySbebl9XIV32E",
+            "width": 5184,
+            "height": 2335,
+            "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/jvibYPXbup7nr81JSChbcw/rc7DnTsg8iKBi8ylQeOl4v3RRnMXQKw7QrMg2NUVWPYsZlol-uPA4JH1hfGx4xN70kYlhNwRbjhnmhzMmLPjqCnkKkwgWyLtBo0sN4FuHUOfFSw3Bvv2splhj6d-rGFVSQzEo5fNvvl_dzfu_qUgdbMPl3e0PwYlK1v9DthAsbk/r6YGQfHibUfVgfkCXHdpykBFLG1cpSa3QMvc7D3PyYA",
+            "filename": "Andales 2016 USPCAS-W.JPG",
+            "size": 2552258,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/8ZcUhmK7sWv4SDkntdfi-Q/hZm3SQdphANtKAEhU1fOgDLV_I_qWdEJDn9O1E41uWfPBAM2PrPIss62utjPuuLk8cJkOschLIXT9up3X7fgzzlNhaWz-dZas7ltcPnfcYmYAWhIfDuPqo8YxLzQ7RFglSKh5WUTSEcSIcF5Yq-rMA/4rz2dwxMA4Q-FuW1-AP49lGg1-697V7EgL98neY5SQY",
+                "width": 80,
+                "height": 36
+              },
+              "large": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/qOfuLNCuEomPCPXvL0Zw9A/1zK_OCMYoEhlAJPVgUGKLBJFBbX_XahqDPuwZZAy2b-C8_U6pGOe-jSeENTRi-b3BxLG1aEQkd5iIVs9lvyLLdjNK8KqoGFKUVWjq0l8wA8yP8Of0fe1MbTuczgkov0AAmfYAmjaLKnJrZyzw-2Xiw/0vqjO9jmfUNb-7KsZ2j-5MrJm9bbKD08d-d6_cwGnmc",
+                "width": 1136,
+                "height": 512
+              },
+              "full": {
+                "url": "https://v5.airtableusercontent.com/v3/u/54/54/1782417600000/Cg8d2bXSxCRUiTts4V0USA/H4VOaXTADpaW18CGGY0soZ3CPg2ekIpyB05rHaqmMgPHad0y9Izm4vcG6InFGTFK3mRLKz66tFLq31wen7Y00cmGI55QC1N2b6aw9GBgy77Ys-nec-q2KNnlADF0REVE7YAn6bS_2wzdtLGZoGPAhA/EM7zbyAMBETm5F7_selT_FhUoWez5rJfGt0jQEz0Ng0",
+                "width": 3000,
+                "height": 1351
+              }
+            }
+          }
+        ],
+        "Status Tracker": "Written (ready for review)",
+        "Source": "Form Submission",
+        "Additional Faculty/Staff": "Timothy K. Gates, Department of Civil and Environmental Engineering; José L. Chávez, Department of Civil and Environmental Engineering",
+        "Department/Unit (All)": [
+          "Soil and Crop Sciences"
+        ],
+        "First name": "Allan",
+        "Production Phase": "Live",
+        "LONG": 68.261985,
+        "GeoJSON": "{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"geometry\":{\"type\":\"Feature\",\"geometry\":{\"type\":\"Point\",\"coordinates\":[25.407566, 68.261985]},\"properties\":{\"name\":\"Mehran University of Engineering and Technology\"}}]}",
+        "LAT": 25.407566,
+        "Last Modified": "2026-06-24T20:15:14.000Z"
       }
     }
   ]

@@ -17,7 +17,8 @@
         :key="story.id"
         v-for="story in stories"
       ></MapMarker>
-      <template v-if="getBreakpoints.includes('lg')"><!-- v-if="getBreakpoints.includes('xxl')" -->
+      <template v-if="getBreakpoints.includes('lg')"
+        ><!-- v-if="getBreakpoints.includes('xxl')" -->
         <StoryPopup
           :story="story"
           :key="`active-${story.id}`"
@@ -313,7 +314,7 @@ export default {
             let color = "#ffffff"; // #ffffff
             if (cssColors[newStory.fields["Department"]]) {
               color = cssColors[newStory.fields["Department"]];
-              console.log("color in map.vue ="+color);
+              console.log("color in map.vue =" + color);
             }
             return {
               color: color, //"#BA55D3",

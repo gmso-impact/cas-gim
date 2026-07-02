@@ -1,4 +1,5 @@
 <template lang="">
+  <departmentButtons></departmentButtons>
   <!-- <div
     class="d-flex h-100 flex-column overflow-y-auto overflow-x-hidden justify-content-between pt-1 pt-xl-2"
   >
@@ -16,35 +17,9 @@
       class="mb-3 mx-1 mx-xl-2"
     ></QRSite>
   </div> -->
-  <div
-    class="d-flex flex-column overflow-y-auto overflow-x-hidden justify-content-center pt-2 pb-2 pt-xl-2"
-  >
-    <span class="text-white">
-      <img height="60" src="icons/CSU_Agsci_Icons-06-1-150x150.png" />
-      <img
-        class="ml-3"
-        height="60"
-        src="icons/CSU_Agsci_Icons-08-1-150x150-2.png"
-      />
-      <img
-        class="ml-3"
-        height="60"
-        src="icons/CSU_Agsci_Icons-09-1-150x150-3.png"
-      />
-      <img
-        class="ml-3"
-        height="60"
-        src="icons/CSU_Agsci_Icons-10-1-150x150-4.png"
-      />
-      <img
-        class="ml-3"
-        height="60"
-        src="icons/CSU_Agsci_Icons-07-1-150x150-3.png"
-      />
-    </span>
-  </div>
 </template>
 <script>
+import departmentButtons from "./departmentButtons.vue";
 //import KioskSwitch from "./kioskSwitch.vue";
 //import CampusGroup from "./campusGroup.vue";
 //import Language from "./language.vue";
@@ -57,6 +32,7 @@
 
 export default {
   components: {
+    departmentButtons,
     //KioskSwitch,
     //CampusGroup,
     //Language,

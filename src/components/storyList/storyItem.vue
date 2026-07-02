@@ -36,7 +36,10 @@
         class="card-body d-flex justify-content-center align-items-center p-1 text-center text-white"
       >
         <transition name="fade" mode="out-in">
-          <div :key="storyTitle" v-if="sortStoriesBy === 'Project/Activity Title'">
+          <div
+            :key="storyTitle"
+            v-if="sortStoriesBy === 'Project/Activity Title'"
+          >
             {{ storyTitle }}
           </div>
           <!-- <div :key="storyPerson" v-if="sortStoriesBy === 'Last Name'">
@@ -75,11 +78,11 @@ export default {
     }),
     storyTitle: function () {
       //if (this.story.fields[`${this.$root.$i18n.locale}-StoryTitle`]) {
-        //return this.story.fields[`${this.$root.$i18n.locale}-StoryTitle`];
+      //return this.story.fields[`${this.$root.$i18n.locale}-StoryTitle`];
       //} else {
-        // default to english
-        //return this.story.fields["en-StoryTitle"];
-        return this.story.fields["Project/Activity Title"];
+      // default to english
+      //return this.story.fields["en-StoryTitle"];
+      return this.story.fields["Project/Activity Title"];
       //}
     },
     // storyPerson: function () {
