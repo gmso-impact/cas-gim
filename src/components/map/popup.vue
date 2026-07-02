@@ -3,7 +3,7 @@
     <l-popup :options="options" class="popup" :ref="`pop-${story.id}`">
       <div
         class="card shadow p-1 p-xxl-4"
-        :class="`bg-${story.fields['Story Theme']}`"
+        :class="`bg-${story.fields['Department']}`"
       >
         <PopupIFrame :story="story"></PopupIFrame>
         <PopupInfo :story="story"></PopupInfo>

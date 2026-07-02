@@ -71,8 +71,9 @@ export default {
 .story-list-move {
   transition: all 1000ms ease;
 }
-.story-list-move-active {
-}
+
+// .story-list-move-active {
+// }
 
 /* appearing */
 .story-list-enter {

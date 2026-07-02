@@ -38,7 +38,7 @@ docker-compose up dev
 
 By default it will serve the **website** from [http://localhost:8080/](http://localhost:8080/) to view **kiosk mode* visit [http://localhost:8080/#/kiosk](http://localhost:8080/#/kiosk). It will take 1-3 minutes to start. Changes you make within the `src` folders will automaticly be displayed. Other changes will require you to stop the server `ctrl + D` within the command line and re-start.
 
-If you have missing images or stories try ` docker-compose exec dev yarn fetch` to get the latest data from Airtable.
+If you have missing images or stories try `docker-compose exec dev yarn fetch` to get the latest data from Airtable.
 
 ## Retrieve Story data & images
 ***Requires AIRTABLE_AUTHORIZATION= API Key in ENV file*** 

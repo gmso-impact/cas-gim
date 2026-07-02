@@ -62,7 +62,7 @@ const translations = {
       Health: "Health",
       Environment: "Environment",
       Water: "Water",
-      Food: "Food",
+      Food: "AnimalSciences",
       Energy: "Energy",
       Community: "Community",
     },

@@ -6,25 +6,34 @@ import router from "../router";
 const stories = storiesFile.response
   .filter((story) => {
     // Filter out stories that might cause UI bugs
-    if (story.fields["en-StoryTitle"] && story.fields["en-StoryMapLink"]) {
+    console.log("long......" + story.fields["LONG"]);
+    console.log("title......" + story.fields["Project/Activity Title"]);
+    console.log("department......" + story.fields["Department/Unit Primary"]);
+    if (
+      story.fields["Project/Activity Title"] &&
+      story.fields["Project/Activity Title"]
+    ) {
       return true;
     }
   })
   .map((story) => {
     // Replace missing data with default data
+    console.log("here......" + story.fields);
     return {
       ...story,
       fields: {
         ...story.fields,
-        "Story Theme": story.fields["Story Theme"] || "Unknown",
+        Department: story.fields["Department"] || "undefined",
         LAT: story.fields["LAT"] || (Math.random() - 0.5) * +40.5730232,
         LONG: story.fields["LONG"] || (Math.random() - 0.5) * -105.086407087,
       },
     };
   })
   .sort((a, b) => {
-    // initial sort by en-StoryTitle
-    return a.fields["en-StoryTitle"].localeCompare(b.fields["en-StoryTitle"]);
+    // initial sort by Project/Activity Title
+    return a.fields["Project/Activity Title"].localeCompare(
+      b.fields["Project/Activity Title"],
+    );
   });
 
 function getNames(fieldName) {
@@ -54,13 +63,13 @@ const storys = {
     all: stories,
     storysActive: [],
     storysActiveMax: 1,
-    themeNames: getNames("Story Theme"),
+    themeNames: getNames("Department"),
     tagNames: getNames("ID Tags"),
     isVideoFrameOpen: false,
     isHelpFrameOpen: false,
     isStoriesFrameOpen: false,
     isFilterFrameOpen: false,
-    sortStoriesBy: "en-StoryTitle",
+    sortStoriesBy: "Project/Activity Title",
   },
   getters: {
     isVideoFrameOpen: (state) => {
@@ -110,7 +119,11 @@ const storys = {
             );
           }
         };
-        const hasActiveTheme = filterByField("theme", "Story Theme");
+        const hasActiveDepartment = filterByField(
+          "department",
+          "Department/Unit Primary",
+        );
+        const hasActiveTheme = filterByField("theme", "Project/Activity Title");
         const hasActiveTag = filterByField("tag", "ID Tags");
         const hasActiveCampus = filterByField("campus", "Campus");
         // console.log({
@@ -119,7 +132,12 @@ const storys = {
         //   hasActiveCampus: hasActiveCampus,
         // })
 
-        return hasActiveTheme && hasActiveTag && hasActiveCampus;
+        return (
+          hasActiveTheme &&
+          hasActiveTag &&
+          hasActiveCampus &&
+          hasActiveDepartment
+        );
       });
       const sortedStories = filteredStories.sort((a, b) => {
         return a.fields[state.sortStoriesBy].localeCompare(
@@ -283,15 +301,15 @@ const storys = {
     setSortStoriesBy: (state, sortBy) => {
       if (sortBy === "Last Name") {
         state.sortStoriesBy = "Last Name";
-      } else if (sortBy === "en-StoryTitle") {
-        state.sortStoriesBy = "en-StoryTitle";
+      } else if (sortBy === "Project/Activity Title") {
+        state.sortStoriesBy = "Project/Activity Title";
       } else {
         // default
-        state.sortStoriesBy = "en-StoryTitle";
+        state.sortStoriesBy = "Project/Activity Title";
       }
     },
     resetSortStoriesBy: (state) => {
-      state.sortStoriesBy = "en-StoryTitle";
+      state.sortStoriesBy = "Project/Activity Title";
     },
 
     addActiveStory: (state, story) => {
@@ -302,10 +320,10 @@ const storys = {
         );
         return;
       }
-      console.log(`Activated: ${story.fields["en-StoryTitle"]}`);
+      console.log(`Activated: ${story.fields["Project/Activity Title"]}`);
       event(`view-story`, {
         event_category: "content",
-        event_label: story.fields["en-StoryTitle"],
+        event_label: story.fields["Project/Activity Title"],
         value: 1,
         method: "Google",
       });
@@ -343,16 +361,16 @@ const storys = {
         state.isHelpFrameOpen = false;
         //state.isStoriesFrameOpen = false;
         state.isFilterFrameOpen = false;
-        console.log(`Activated: ${story.fields["en-StoryTitle"]}`);
+        console.log(`Activated: ${story.fields["Project/Activity Title"]}`);
         event(`set-story`, {
           event_category: "content",
-          event_label: story.fields["en-StoryTitle"],
+          event_label: story.fields["Project/Activity Title"],
           value: 1,
           method: "Google",
         });
       } else {
         state.storysActive = filtered;
-        console.log(`Removed: ${story.fields["en-StoryTitle"]}`);
+        console.log(`Removed: ${story.fields["Project/Activity Title"]}`);
       }
     },
     removeActiveStory: (state, story) => {
@@ -383,6 +401,20 @@ const storys = {
         return;
       } // prevent redudant nav
       router.push({ query: { ...rootState.route.query, theme: theme } }); // leave other query paramaters alone
+    },
+    setDepartment: ({ state, rootState }, department) => {
+      state.isFilterFrameOpen = false;
+      state.isHelpFrameOpen = false;
+      if (
+        rootState.route.query.department &&
+        rootState.route.query.department.toLowerCase() ===
+          department.toLowerCase()
+      ) {
+        return;
+      } // prevent redudant nav
+      router.push({
+        query: { ...rootState.route.query, department: department },
+      }); // leave other query paramaters alone
     },
     resetThemes: ({ state, rootState }) => {
       state.isFilterFrameOpen = false;

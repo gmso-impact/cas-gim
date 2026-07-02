@@ -3,6 +3,7 @@
     class="d-flex text-white flex-wrap pt-1 pt-xxl-3 justify-content-xxl-between"
   >
     <QRStory class="mr-4" v-if="true" :story="story"></QRStory>
+
     <IDIcon
       class="mr-4"
       v-for="id in story.fields['ID Tags']"
@@ -43,6 +44,9 @@ export default {
     ...mapMutations({
       removeActiveStory: "removeActiveStory",
     }),
+    storyPeople: function () {
+      return this.story.fields["Name (from Faculty/Staff Involved)"];
+    },
   },
 };
 </script>

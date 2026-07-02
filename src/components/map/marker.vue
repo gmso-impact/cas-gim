@@ -1,55 +1,63 @@
 <template lang="">
-  <l-marker
-    :lat-lng="latLngObj"
-    :key="story.id"
-    :riseOnHover="true"
-    ref="marker"
-    v-on:click="toggleActiveStory(story)"
-  >
-    <Transition-group name="markerImg" appear>
-      <l-icon
-        :icon-anchor="iconAnchor"
-        key="img"
-        v-if="false"
-        :aria-label="storyTitle"
-      >
-        <div class="marker-img">
-          <div class="marker-img-body">
-            <img
-              v-if="
-                story.fields['Story Card Image'] &&
-                story.fields['Story Card Image'][0] &&
-                story.fields['Story Card Image'][0].thumbnails
-              "
-              :src="story.fields['Story Card Image'][0].thumbnails.large.url"
-              class="w-100 content"
-              :alt="storyTitle"
+  <div>
+    <l-marker
+      v-if="true"
+      :lat-lng="latLngObj"
+      :key="story.id"
+      :riseOnHover="true"
+      ref="marker"
+      v-on:click="toggleActiveStory(story)"
+    >
+      <Transition-group name="markerImg" appear>
+        <l-icon
+          :icon-anchor="iconAnchor"
+          key="img"
+          v-if="false"
+          :aria-label="storyTitle"
+        >
+          <div class="marker-img">
+            <div class="marker-img-body">
+              <img
+                v-if="
+                  story.fields['Card Image'] &&
+                  story.fields['Card Image'][0] &&
+                  story.fields['Card Image'][0].thumbnails
+                "
+                :src="story.fields['Card Image'][0].thumbnails.large.url"
+                class="w-100 content"
+                :alt="storyTitle"
+              />
+            </div>
+          </div>
+        </l-icon>
+        <l-icon
+          :icon-anchor="iconAnchor"
+          key="pin"
+          v-else
+          :aria-label="storyTitle"
+        >
+          <div
+            class="marker-pin btn-fade d-flex justify-content-center align-items-center"
+            :class="smallMarkerClass"
+          >
+            <font-awesome-icon
+              class="featuredStoryMarker"
+              :icon="['fas', 'star']"
+              v-if="story.fields['featured']"
             />
           </div>
-        </div>
-      </l-icon>
-      <l-icon
-        :icon-anchor="iconAnchor"
-        key="pin"
-        v-else
-        :aria-label="storyTitle"
-      >
-        <div
-          class="marker-pin btn-fade d-flex justify-content-center align-items-center"
-          :class="smallMarkerClass"
-        >
-          <font-awesome-icon
-            class="featuredStoryMarker"
-            :icon="['fas', 'star']"
-            v-if="story.fields['featured']"
-          />
-        </div>
-      </l-icon>
-    </Transition-group>
-  </l-marker>
+        </l-icon>
+      </Transition-group>
+    </l-marker>
+    <l-geo-json :geojson="storyJSON" :options="geojsonOptions"></l-geo-json>
+    <!-- <l-geo-json 
+    :geojson=story.fields['GeoJSON']
+    :options="geojsonOptions"
+  ></l-geo-json> -->
+  </div>
 </template>
 <script>
-import { LMarker, LIcon } from "vue2-leaflet";
+import { LMarker, LIcon, LGeoJson } from "vue2-leaflet";
 import { latLng } from "leaflet";
 import { mapGetters, mapMutations } from "vuex";
 
@@ -57,13 +65,79 @@ export default {
   components: {
     LMarker,
     LIcon,
+    LGeoJson,
   },
   data() {
+    console.log("testing here... " + this.story.fields["GeoJSON"]);
+    console.log(
+      "testing replace... " +
+        JSON.parse(
+          this.story.fields["GeoJSON"]
+            .replaceAll('"type"', "type")
+            .replaceAll('"coordinates"', "coordinates")
+            .replaceAll('"properties"', "properties")
+            .replaceAll('"features"', "features")
+            .replaceAll('"geometry"', "geometry")
+            .replaceAll('"name"', "name"),
+        ),
+    );
+
     return {
       test: null,
       iconAnchor: [0, 24],
       labelAnchor: [-6, 0],
       popupAnchor: [0, -36],
+      storyJSON: this.story.fields["GeoJSON"]
+        ? JSON.parse(
+            this.story.fields["GeoJSON"]
+              .replaceAll('"type"', "type")
+              .replaceAll('"coordinates"', "coordinates")
+              .replaceAll('"properties"', "properties")
+              .replaceAll('"features"', "features")
+              .replaceAll('"geometry"', "geometry")
+              .replaceAll('"name"', "name"),
+          )
+        : null,
+      threePointsGeoJson: {
+        type: "FeatureCollection",
+        features: [
+          {
+            type: "Feature",
+            geometry: { type: "Point", coordinates: [-105.1, 40.58] },
+            properties: { name: "Point A" },
+          },
+          {
+            type: "Feature",
+            geometry: { type: "Point", coordinates: [-105.05, 40.6] },
+            properties: { name: "Point B" },
+          },
+          {
+            type: "Feature",
+            geometry: { type: "Point", coordinates: [-105.08, 40.55] },
+            properties: { name: "Point C" },
+          },
+        ],
+      },
+      // threePointsGeoJson: {
+      //   type: "FeatureCollection",
+      //   features: [
+      //     {
+      //       type: "Feature",
+      //       geometry: { type: "Point", coordinates: [-105.10, 40.58] },
+      //       properties: { name: "Point A" }
+      //     },
+      //     {
+      //       type: "Feature",
+      //       geometry: { type: "Point", coordinates: [-105.05, 40.60] },
+      //       properties: { name: "Point B" }
+      //     },
+      //     {
+      //       type: "Feature",
+      //       geometry: { type: "Point", coordinates: [-105.08, 40.55] },
+      //       properties: { name: "Point C" }
+      //     }
+      //   ]
+      // },
     };
   },
   props: {
@@ -79,20 +153,40 @@ export default {
       mapGetZoom: "mapGetZoom",
       storyInMap: "storyInMap",
     }),
+    geojsonOptions() {
+      return {
+        // Runs on every GeoJSON feature to bind popups or styles
+        onEachFeature: (feature, layer) => {
+          if (feature.properties && feature.properties.name) {
+            layer.bindPopup(`<b>${feature.properties.name}</b>`);
+          }
+        },
+      };
+    },
     latLngObj: function () {
       return latLng(this.story.fields["LAT"], this.story.fields["LONG"]);
     },
     smallMarkerClass: function () {
-      return this.story.fields["Story Theme"]
-        ? `bg-${this.story.fields["Story Theme"]}`
-        : "bg-white";
+      return this.story.fields["Department"]
+        ? `bg-${this.story.fields["Department"]}`
+        : "bg-carbon";
     },
     storyTitle: function () {
       if (this.story.fields[`${this.$root.$i18n.locale}-StoryTitle`]) {
         return this.story.fields[`${this.$root.$i18n.locale}-StoryTitle`];
       } else {
         // default to english
-        return this.story.fields["en-StoryTitle"];
+        return this.story.fields["Project/Activity Title"];
+      }
+    },
+    storyGeoJSON: function () {
+      console.log("testing... " + this.story.fields["GeoJSON"]);
+      if (this.story.fields["GeoJSON"]) {
+        console.log("testing... " + storyGeoJSON);
+
+        return this.story.fields["GeoJSON"];
+      } else {
+        return null;
       }
     },
   },

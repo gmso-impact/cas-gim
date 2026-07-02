@@ -17,7 +17,8 @@
         :key="story.id"
         v-for="story in stories"
       ></MapMarker>
-      <template v-if="getBreakpoints.includes('xxl')">
+      <template v-if="getBreakpoints.includes('lg')"
+        ><!-- v-if="getBreakpoints.includes('xxl')" -->
         <StoryPopup
           :story="story"
           :key="`active-${story.id}`"
@@ -310,9 +311,10 @@ export default {
           minZoom: 0, // zoom level to show layer at, 0 = world
           style: (feature) => {
             // console.log(feature);
-            let color = "#ffffff";
-            if (cssColors[newStory.fields["Story Theme"]]) {
-              color = cssColors[newStory.fields["Story Theme"]];
+            let color = "#ffffff"; // #ffffff
+            if (cssColors[newStory.fields["Department"]]) {
+              color = cssColors[newStory.fields["Department"]];
+              console.log("color in map.vue =" + color);
             }
             return {
               color: color, //"#BA55D3",
@@ -350,15 +352,6 @@ export default {
           } else if (style.type === "esriSFS") {
             // they are polygons
             console.log({ stylePolygon: { style } });
-
-            // unfortunately, setting the style after the fact does not work
-            // layer.options.style = (feature) => {
-            //   let color = cssColors[newStory.fields["Story Theme"]];
-            //   return {
-            //     color: color, //"#BA55D3",
-            //     weight: 100,
-            //   };
-            // };
           } else {
             console.log({ styleUnknown: { style } });
           }

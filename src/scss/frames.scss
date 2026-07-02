@@ -1,5 +1,7 @@
+//storyFrame overlay childPoint
+
 .overlay {
-  position: absolute;
+  position: relative; /* absolute*/
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -7,30 +9,36 @@
   height: 100%;
   z-index: 2000;
   padding: 0;
+  // background-color: aquamarine;
 }
-// $font-size-base
+// $font-size-base 
 @include media-breakpoint-up(lg) {
   .overlay {
     padding: 0;
+    // border: solid 4px blue;
   }
 }
 @include media-breakpoint-up(xxl) {
   .overlay {
     padding: $font-size-xxl;
+    // border: solid 4px green;
   }
 
 }
 
 
 .overlay.storyFrame {
-  max-height: 1920*2px;
-  max-width: 1080*2px;
+  // max-height: 1920*2px;
+  // max-width: 1080*2px;
+  // max-height: 200px;
+  // max-width: 400px;
+  border: solid 4px greenyellow;
 }
 @include media-breakpoint-up(xxl) {
-
 .overlay.storyFrame {
   max-height: 100vh / 4 * 2;
   max-width: 100vw / 7 * 2;
+  // border: solid 4px red;
 }
 }
 
@@ -66,18 +74,20 @@
 
 .popup-iframe {
   padding: 0;
-  height: 60vh;
-  width: 60vw;
+  height: 60vh; /* 60vh */
+  width: 60vw; /* 60vh */
   z-index: 99999 !important;
   position:relative;
+  // border: solid 4px blue;
 }
 
-@include media-breakpoint-up(xl){
+@include media-breakpoint-up(lg){
   .popup-iframe {
-    height: 40vh ;
-    width: 40vw;
+    height: 40vh; /* 40vh */
+    width: 20vw; /* 40vw */
     z-index: 99999 !important;
     position:relative;
+    // border: solid 4px green;
   }
 }
 

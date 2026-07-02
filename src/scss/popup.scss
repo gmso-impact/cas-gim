@@ -24,12 +24,15 @@
 // End clear leaflet popup styles
 
 .leaflet-popup-content{
-  width: 100%;
+  //width: 50%;
+  //overflow-y: auto;
+  //background-color: white;
 }
 
-@include media-breakpoint-up(xxl) {
+@include media-breakpoint-up(sm) {
     .leaflet-popup-content {
-      width: 100%;
+      //width: 50%;
+      //overflow-y: auto;
     }
     .leaflet-popup-content {
       font-size: $font-size-xxl !important;

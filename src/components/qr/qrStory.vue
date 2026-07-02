@@ -54,8 +54,8 @@ export default {
     },
     qrConfig: function () {
       let dark = "#000000";
-      if (cssColors && cssColors[this.story.fields["Story Theme"]]) {
-        dark = cssColors[this.story.fields["Story Theme"]];
+      if (cssColors && cssColors[this.story.fields["Department/Unit"]]) {
+        dark = cssColors[this.story.fields["Department/Unit"]];
       }
       return {
         colorDark: dark,

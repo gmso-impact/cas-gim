@@ -7,9 +7,9 @@
         'text-light': 'dark' === currentMap.background,
       }"
     >
-      {{ $t(`baseMaps.mapType`) }}
+      <!-- {{ $t(`baseMaps.mapType`) }} -->
     </h2>
-    <div class="btn-group">
+    <div class="btn-group border border-dark rounded">
       <button
         class="btn btn-fade"
         v-for="map in baseMaps"
