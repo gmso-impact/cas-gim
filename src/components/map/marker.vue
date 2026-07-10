@@ -1,7 +1,7 @@
 <template lang="">
   <div>
     <l-marker
-      v-if="true"
+      v-if="false"
       :lat-lng="latLngObj"
       :key="story.id"
       :riseOnHover="true"
@@ -50,10 +50,6 @@
       </Transition-group>
     </l-marker>
     <l-geo-json :geojson="storyJSON" :options="geojsonOptions"></l-geo-json>
-    <!-- <l-geo-json 
-    :geojson=story.fields['GeoJSON']
-    :options="geojsonOptions"
-  ></l-geo-json> -->
   </div>
 </template>
 <script>
@@ -68,36 +64,37 @@ export default {
     LGeoJson,
   },
   data() {
-    console.log("testing here... " + this.story.fields["GeoJSON"]);
-    console.log(
-      "testing replace... " +
-        JSON.parse(
-          this.story.fields["GeoJSON"]
-            .replaceAll('"type"', "type")
-            .replaceAll('"coordinates"', "coordinates")
-            .replaceAll('"properties"', "properties")
-            .replaceAll('"features"', "features")
-            .replaceAll('"geometry"', "geometry")
-            .replaceAll('"name"', "name"),
-        ),
-    );
+    console.log("testing here...1 "+this.story.fields["GeoJSON"]);
+    // console.log(
+    //   "testing replace... " +
+    //     JSON.parse(
+    //       this.story.fields["GeoJSON"]
+    //         .replaceAll('"type"', "type")
+    //         .replaceAll('"coordinates"', "coordinates")
+    //         .replaceAll('"properties"', "properties")
+    //         .replaceAll('"features"', "features")
+    //         .replaceAll('"geometry"', "geometry")
+    //         .replaceAll('"name"', "name"),
+    //     ),
+    // );
 
     return {
       test: null,
       iconAnchor: [0, 24],
       labelAnchor: [-6, 0],
       popupAnchor: [0, -36],
-      storyJSON: this.story.fields["GeoJSON"]
-        ? JSON.parse(
-            this.story.fields["GeoJSON"]
-              .replaceAll('"type"', "type")
-              .replaceAll('"coordinates"', "coordinates")
-              .replaceAll('"properties"', "properties")
-              .replaceAll('"features"', "features")
-              .replaceAll('"geometry"', "geometry")
-              .replaceAll('"name"', "name"),
-          )
-        : null,
+      // storyJSON: this.story.fields["GeoJSON"]
+      //   ? JSON.parse(
+      //       this.story.fields["GeoJSON"]
+      //         .replaceAll('"type"', "type")
+      //         .replaceAll('"coordinates"', "coordinates")
+      //         .replaceAll('"properties"', "properties")
+      //         .replaceAll('"features"', "features")
+      //         .replaceAll('"geometry"', "geometry")
+      //         .replaceAll('"name"', "name"),
+      //     )
+      //   : null,
+      storyJSON: this.story.fields["GeoJSON"] ? JSON.parse(this.story.fields["GeoJSON"]): null,
       threePointsGeoJson: {
         type: "FeatureCollection",
         features: [
