@@ -1,7 +1,7 @@
 <template lang="">
   <div>
     <l-marker
-      v-if="false"
+      v-if="true"
       :lat-lng="latLngObj"
       :key="story.id"
       :riseOnHover="true"
@@ -49,7 +49,8 @@
         </l-icon>
       </Transition-group>
     </l-marker>
-    <l-geo-json :geojson="storyJSON" :options="geojsonOptions"></l-geo-json>
+
+    <l-geo-json v-if="false" :geojson="storyJSON" :options="geojsonOptions"></l-geo-json>
   </div>
 </template>
 <script>
@@ -64,77 +65,16 @@ export default {
     LGeoJson,
   },
   data() {
-    console.log("testing here...1 "+this.story.fields["GeoJSON"]);
-    // console.log(
-    //   "testing replace... " +
-    //     JSON.parse(
-    //       this.story.fields["GeoJSON"]
-    //         .replaceAll('"type"', "type")
-    //         .replaceAll('"coordinates"', "coordinates")
-    //         .replaceAll('"properties"', "properties")
-    //         .replaceAll('"features"', "features")
-    //         .replaceAll('"geometry"', "geometry")
-    //         .replaceAll('"name"', "name"),
-    //     ),
-    // );
-
+    console.log("testing here...1 " + this.story.fields["GeoJSON"]);
+    
     return {
       test: null,
       iconAnchor: [0, 24],
       labelAnchor: [-6, 0],
       popupAnchor: [0, -36],
-      // storyJSON: this.story.fields["GeoJSON"]
-      //   ? JSON.parse(
-      //       this.story.fields["GeoJSON"]
-      //         .replaceAll('"type"', "type")
-      //         .replaceAll('"coordinates"', "coordinates")
-      //         .replaceAll('"properties"', "properties")
-      //         .replaceAll('"features"', "features")
-      //         .replaceAll('"geometry"', "geometry")
-      //         .replaceAll('"name"', "name"),
-      //     )
-      //   : null,
-      storyJSON: this.story.fields["GeoJSON"] ? JSON.parse(this.story.fields["GeoJSON"]): null,
-      threePointsGeoJson: {
-        type: "FeatureCollection",
-        features: [
-          {
-            type: "Feature",
-            geometry: { type: "Point", coordinates: [-105.1, 40.58] },
-            properties: { name: "Point A" },
-          },
-          {
-            type: "Feature",
-            geometry: { type: "Point", coordinates: [-105.05, 40.6] },
-            properties: { name: "Point B" },
-          },
-          {
-            type: "Feature",
-            geometry: { type: "Point", coordinates: [-105.08, 40.55] },
-            properties: { name: "Point C" },
-          },
-        ],
-      },
-      // threePointsGeoJson: {
-      //   type: "FeatureCollection",
-      //   features: [
-      //     {
-      //       type: "Feature",
-      //       geometry: { type: "Point", coordinates: [-105.10, 40.58] },
-      //       properties: { name: "Point A" }
-      //     },
-      //     {
-      //       type: "Feature",
-      //       geometry: { type: "Point", coordinates: [-105.05, 40.60] },
-      //       properties: { name: "Point B" }
-      //     },
-      //     {
-      //       type: "Feature",
-      //       geometry: { type: "Point", coordinates: [-105.08, 40.55] },
-      //       properties: { name: "Point C" }
-      //     }
-      //   ]
-      // },
+      storyJSON: this.story.fields["GeoJSON"]
+        ? JSON.parse(this.story.fields["GeoJSON"])
+        : null,
     };
   },
   props: {
@@ -150,6 +90,18 @@ export default {
       mapGetZoom: "mapGetZoom",
       storyInMap: "storyInMap",
     }),
+    // geojsonOptions() {
+    //   return {
+    //     // Runs on every GeoJSON feature to bind popups or styles
+    //     onEachFeature: (feature, layer) => {
+    //       if (feature.properties && feature.properties.name)
+    //       {
+    //         layer.bindPopup(`<b>${feature.properties.name}</b>`);
+            
+    //       }
+    //     },
+    //   };
+    // },
     geojsonOptions() {
       return {
         // Runs on every GeoJSON feature to bind popups or styles
@@ -157,6 +109,16 @@ export default {
           if (feature.properties && feature.properties.name) {
             layer.bindPopup(`<b>${feature.properties.name}</b>`);
           }
+        },
+        // Dynamically style GeoJSON markers
+        pointToLayer: (feature, latlng) => {
+          return L.marker(latlng, {
+            icon: L.divIcon({
+              iconAnchor: this.iconAnchor,
+              className: "marker-pin btn-fade greg " + this.smallMarkerClass,
+              iconSize: [40, 40], // Adjust based on your sizing needs,
+            }),
+          });
         },
       };
     },
@@ -200,6 +162,12 @@ export default {
 };
 </script>
 <style lang="scss">
+
+.greg {
+  transform: rotate(45deg);
+  //border: solid 1px black !important;
+}
+
 .featuredStoryMarker {
   margin-top: -1px;
   transform: rotate(-45deg);
