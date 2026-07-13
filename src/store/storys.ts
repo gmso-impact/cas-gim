@@ -482,6 +482,7 @@ const storys = {
           theme: undefined,
           campus: undefined,
           tag: undefined,
+          department: undefined,
         },
       }); // leave other query paramaters alone
     },

@@ -1,4 +1,5 @@
 <template lang="">
+  <RouterLink to="/">
   <div class="col p-1 p-xxl-2">
     <div
       class="btn btn-secondary story-card w-100 h-100 p-2 d-flex flex-column rounded-0 justify-content-between"
@@ -21,6 +22,7 @@
       <div class="font-weight-bold">{{ $t(`ResetMap`) }}</div>
     </div>
   </div>
+  </RouterLink>
 </template>
 <script>
 import { mapGetters, mapActions } from "vuex";

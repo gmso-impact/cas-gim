@@ -3,12 +3,13 @@
     class="d-flex flex-column overflow-y-auto overflow-x-hidden justify-content-center pt-2 pb-2 pt-xl-2"
   >
     <span class="text-white">
-      <a href='/' style="color:white;"><span>
+      <RouterLink to="/">
+      <span style="color: white;">
         <font-awesome-icon
           :icon="['fas', 'globe']"
           class="mr-2 fa-3x circle-icon"
       /></span>
-    </a>
+    </RouterLink>
       <div class="btn-group" role="group" aria-label="Basic example">
         <button
           type="button"
