@@ -1,5 +1,5 @@
 <template lang="">
-  <div class="row">
+  <div class="row pt-0 pb-0 pt-xl-0 pb-xl-0">
     <div
       v-for="storyTheme in storyThemes"
       class="col-md-2"

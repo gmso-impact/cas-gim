@@ -1,8 +1,8 @@
 <template lang="">
   <div class="d-flex flex-column h-100 bg-carbon">
-    <h3 class="text-center my-1 my-xxl-5 bg-white d-none d-lg-block d-xl-none">
+    <!-- <h3 class="text-center my-1 my-xxl-5 bg-white d-none d-lg-block d-xl-none">
       {{ $t(`tagline`) }}
-    </h3>
+    </h3> -->
     <div class="flex-grow-1 overflow-y-auto overflow-x-hidden p-2">
       <transition-group
         name="story-list"

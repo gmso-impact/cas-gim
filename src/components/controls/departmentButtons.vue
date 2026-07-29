@@ -1,15 +1,15 @@
 <template>
   <div
-    class="d-flex flex-column overflow-y-auto overflow-x-hidden justify-content-center pt-2 pb-2 pt-xl-2"
+    class="d-flex flex-column overflow-y-auto overflow-x-hidden justify-content-center pt-0 pb-0 pt-xl-0"
   >
     <span class="text-white">
       <RouterLink to="/">
-      <span style="color: white;">
-        <font-awesome-icon
-          :icon="['fas', 'globe']"
-          class="mr-2 fa-3x circle-icon"
-      /></span>
-    </RouterLink>
+        <span style="color: white">
+          <font-awesome-icon
+            :icon="['fas', 'globe']"
+            class="mr-2 fa-3x circle-icon"
+        /></span>
+      </RouterLink>
       <div class="btn-group" role="group" aria-label="Basic example">
         <button
           type="button"
@@ -21,11 +21,7 @@
           "
           @click="setDepartment('Agricultural Biology')"
         >
-          <img
-            height="60"
-            src="icons/CSU_Agsci_Icons-06-1-150x150.png"
-            alt="Agricultural Biology"
-          />
+          <img height="100" src="icons/2-1.png" alt="Agricultural Biology" />
         </button>
         <button
           type="button"
@@ -38,9 +34,9 @@
           @click="setDepartment('Agricultural and Resource Economics')"
         >
           <img
-            height="60"
-            src="icons/CSU_Agsci_Icons-08-1-150x150-2.png"
-            alt="Agricultural Biology"
+            height="100"
+            src="icons/5-1.png"
+            alt="Agricultural and Resource Economics"
           />
         </button>
         <button
@@ -54,8 +50,8 @@
           @click="setDepartment('Animal Sciences')"
         >
           <img
-            height="60"
-            src="icons/CSU_Agsci_Icons-07-1-150x150-3.png"
+            height="100"
+            src="icons/3-1.png"
             alt="Animal Sciences"
           />
         </button>
@@ -70,8 +66,8 @@
           @click="setDepartment('Horticulture and Landscape Architecture')"
         >
           <img
-            height="60"
-            src="icons/CSU_Agsci_Icons-09-1-150x150-3.png"
+            height="100"
+            src="icons/4-1.png"
             alt="Horticulture and Landscape Architecture"
           />
         </button>
@@ -86,8 +82,8 @@
           @click="setDepartment('Soil and Crop Sciences')"
         >
           <img
-            height="60"
-            src="icons/CSU_Agsci_Icons-10-1-150x150-4.png"
+            height="100"
+            src="icons/5-2.png"
             alt="Soil and Crop Sciences"
           />
         </button>

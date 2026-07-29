@@ -50,7 +50,11 @@
       </Transition-group>
     </l-marker>
 
-    <l-geo-json v-if="false" :geojson="storyJSON" :options="geojsonOptions"></l-geo-json>
+    <l-geo-json
+      v-if="false"
+      :geojson="storyJSON"
+      :options="geojsonOptions"
+    ></l-geo-json>
   </div>
 </template>
 <script>
@@ -66,7 +70,7 @@ export default {
   },
   data() {
     console.log("testing here...1 " + this.story.fields["GeoJSON"]);
-    
+
     return {
       test: null,
       iconAnchor: [0, 24],
@@ -97,7 +101,7 @@ export default {
     //       if (feature.properties && feature.properties.name)
     //       {
     //         layer.bindPopup(`<b>${feature.properties.name}</b>`);
-            
+
     //       }
     //     },
     //   };
@@ -162,7 +166,6 @@ export default {
 };
 </script>
 <style lang="scss">
-
 .greg {
   transform: rotate(45deg);
   //border: solid 1px black !important;

@@ -44,7 +44,7 @@
       <div class="mt-auto mb-0 bg-carbon text-white">
         <div class="p-2" style="background-color: #323e48">
           <!-- 323E48 #59595b -->
-          <strong><i>from local to global</i></strong>
+          <strong><i>Telling our Stories from Colorado to the World </i></strong>
         </div>
       </div>
     </div>
