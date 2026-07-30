@@ -92,25 +92,25 @@ $theme-colors: (
 
 // If you change this
 // be sure to also change src/mixin/breakpoint.ts
-$grid-breakpoints: (
-  xs: 0,
-  sm: 285px,
-  md: 576px,
-  lg: 768px,
-  xl: 992px,
-  xxl: 1700px,
-  xxxl: 3800px
-);
-
 // $grid-breakpoints: (
 //   xs: 0,
-//   sm: 576px,
-//   md: 768px,
-//   lg: 992px,
-//   xl: 1700px,
-//   xxl: 3800px,
-//   xxxl: 7000px
+//   sm: 285px,
+//   md: 576px,
+//   lg: 768px,
+//   xl: 992px,
+//   xxl: 1700px,
+//   xxxl: 3800px
 // );
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1700px,
+  xxl: 3800px,
+  xxxl: 7000px
+);
 
 $overflows: auto, hidden, scroll;
 
