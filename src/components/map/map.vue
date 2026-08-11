@@ -372,4 +372,13 @@ export default {
   },
 };
 </script>
-<style lang="scss"></style>
+<style lang="scss">
+.leaflet-control-attribution {
+  font-size: 10px !important;
+  line-height: 11px !important;
+  max-width: 200px;
+  max-height: 30px;
+  overflow-y: auto;
+  white-space: normal;
+}
+</style>

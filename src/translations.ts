@@ -44,6 +44,7 @@ const translations = {
     Featured: "Featured",
     IntroVideo: "Watch Intro Video",
     QRscan: "Scan Me",
+    QRnewStory: "Share your story!",
     QRpopover: "View this exhibit on your phone!",
     Explore: "Get ready to explore!",
     SortBy: "Sort by",
@@ -126,6 +127,7 @@ const translations = {
     Featured: "Presentada",
     IntroVideo: "Mirar video",
     QRscan: "Escanéame",
+    QRnewStory: "¡Comparte tu historia!",
     QRpopover: "Ver está pieza en tu móbil",
     Explore: "¡Prepárate para la aventura!",
 

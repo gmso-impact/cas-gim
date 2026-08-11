@@ -1,12 +1,12 @@
 <template lang="">
-  <div class="qr-site d-flex float-left align-items-end">
+  <div class="qr-site d-flex d-inline float-right align-items-end">
     <div class="text-center">
-      <div class="text-white small">{{ $t(`QRscan`) }}</div>
+      <div class="text-white small">{{ $t(`QRnewStory`) }}</div>
       <vue-qr
         id="popover-target-1"
         v-bind="qrConfig"
         class="qr-site-img pt-2"
-        text="https://impact.agsci.colostate.edu"
+        text="https://airtable.com/appdLdLpdaHnqnqMV/pagnis93CXhRTSDWS/form"
         qid="testid"
       ></vue-qr>
       <b-popover

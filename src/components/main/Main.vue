@@ -3,7 +3,7 @@
     <!--<KioskOverlay v-if="true"></KioskOverlay>-->
     <div
       id="header"
-      v-if="$route.name === 'Web'"
+      v-if="$route.name === 'Web' || $route.name === 'Kiosk'"
       class="d-none d-lg-block text-center border-bottom border-slate pt-2"
     >
       <!-- <div class="titleContainer">
@@ -52,23 +52,11 @@
       <div class="left d-none d-lg-block col-lg-3 col-xl-3 col-xxl-3">
         <StoryListMap></StoryListMap>
       </div>
-      <!-- <div
-        class="d-none d-lg-block d-xxl-none h-100 col-2 col-xl-1 col-xl-1 border-right border-slate"
-      >
-        <ControlGroup></ControlGroup>
-      </div> -->
-      <!-- <div class="d-none d-xxl-block h-100 col-2 border-right border-slate">
-        <ControlGroupXXL></ControlGroupXXL>
-      </div> -->
       <div class="right col-12 col-lg-9 col-xl-9 col-xxl-9">
         <Map></Map>
       </div>
     </div>
-    <div
-      id="footer"
-      v-if="true"
-      class="footer bg-carbon text-center text-secondary py-3"
-    >
+    <div id="footer" v-if="true" class="footer bg-carbon text-center text-secondary py-1">
       <ThemeBottom>
         <ControlGroup></ControlGroup>
       </ThemeBottom>

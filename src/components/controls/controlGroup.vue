@@ -1,22 +1,26 @@
 <template lang="">
-  <departmentButtons></departmentButtons>
-  <!-- <div
-    class="d-flex h-100 flex-column overflow-y-auto overflow-x-hidden justify-content-between pt-1 pt-xl-2"
-  >
-    <h1 class="text-white text-center mx-1 mx-xl-2 pb-xxl-4">
-      {{ $t(`FindStories`) }}
-    </h1>
-    <CampusGroup class="mb-3 mx-1 mx-xl-2"></CampusGroup>
-    <KioskSwitch class="mb-3 mx-1 mx-xl-2" v-if="false"> </KioskSwitch>
-    <ThemeColumn class="mb-3 mx-1 mx-xl-2"></ThemeColumn>
-    <IdTags class="mb-3 mx-1 mx-xl-2"></IdTags>
-    <Language class="mb-3 mx-1 mx-xl-2"></Language>
-    <TitleNameSwitch class="mb-3 mx-1 mx-xl-2"></TitleNameSwitch>
+  <div class="d-flex align-items-center justify-content-between w-100">
+  <!-- Left -->
+  <div>
     <QRSite
-      v-if="this.$route.name === 'Kiosk'"
+      v-if="$route.name === 'Kiosk'"
       class="mb-3 mx-1 mx-xl-2"
-    ></QRSite>
-  </div> -->
+    />
+  </div>
+
+  <!-- Center -->
+  <div class="flex-grow-1 d-flex justify-content-center">
+    <departmentButtons />
+  </div>
+
+  <!-- Right -->
+  <div>
+    <QRNewStory
+      v-if="$route.name === 'Kiosk'"
+      class="mb-3 mx-1 mx-xl-2"
+    />
+  </div>
+</div>
 </template>
 <script>
 import departmentButtons from "./departmentButtons.vue";
@@ -28,7 +32,8 @@ import departmentButtons from "./departmentButtons.vue";
 //import IdTags from "./idTags.vue";
 // import Geo from "./geo.vue";
 //import IntroVideo from "./introVideo.vue";
-//import QRSite from "@/components/qr/qrSite.vue";
+import QRSite from "@/components/qr/qrSite.vue";
+import QRNewStory from "@/components/qr/qrNewStory.vue";
 
 export default {
   components: {
@@ -40,7 +45,8 @@ export default {
     //ThemeColumn,
     //IdTags,
     //IntroVideo,
-    //QRSite,
+    QRSite,
+    QRNewStory,
     // Geo,
   },
   data() {

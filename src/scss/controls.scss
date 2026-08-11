@@ -20,14 +20,14 @@
 }
 
 .qr-site-img {
-  width: 75%
+  width: 80px
 }
 .font-qr-site {
   font-size: 0.7rem;
 }
 @include media-breakpoint-up(xxl) {
   .qr-site {
-    max-width: 300px;
+    max-width: 80px;
   }
   .font-qr-site {
     font-size: 1.7rem;
