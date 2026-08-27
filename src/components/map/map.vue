@@ -17,7 +17,7 @@
         :key="story.id"
         v-for="story in stories"
       ></MapMarker>
-      <template v-if="getBreakpoints.includes('lg')"
+      <template v-if="getBreakpoints.includes('xs') || getBreakpoints.includes('sm') || getBreakpoints.includes('md') || getBreakpoints.includes('lg') || getBreakpoints.includes('xl')">
         ><!-- v-if="getBreakpoints.includes('xxl')" -->
         <StoryPopup
           :story="story"
@@ -80,7 +80,7 @@
           {{ $t(`Stories`) }}
         </button>
         <button
-          class="btn btn-light"
+          class="btn btn-dark"
           v-on:click="openFilterFrame()"
           :aria-label="$t(`Filter`)"
         >

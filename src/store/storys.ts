@@ -279,12 +279,14 @@ const storys = {
       state.isHelpFrameOpen = false;
       state.isStoriesFrameOpen = false;
       state.isFilterFrameOpen = true;
+      console.log("openFilterFrame="+state.isFilterFrameOpen);
       event(`open-video`, {
         event_category: "content",
         event_label: "open-video",
         value: 1,
         method: "Google",
       });
+      console.log("openFilterFrame2");
     },
     toggleFilterFrame: (state) => {
       if (!state.isFilterFrameOpen) {
@@ -293,8 +295,10 @@ const storys = {
         state.isHelpFrameOpen = false;
         state.isStoriesFrameOpen = false;
         state.isFilterFrameOpen = true;
+        //console.log("toggle isFilterFrameOpen="+state.isFilterFrameOpen);
       } else {
         state.isFilterFrameOpen = false;
+        //console.log("toggle isFilterFrameOpen="+state.isFilterFrameOpen);
       }
     },
 

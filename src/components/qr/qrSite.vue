@@ -21,13 +21,14 @@
     </div>
   </div>
 </template>
-<script lang="ts">
+<script>
 import VueQr from "vue-qr";
 import { BPopover } from "bootstrap-vue";
 
 const qrConfig = {
   components: {
     BPopover,
+    VueQr
   },
   data: {
     scale: 1,

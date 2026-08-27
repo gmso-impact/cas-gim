@@ -6,16 +6,17 @@
       v-if="$route.name === 'Web' || $route.name === 'Kiosk'"
       class="d-none d-lg-block text-center border-bottom border-slate pt-2"
     >
-      <!-- <div class="titleContainer">
-      <img src="images/CSU_Logo-01-01-1.png" class="titleImage"/>
-      <span class="text-white mb-1 bold">
-        College of Agricultural Sciences
-      </span> -->
-      <h1 class="text-white">Global IMPACT Map</h1>
-      <!-- </div> -->
+      <div class="titleContainer ml-2">
+        <img src="images/CSU_Logo-01-01-1.png" class="titleImage"/>
+        <span class="text-white mb-1 bold">
+          College of Agricultural Sciences
+        </span>
+        <!-- <h1 class="text-white">Global IMPACT Map</h1> -->
+      </div>
 
       <div class="d-flex justify-content-center">
-        <img
+        <img class="mb-3" src="images/Global.svg" style="max-width: 200px; margin-top:-20px;" />
+        <!-- <img
           src="images/quinoa.jpg"
           class="img-fluid"
           alt="Image 3"
@@ -38,13 +39,13 @@
           class="img-fluid"
           alt="Image 1"
           style="width: 25%"
-        />
+        /> -->
       </div>
 
       <div class="mt-auto mb-0 bg-carbon text-white">
-        <div class="p-2" style="background-color: #323e48">
-          <!-- 323E48 #59595b -->
-          <strong><i>Telling our Stories from Colorado to the World </i></strong>
+        <div class="p-1 bg-carbon" style="max-height:10px;">
+          &nbsp;
+          <!-- <i>Telling our Stories from Colorado to the World </i> -->
         </div>
       </div>
     </div>
@@ -56,7 +57,11 @@
         <Map></Map>
       </div>
     </div>
-    <div id="footer" v-if="true" class="footer bg-carbon text-center text-secondary py-1">
+    <div
+      id="footer"
+      v-if="true"
+      class="d-none d-lg-block footer bg-carbon text-center text-secondary py-1"
+    >
       <ThemeBottom>
         <ControlGroup></ControlGroup>
       </ThemeBottom>
@@ -64,7 +69,7 @@
   </div>
 </template>
 
-<script lang="ts">
+<script>
 // @ is an alias to /src
 import StoryListMap from "@/components/storyList/storyListMap.vue";
 import Map from "@/components/map/map.vue";
@@ -83,6 +88,9 @@ export default {
     //ControlGroupXXL,
     //KioskOverlay,
   },
+  mounted() {
+    console.log(this.$route.path);
+  },
   methods: {
     ...mapMutations({
       clickCloseHelpFrame: "closeHelpFrame",
@@ -95,8 +103,8 @@ export default {
 <style lang="scss" scoped>
 .titleContainer {
   display: flex; /* Enables flexbox */
-  align-items: center; /* Vertically aligns items in the middle */
-  justify-content: center; /* Horizontally centers everything */
+  align-items: left; /* Vertically aligns items in the middle */
+  justify-content: left; /* Horizontally centers everything */
   gap: 10px; /* Adds space between the image and text */
 }
 

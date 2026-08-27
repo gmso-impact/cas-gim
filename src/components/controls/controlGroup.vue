@@ -1,26 +1,20 @@
 <template lang="">
   <div class="d-flex align-items-center justify-content-between w-100">
-  <!-- Left -->
-  <div>
-    <QRSite
-      v-if="$route.name === 'Kiosk'"
-      class="mb-3 mx-1 mx-xl-2"
-    />
-  </div>
+    <!-- Left -->
+    <div>
+      <QRSite class="mb-3 mx-1 mx-xl-2" /><!--v-if="$route.name === 'Kiosk'"-->
+    </div>
 
-  <!-- Center -->
-  <div class="flex-grow-1 d-flex justify-content-center">
-    <departmentButtons />
-  </div>
+    <!-- Center -->
+    <div class="flex-grow-1 d-flex justify-content-center">
+      <departmentButtons />
+    </div>
 
-  <!-- Right -->
-  <div>
-    <QRNewStory
-      v-if="$route.name === 'Kiosk'"
-      class="mb-3 mx-1 mx-xl-2"
-    />
+    <!-- Right -->
+    <div>
+      <QRNewStory class="mb-3 mx-1 mx-xl-2" /><!--v-if="$route.name === 'Kiosk'" -->
+    </div>
   </div>
-</div>
 </template>
 <script>
 import departmentButtons from "./departmentButtons.vue";

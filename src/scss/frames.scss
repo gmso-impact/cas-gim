@@ -1,7 +1,7 @@
 //storyFrame overlay childPoint
 
 .overlay {
-  position: relative; /* absolute*/
+  position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -9,7 +9,6 @@
   height: 100%;
   z-index: 2000;
   padding: 0;
-  // background-color: aquamarine;
 }
 // $font-size-base 
 @include media-breakpoint-up(lg) {
@@ -81,16 +80,35 @@
   // border: solid 4px blue;
 }
 
+@include media-breakpoint-up(xs){
+  .popup-iframe {
+    height: 50vh; /* 40vh */
+    width: 80vw; /* 40vw */
+    z-index: 99999 !important;
+    position:relative;
+    //border: solid 4px green;
+  }
+}
+
+@include media-breakpoint-up(md){
+  .popup-iframe {
+    height: 43vh; /* 40vh */
+    width: 40vw; /* 40vw */
+    z-index: 99999 !important;
+    position:relative;
+    //border: solid 4px green;
+  }
+}
+
 @include media-breakpoint-up(lg){
   .popup-iframe {
     height: 40vh; /* 40vh */
     width: 20vw; /* 40vw */
     z-index: 99999 !important;
     position:relative;
-    // border: solid 4px green;
+    //border: solid 4px green;
   }
 }
-
 
 @include media-breakpoint-up(xxxl) {
   $storyScale: 2;

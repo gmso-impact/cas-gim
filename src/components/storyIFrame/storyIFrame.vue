@@ -1,6 +1,6 @@
 <template lang="">
   <div class="h-100 w-100">
-    <ScrollDown>test</ScrollDown>
+    <ScrollDown></ScrollDown>
 
     <!-- <h2 class="text-white">{{ storyTitle }}</h2> -->
     <div class="image-container">

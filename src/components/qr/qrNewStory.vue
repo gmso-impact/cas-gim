@@ -21,7 +21,7 @@
     </div>
   </div>
 </template>
-<script lang="ts">
+<script>
 import VueQr from "vue-qr";
 import { BPopover } from "bootstrap-vue";
 

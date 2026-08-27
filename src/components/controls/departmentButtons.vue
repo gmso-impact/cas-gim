@@ -49,11 +49,7 @@
           "
           @click="setDepartment('Animal Sciences')"
         >
-          <img
-            height="100"
-            src="icons/3-1.png"
-            alt="Animal Sciences"
-          />
+          <img height="100" src="icons/3-1.png" alt="Animal Sciences" />
         </button>
         <button
           type="button"
@@ -81,30 +77,10 @@
           "
           @click="setDepartment('Soil and Crop Sciences')"
         >
-          <img
-            height="100"
-            src="icons/5-2.png"
-            alt="Soil and Crop Sciences"
-          />
+          <img height="100" src="icons/5-2.png" alt="Soil and Crop Sciences" />
         </button>
         <!-- `btn-${story.fields['Department']}` :class="[`bg-${theme}`]"-->
       </div>
-
-      <!-- <span v-on:click="setDepartment('Agricultural Biology')"
-                :class="{ active: isActive('AgriculturalBiology') }">
-                <img height="60" src="icons/CSU_Agsci_Icons-06-1-150x150.png" /></span>
-            <span v-on:click="setDepartment('Agricultural and Resource Economics')"
-                :class="{ active: isActive('Agricultural and Resource Economics') }">
-                <img class="ml-3" height="60" src="icons/CSU_Agsci_Icons-08-1-150x150-2.png" /></span>
-            <span v-on:click="setDepartment('Animal Sciences')"
-                :class="{ active: isActive('AnimalSciences') }">
-                <img class="ml-3" height="60" src="icons/CSU_Agsci_Icons-07-1-150x150-3.png" /></span>
-            <span v-on:click="setDepartment('Horticulture and Landscape Architecture')"
-                :class="{ active: isActive('Horticulture and Landscape Architecture') }">
-                <img class="ml-3" height="60" src="icons/CSU_Agsci_Icons-09-1-150x150-3.png" /></span>
-            <span v-on:click="setDepartment('Soil and Crop Sciences')"
-                :class="{ active: isActive('Soil and Crop Sciences') }">
-                <img class="ml-3" height="60" src="icons/CSU_Agsci_Icons-10-1-150x150-4.png"/></span> -->
     </span>
   </div>
 </template>
