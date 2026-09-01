@@ -22,12 +22,56 @@
         <!-- {{ storyContent }} -->
         <div v-html="storyContent"></div>
       <!-- </p> -->
-      
-      <p>
-        <a :href="storyLinks" target="_blank" rel="noopener noreferrer"
-          >Learn More</a
-        >
-      </p>
+      <br/>
+      <h3>Links</h3>
+      <table class="table-auto w-full">
+        <tbody>
+          <tr>
+            <td class="pr-4 align-middle">
+              <a :href="storyLink1" target="_blank" rel="noopener noreferrer">
+                {{ storyLink1Title }}
+              </a>
+            </td>
+            <td>
+              <vue-qr
+                v-if="storyLink1"
+                :text="storyLink1"
+                :size="100"
+              />
+            </td>
+          </tr>
+
+          <tr v-if="storyLink2">
+            <td class="pr-4 align-middle">
+              <a :href="storyLink2" target="_blank" rel="noopener noreferrer">
+                {{ storyLink2Title }}
+              </a>
+            </td>
+            <td>
+              <vue-qr
+                :text="storyLink2"
+                :size="100"
+              />
+            </td>
+          </tr>
+
+          <tr v-if="storyLink3">
+            <td class="pr-4 align-middle">
+              <a :href="storyLink3" target="_blank" rel="noopener noreferrer">
+                {{ storyLink3Title }}
+              </a>
+            </td>
+            <td>
+              <vue-qr
+                :text="storyLink3"
+                :size="100"
+              />
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <br/>
+
       <h3>People Involved</h3>
       <span v-for="person in storyPeople" :key="person"
         >{{ person }}<br
@@ -60,14 +104,20 @@ import { mapGetters } from "vuex";
 
 import imageSizes from "@/helper/imagesSizes.js";
 
+import VueQr from "vue-qr";
+
 export default {
   components: {
     ScrollDown,
+    VueQr,
   },
   data() {
     return {
       loaded: true,
       imageSizes: imageSizes,
+      // url: window.location.origin,
+      // host: window.location.host,
+      // qrConfig: qrConfig,
     };
   },
   props: {
@@ -127,8 +177,23 @@ export default {
     storyContent: function () {
       return this.story.fields["Project/Activity Summary - Story Content"] || "";
     },
-    storyLinks: function () {
+    storyLink1: function () {
       return this.story.fields["Links"];
+    },
+    storyLink1Title: function () {
+      return this.story.fields["Title (Links)"].value;
+    },
+    storyLink2: function () {
+      return this.story.fields["Link 2"];
+    },
+    storyLink2Title: function () {
+      return this.story.fields["Title (Link 2)"].value;
+    },
+    storyLink3: function () {
+      return this.story.fields["Link 3"];
+    },
+    storyLink3Title: function () {
+      return this.story.fields["Title (Link 3)"].value;
     },
     storyPeople: function () {
       return this.story.fields["Name (from Faculty/Staff Involved)"];
