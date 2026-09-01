@@ -18,7 +18,11 @@
 
     <div class="scrollable">
       <!-- <h2 class="text-black">{{ storyTitle }}</h2> -->
-      <p class="mt-2">{{ storyContent }}</p>
+      <!-- <p class="mt-2"> -->
+        <!-- {{ storyContent }} -->
+        <div v-html="storyContent"></div>
+      <!-- </p> -->
+      
       <p>
         <a :href="storyLinks" target="_blank" rel="noopener noreferrer"
           >Learn More</a
@@ -121,7 +125,7 @@ export default {
       return this.imageSizes[this.getBreakpoints[0]].width;
     },
     storyContent: function () {
-      return this.story.fields["Project/Activity Summary - Story Content"];
+      return this.story.fields["Project/Activity Summary - Story Content"] || "";
     },
     storyLinks: function () {
       return this.story.fields["Links"];

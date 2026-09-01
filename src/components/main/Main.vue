@@ -8,14 +8,14 @@
     >
       <div class="titleContainer ml-2">
         <img src="images/CSU_Logo-01-01-1.png" class="titleImage"/>
-        <span class="text-white mb-1 bold">
-          College of Agricultural Sciences
+        <span class="text-white mt-2 bold">
+          <strong>College of Agricultural Sciences</strong>
         </span>
         <!-- <h1 class="text-white">Global IMPACT Map</h1> -->
       </div>
 
       <div class="d-flex justify-content-center">
-        <img class="mb-3" src="images/Global.svg" style="max-width: 200px; margin-top:-20px;" />
+        <img class="mb-3 halo-svg" src="images/Global.svg" style="max-width: 200px; margin-top:-40px;" />
         <!-- <img
           src="images/quinoa.jpg"
           class="img-fluid"
@@ -43,9 +43,8 @@
       </div>
 
       <div class="mt-auto mb-0 bg-carbon text-white">
-        <div class="p-1 bg-carbon" style="max-height:10px;">
-          &nbsp;
-          <!-- <i>Telling our Stories from Colorado to the World </i> -->
+        <div class="p-1 bg-carbon border-top border-slate" style="max-height:8px;">
+          &nbsp; <!-- <i>Telling our Stories from Colorado to the World </i> -->
         </div>
       </div>
     </div>
@@ -109,7 +108,15 @@ export default {
 }
 
 .titleImage {
-  max-width: 200px; /* Adjust size as needed */
+  max-width: 300px; /* Adjust size as needed */
   height: auto;
 }
+
+.halo-svg {
+  filter:
+    drop-shadow(0 0 5px black)
+    drop-shadow(0 0 15px black)
+    drop-shadow(0 0 30px black);
+}
+
 </style>
