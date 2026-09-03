@@ -4,7 +4,7 @@
     v-if="this.$route.name === 'Kiosk'"
     v-on:click="printURL"
   >
-    <vue-qr v-bind="qrConfig" class="w-100"></vue-qr>
+    <vue-qr v-bind="qrConfig" class="w-100" text="https://google.com"></vue-qr>
   </div>
 </template>
 <script>

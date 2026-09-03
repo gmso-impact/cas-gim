@@ -21,7 +21,12 @@
           "
           @click="setDepartment('Agricultural Biology')"
         >
-          <img height="80" src="icons/2-1.png" alt="Agricultural Biology" title="Agricultural Biology" />
+          <img
+            height="80"
+            src="icons/2-1.png"
+            alt="Agricultural Biology"
+            title="Agricultural Biology"
+          />
         </button>
         <button
           type="button"
@@ -50,7 +55,12 @@
           "
           @click="setDepartment('Animal Sciences')"
         >
-          <img height="80" src="icons/3-1.png" alt="Animal Sciences" title="Animal Sciences" />
+          <img
+            height="80"
+            src="icons/3-1.png"
+            alt="Animal Sciences"
+            title="Animal Sciences"
+          />
         </button>
         <button
           type="button"
@@ -79,7 +89,12 @@
           "
           @click="setDepartment('Soil and Crop Sciences')"
         >
-          <img height="80" src="icons/5-2.png" alt="Soil and Crop Sciences" title="Soil and Crop Sciences" />
+          <img
+            height="80"
+            src="icons/5-2.png"
+            alt="Soil and Crop Sciences"
+            title="Soil and Crop Sciences"
+          />
         </button>
         <!-- `btn-${story.fields['Department']}` :class="[`bg-${theme}`]"-->
       </div>
@@ -110,7 +125,7 @@ export default {
 }
 
 .circle-icon {
-  background: #323E48;
+  background: #323e48;
   width: 38px;
   height: 38px;
   border-radius: 50%;
@@ -121,25 +136,24 @@ export default {
 }
 
 .agBio {
-  background-color: #323E48 !important;
+  background-color: #323e48 !important;
   border: solid 1px #feb015 !important;
 }
 
 .agResEcon {
-  background-color: #323E48 !important;
-  border: solid 1px #2E953E !important;
+  background-color: #323e48 !important;
+  border: solid 1px #2e953e !important;
 }
 .animalSciences {
-  background-color: #323E48 !important;
-  border: solid 1px #00AEEF !important;
+  background-color: #323e48 !important;
+  border: solid 1px #00aeef !important;
 }
 .hortLandArch {
-  background-color: #323E48 !important;
-  border: solid 1px #F15625 !important;
+  background-color: #323e48 !important;
+  border: solid 1px #f15625 !important;
 }
 .soilCropSciences {
-  background-color: #323E48 !important;
-  border: solid 1px #82C341 !important;
+  background-color: #323e48 !important;
+  border: solid 1px #82c341 !important;
 }
-
 </style>

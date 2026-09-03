@@ -1,5 +1,6 @@
 <template lang="">
-  <div class="overlay childPoint" v-if="isFilterFrameOpen"><!-- isFilterFrameOpen overlay childPoint -->
+  <div class="overlay childPoint" v-if="isFilterFrameOpen">
+    <!-- isFilterFrameOpen overlay childPoint -->
     <div class="controlFrame px-1 py-1 rounded bg-carbon border border-slate">
       <div class="overflow-y-auto overflow-x-hidden pb-5 h-100 w-100">
         <h1 class="text-white text-center mx-1 pt-5">

@@ -28,7 +28,7 @@ import { BPopover } from "bootstrap-vue";
 const qrConfig = {
   components: {
     BPopover,
-    VueQr
+    VueQr,
   },
   data: {
     scale: 1,

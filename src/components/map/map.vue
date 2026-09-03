@@ -17,7 +17,15 @@
         :key="story.id"
         v-for="story in stories"
       ></MapMarker>
-      <template v-if="getBreakpoints.includes('xs') || getBreakpoints.includes('sm') || getBreakpoints.includes('md') || getBreakpoints.includes('lg') || getBreakpoints.includes('xl')">
+      <template
+        v-if="
+          getBreakpoints.includes('xs') ||
+          getBreakpoints.includes('sm') ||
+          getBreakpoints.includes('md') ||
+          getBreakpoints.includes('lg') ||
+          getBreakpoints.includes('xl')
+        "
+      >
         ><!-- v-if="getBreakpoints.includes('xxl')" -->
         <StoryPopup
           :story="story"

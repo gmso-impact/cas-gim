@@ -19,10 +19,10 @@
     <div class="scrollable">
       <!-- <h2 class="text-black">{{ storyTitle }}</h2> -->
       <!-- <p class="mt-2"> -->
-        <!-- {{ storyContent }} -->
-        <div v-html="storyContent"></div>
+      <!-- {{ storyContent }} -->
+      <div v-html="storyContent"></div>
       <!-- </p> -->
-      <br/>
+      <br />
       <h3>Links</h3>
       <table class="table-auto w-full">
         <tbody>
@@ -33,11 +33,7 @@
               </a>
             </td>
             <td>
-              <vue-qr
-                v-if="storyLink1"
-                :text="storyLink1"
-                :size="100"
-              />
+              <vue-qr v-if="storyLink1" :text="storyLink1" :size="100" />
             </td>
           </tr>
 
@@ -48,10 +44,7 @@
               </a>
             </td>
             <td>
-              <vue-qr
-                :text="storyLink2"
-                :size="100"
-              />
+              <vue-qr :text="storyLink2" :size="100" />
             </td>
           </tr>
 
@@ -62,15 +55,12 @@
               </a>
             </td>
             <td>
-              <vue-qr
-                :text="storyLink3"
-                :size="100"
-              />
+              <vue-qr :text="storyLink3" :size="100" />
             </td>
           </tr>
         </tbody>
       </table>
-      <br/>
+      <br />
 
       <h3>People Involved</h3>
       <span v-for="person in storyPeople" :key="person"
@@ -175,7 +165,9 @@ export default {
       return this.imageSizes[this.getBreakpoints[0]].width;
     },
     storyContent: function () {
-      return this.story.fields["Project/Activity Summary - Story Content"] || "";
+      return (
+        this.story.fields["Project/Activity Summary - Story Content"] || ""
+      );
     },
     storyLink1: function () {
       return this.story.fields["Links"];

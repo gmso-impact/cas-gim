@@ -279,7 +279,7 @@ const storys = {
       state.isHelpFrameOpen = false;
       state.isStoriesFrameOpen = false;
       state.isFilterFrameOpen = true;
-      console.log("openFilterFrame="+state.isFilterFrameOpen);
+      console.log("openFilterFrame=" + state.isFilterFrameOpen);
       event(`open-video`, {
         event_category: "content",
         event_label: "open-video",
