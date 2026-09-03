@@ -4,12 +4,40 @@
   >
     <span class="text-white">
       <RouterLink to="/">
-        <span style="color: white">
-          <font-awesome-icon
-            :icon="['fas', 'globe']"
-            class="mr-2 fa-3x circle-icon"
-        /></span>
+        <div class="btn btn-secondary rounded-circle circle-btn p-1 mr-2" v-on:click="resetMap">
+          <span style="color: white">
+            <font-awesome-icon
+              :icon="['fas', 'globe']"
+              class="fa-3x circle-icon"
+          /></span>
+        </div>
       </RouterLink>
+      <!--
+      <RouterLink to="/">
+        <div class="col p-1 p-xxl-2">
+          <div
+            class="btn btn-secondary story-card w-100 h-100 p-2 d-flex flex-column rounded-0 justify-content-between"
+            v-if="shouldResetFilters"
+            v-on:click="resetFilters"
+          >
+            <div class="h-100 d-flex flex-column justify-content-center">
+              <font-awesome-icon :icon="['fas', 'globe']" class="mr-2 fa-4x" />
+            </div>
+            <div class="font-weight-bold">{{ $t(`ResetFilter`) }}</div>
+          </div>
+          <div
+            class="btn btn-secondary story-card w-100 h-100 p-2 d-flex flex-column rounded-0 justify-content-between"
+            v-else-if="storyInMap.length <= 30"
+            v-on:click="resetMap"
+          >
+            <div class="h-100 d-flex flex-column justify-content-center">
+              <font-awesome-icon :icon="['fas', 'globe']" class="mr-2 fa-4x" />
+            </div>
+            <div class="font-weight-bold">{{ $t(`ResetMap`) }}</div>
+          </div>
+        </div>
+      </RouterLink>
+      -->
       <div class="btn-group" role="group" aria-label="Basic example">
         <button
           type="button"
@@ -107,7 +135,7 @@ import { mapGetters, mapActions } from "vuex";
 
 export default {
   methods: {
-    ...mapActions(["setDepartment"]),
+    ...mapActions(["setDepartment", "resetMap"]),
     isActive: function (department) {
       return (
         this.$route.query.department &&
@@ -133,6 +161,10 @@ export default {
   line-height: 100px;
   vertical-align: middle;
   padding: 16px;
+}
+
+.circle-btn {
+  border-radius: 50%;
 }
 
 .agBio {
