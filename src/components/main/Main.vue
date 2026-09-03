@@ -4,7 +4,7 @@
     <div
       id="header"
       v-if="$route.name === 'Web' || $route.name === 'Kiosk'"
-      class="d-none d-lg-block text-center border-bottom border-slate pt-2"
+      class="hero-bg d-none d-lg-block text-center border-bottom border-slate pt-2"
     >
       <div class="titleContainer ml-2">
         <img src="images/CSU_Logo-01-01-1.png" class="titleImage" />
@@ -124,4 +124,15 @@ export default {
   filter: drop-shadow(0 0 5px black) drop-shadow(0 0 15px black)
     drop-shadow(0 0 30px black);
 }
+
+.hero-bg {
+  height: 170px; /* desired visible height */
+  background-image: url('/public/images/banner-bg.png');
+  background-position: center center;
+  background-size: cover; /* allows overflow/cropping */
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+
 </style>
