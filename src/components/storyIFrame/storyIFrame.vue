@@ -1,6 +1,6 @@
 <template lang="">
   <div class="h-100 w-100">
-    <ScrollDown></ScrollDown>
+    <!-- <ScrollDown></ScrollDown> -->
 
     <!-- <h2 class="text-white">{{ storyTitle }}</h2> -->
     <div class="image-container">
@@ -24,37 +24,40 @@
       <!-- </p> -->
       <br />
       <h3>Links</h3>
-      <table class="table-auto w-full">
+      <table class="table-auto w-full story-links-table">
         <tbody>
-          <tr>
-            <td class="pr-4 align-middle">
-              <a :href="storyLink1" target="_blank" rel="noopener noreferrer">
+          <tr v-if="storyLink1">
+            <td class="pr-2 align-middle">
+              <span v-if="$route.name === 'Kiosk' && storyLink1Title">{{ storyLink1Title }}</span>
+              <a v-else :href="storyLink1" target="_blank" rel="noopener noreferrer">
                 {{ storyLink1Title }}
               </a>
             </td>
-            <td>
+            <td v-if="$route.name === 'Kiosk'">
               <vue-qr v-if="storyLink1" :text="storyLink1" :size="100" />
             </td>
           </tr>
 
           <tr v-if="storyLink2">
-            <td class="pr-4 align-middle">
-              <a :href="storyLink2" target="_blank" rel="noopener noreferrer">
+            <td class="pr-2 align-middle">
+              <span v-if="$route.name === 'Kiosk' && storyLink2Title">{{ storyLink2Title }}</span>
+              <a v-else :href="storyLink2" target="_blank" rel="noopener noreferrer">
                 {{ storyLink2Title }}
               </a>
             </td>
-            <td>
+            <td v-if="$route.name === 'Kiosk'">
               <vue-qr :text="storyLink2" :size="100" />
             </td>
           </tr>
 
           <tr v-if="storyLink3">
-            <td class="pr-4 align-middle">
-              <a :href="storyLink3" target="_blank" rel="noopener noreferrer">
+            <td class="pr-2 align-middle">
+              <span v-if="$route.name === 'Kiosk' && storyLink3Title">{{ storyLink3Title }}</span>
+              <a v-else :href="storyLink3" target="_blank" rel="noopener noreferrer">
                 {{ storyLink3Title }}
               </a>
             </td>
-            <td>
+            <td v-if="$route.name === 'Kiosk'">
               <vue-qr :text="storyLink3" :size="100" />
             </td>
           </tr>
@@ -88,7 +91,7 @@
   </div>
 </template>
 <script>
-import ScrollDown from "./scrollDown.vue";
+//import ScrollDown from "./scrollDown.vue";
 
 import { mapGetters } from "vuex";
 
@@ -98,7 +101,7 @@ import VueQr from "vue-qr";
 
 export default {
   components: {
-    ScrollDown,
+    //ScrollDown,
     VueQr,
   },
   data() {
@@ -268,4 +271,18 @@ function getExt(type) {
   border-radius: 5px;
   width: 90%;
 }
+
+.story-links-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.story-links-table tr:not(:last-child) {
+  border-bottom: 1px solid #959595;
+}
+
+.story-links-table td {
+  padding: 16px 0;
+}
+
 </style>

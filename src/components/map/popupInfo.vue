@@ -2,7 +2,7 @@
   <div
     class="d-flex text-white flex-wrap pt-1 pt-xxl-3 justify-content-xxl-between"
   >
-    <QRStory class="mr-4" v-if="true" :story="story"></QRStory>
+    <!-- <QRStory class="mr-4" v-if="false" :story="story"></QRStory> -->
 
     <IDIcon
       class="mr-4"
@@ -23,12 +23,12 @@
 </template>
 <script>
 import { mapMutations } from "vuex";
-import QRStory from "@/components/qr/qrStory.vue";
+//import QRStory from "@/components/qr/qrStory.vue";
 import IDIcon from "@/components/idicons/IDIcon.vue";
 
 export default {
   components: {
-    QRStory,
+    //QRStory,
     IDIcon,
   },
   data() {

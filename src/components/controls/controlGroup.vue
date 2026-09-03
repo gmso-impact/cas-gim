@@ -2,9 +2,9 @@
   <div class="d-flex align-items-center justify-content-between w-100">
     <!-- Left -->
     <div>
-      <QRSite
+      <QRSite v-if="$route.name === 'Kiosk'"
         class="mb-1 mt-3 mx-1 mx-xl-2"
-      /><!--v-if="$route.name === 'Kiosk'"-->
+      ></QRSite>
     </div>
 
     <!-- Center -->
@@ -14,9 +14,9 @@
 
     <!-- Right -->
     <div>
-      <QRNewStory
+      <QRNewStory v-if="$route.name === 'Kiosk'"
         class="mb-1 mt-3 mx-1 mx-xl-2"
-      /><!--v-if="$route.name === 'Kiosk'" -->
+      ></QRNewStory>
     </div>
   </div>
 </template>
