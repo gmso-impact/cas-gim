@@ -7,18 +7,17 @@
       class="hero-bg d-none d-lg-block text-center border-bottom border-slate pt-2"
     >
       <div class="titleContainer ml-2">
-        <img src="images/CSU_Logo-01-01-1.png" class="titleImage" />
-        <span class="text-white mt-2 bold">
+        <img src="images/CSU-CAS-Horizontal-WhiteText.png" class="titleImage" />
+        <!-- <span class="text-white mt-2 bold">
           <strong>College of Agricultural Sciences</strong>
-        </span>
-        <!-- <h1 class="text-white">Global IMPACT Map</h1> -->
+        </span> -->
       </div>
 
       <div class="d-flex justify-content-center">
         <img
           class="mb-3 halo-svg"
           src="images/Global.svg"
-          style="max-width: 200px; margin-top: -40px"
+          style="max-width: 180px; margin-top: -70px"
         />
         <!-- <img
           src="images/quinoa.jpg"
@@ -121,12 +120,12 @@ export default {
 }
 
 .halo-svg {
-  filter: drop-shadow(0 0 5px black) drop-shadow(0 0 15px black)
-    drop-shadow(0 0 30px black);
+  filter: drop-shadow(0 0 5px #232227) drop-shadow(0 0 15px #232227)
+    drop-shadow(0 0 30px #232227);
 }
 
 .hero-bg {
-  height: 170px; /* desired visible height */
+  height: 161px; /* desired visible height */
   background-image: url('/public/images/banner-bg.png');
   background-position: center center;
   background-size: cover; /* allows overflow/cropping */
