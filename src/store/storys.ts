@@ -119,7 +119,7 @@ const storys = {
             );
           }
         };
-        const hasActiveDepartment = filterByField("department","Department/Unit Primary");
+        const hasActiveDepartment = filterByField("department","Department/Unit (All)");
         const hasActiveType = filterByField("type", "Type");
         const hasActiveTheme = filterByField("theme", "Project/Activity Title");
         const hasActiveTag = filterByField("tag", "ID Tags");
