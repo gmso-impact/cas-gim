@@ -1,6 +1,6 @@
 // vue.config.js
 module.exports = {
-  publicPath: process.env.NODE_ENV === "production" ? "/cas-gim/" : "/",
+  publicPath: process.env.NODE_ENV === "production" ? "/" : "/",
   devServer: {
     host: "0.0.0.0",
     port: 8080,
