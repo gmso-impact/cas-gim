@@ -32,8 +32,7 @@
           :key="`active-${story.id}`"
           v-for="story in storysActive"
         >
-        </StoryPopup
-        >>
+        </StoryPopup>
       </template>
 
       <l-control position="topright">

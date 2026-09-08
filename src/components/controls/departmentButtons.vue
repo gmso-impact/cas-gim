@@ -3,24 +3,14 @@
     class="d-flex flex-column overflow-y-auto overflow-x-hidden justify-content-center pt-0 pb-0 pt-xl-0"
   >
     <span class="text-white">
-      <RouterLink v-if="$route.name === 'Kiosk'" to="/Kiosk">
-        <div class="btn btn-secondary rounded-circle circle-btn p-1 mr-2" v-on:click="resetMap">
-          <span style="color: white">
+
+      <button class="btn btn-secondary rounded-circle circle-btn p-1 mr-2" @click="resetMap(); resetFilters();">
+        <span style="color: white">
             <font-awesome-icon
               :icon="['fas', 'globe']"
               class="fa-3x circle-icon"
           /></span>
-        </div>
-      </RouterLink>
-      <RouterLink v-else to="/">
-        <div class="btn btn-secondary rounded-circle circle-btn p-1 mr-2" v-on:click="resetMap">
-          <span style="color: white">
-            <font-awesome-icon
-              :icon="['fas', 'globe']"
-              class="fa-3x circle-icon"
-          /></span>
-        </div>
-      </RouterLink>
+      </button>
 
       <div class="btn-group" role="group" aria-label="Basic example">
         <button
@@ -119,7 +109,7 @@ import { mapGetters, mapActions } from "vuex";
 
 export default {
   methods: {
-    ...mapActions(["setDepartment", "resetMap"]),
+    ...mapActions(["setDepartment", "resetMap", "resetFilters"]),
     isActive: function (department) {
       return (
         this.$route.query.department &&

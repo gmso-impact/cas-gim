@@ -206,6 +206,9 @@ const map = {
         date: new Date(),
       };
       state.baseMap = baseMaps.terrain;
+
+      state.isFilterFrameOpen = false;
+      state.isStoryFrameOpen = false;
     },
     panMap: ({ state, rootGetters }) => {
       //console.log("panMap");

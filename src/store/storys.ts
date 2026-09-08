@@ -341,7 +341,7 @@ const storys = {
 
       state.isVideoFrameOpen = false;
       state.isHelpFrameOpen = false;
-      //state.isStoriesFrameOpen = false;
+      state.isStoriesFrameOpen = false;
       state.isFilterFrameOpen = false;
     },
     toggleActiveStory: (state, story) => {
@@ -487,11 +487,14 @@ const storys = {
     resetFilters: ({ state, rootState }) => {
       state.isFilterFrameOpen = false;
       state.isHelpFrameOpen = false;
+      state.isStoriesFrameOpen = false;
 
       if (
         rootState.route.query.theme === undefined &&
         rootState.route.query.campus === undefined &&
-        rootState.route.query.tag === undefined
+        rootState.route.query.tag === undefined &&
+        rootState.route.query.department === undefined &&
+        rootState.route.query.type === undefined
       ) {
         return;
       }
@@ -502,6 +505,7 @@ const storys = {
           campus: undefined,
           tag: undefined,
           department: undefined,
+          type: undefined
         },
       }); // leave other query paramaters alone
     },

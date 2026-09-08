@@ -6,6 +6,8 @@
         <h1 class="text-white text-center mx-1 pt-5">
           {{ $t(`FindStories`) }}
         </h1>
+        <DepartmentButtons class="mb-3 mx-1"></DepartmentButtons>
+        <TypeButtons class="mb-3 mx-1"></TypeButtons>
         <!-- <CampusGroup class="mb-3 mx-1"></CampusGroup>
         <ThemeColumn class="mb-3 mx-1"></ThemeColumn> -->
         <!-- <IdTags class="mb-3 mx-1"></IdTags>-->
@@ -38,12 +40,16 @@ import { mapGetters, mapMutations } from "vuex";
 //import CampusGroup from "@/components/controls/campusGroup.vue";
 //import ThemeColumn from "@/components/controls/themeColumn.vue";
 //import IdTags from "@/components/controls/idTags.vue";
+import DepartmentButtons from "@/components/controls/departmentButtons.vue";
+import TypeButtons from "@/components/controls/typeButtons.vue";
 
 export default {
   components: {
     //CampusGroup,
     //ThemeColumn,
     //IdTags,
+    DepartmentButtons,
+    TypeButtons
   },
   data() {
     return {};
