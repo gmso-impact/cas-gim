@@ -10,6 +10,7 @@
     <!-- Center -->
     <div class="flex-grow-1 d-flex justify-content-center">
       <departmentButtons />
+      <typeButtons />
     </div>
 
     <!-- Right -->
@@ -22,6 +23,7 @@
 </template>
 <script>
 import departmentButtons from "./departmentButtons.vue";
+import typeButtons from "./typeButtons.vue";
 //import KioskSwitch from "./kioskSwitch.vue";
 //import CampusGroup from "./campusGroup.vue";
 //import Language from "./language.vue";
@@ -36,6 +38,7 @@ import QRNewStory from "@/components/qr/qrNewStory.vue";
 export default {
   components: {
     departmentButtons,
+    typeButtons,
     //KioskSwitch,
     //CampusGroup,
     //Language,

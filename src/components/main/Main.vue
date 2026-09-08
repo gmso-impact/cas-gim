@@ -4,55 +4,18 @@
     <div
       id="header"
       v-if="$route.name === 'Web' || $route.name === 'Kiosk'"
-      class="hero-bg d-none d-lg-block text-center border-bottom border-slate pt-2"
+      class="hero-bg d-none d-lg-block text-center border-bottom border-slate"
     >
-      <div class="titleContainer ml-2">
+      <div class="titleContainer border-bottom-slate">
         <img src="images/CSU-CAS-Horizontal-WhiteText.png" class="titleImage" />
-        <!-- <span class="text-white mt-2 bold">
-          <strong>College of Agricultural Sciences</strong>
-        </span> -->
-      </div>
-
-      <div class="d-flex justify-content-center">
-        <img
-          class="mb-3 halo-svg"
-          src="images/Global.svg"
-          style="max-width: 180px; margin-top: -70px"
-        />
-        <!-- <img
-          src="images/quinoa.jpg"
-          class="img-fluid"
-          alt="Image 3"
-          style="width: 25%"
-        />
-        <img
-          src="images/barley.jpg"
-          class="img-fluid"
-          alt="Image 2"
-          style="width: 25%"
-        />
-        <img
-          src="images/wheat.png"
-          class="img-fluid"
-          alt="Image 4"
-          style="width: 25%"
-        />
-        <img
-          src="images/rice.jpg"
-          class="img-fluid"
-          alt="Image 1"
-          style="width: 25%"
-        /> -->
-      </div>
-
-      <div class="mt-auto mb-0 bg-carbon text-white">
-        <div
-          class="p-1 bg-carbon border-top border-slate"
-          style="max-height: 8px"
-        >
-          &nbsp;
-          <!-- <i>Telling our Stories from Colorado to the World </i> -->
+        <div class="ml-auto mr-auto d-flex justify-content-center mt-3">
+          <img
+            class="mb-3 halo-svg"
+            src="images/Global.svg"
+            style="max-width: 180px;"
+          />
         </div>
+        <div style="width:300px; height:74px;"></div>
       </div>
     </div>
     <div class="flex-grow-1 d-flex flex-row overflow-y-hidden no-gutters h-100">
@@ -111,12 +74,13 @@ export default {
   display: flex; /* Enables flexbox */
   align-items: left; /* Vertically aligns items in the middle */
   justify-content: left; /* Horizontally centers everything */
-  gap: 10px; /* Adds space between the image and text */
+  // border-bottom: solid 1px red;
+  min-height:110px;
 }
 
 .titleImage {
-  max-width: 300px; /* Adjust size as needed */
-  height: auto;
+  width: 300px;
+  height: 74px;
 }
 
 .halo-svg {
@@ -125,7 +89,7 @@ export default {
 }
 
 .hero-bg {
-  height: 161px; /* desired visible height */
+  height: 154px; /* desired visible height */
   background-image: url('/public/images/banner-bg.png');
   background-position: center center;
   background-size: cover; /* allows overflow/cropping */

@@ -119,10 +119,8 @@ const storys = {
             );
           }
         };
-        const hasActiveDepartment = filterByField(
-          "department",
-          "Department/Unit Primary",
-        );
+        const hasActiveDepartment = filterByField("department","Department/Unit Primary");
+        const hasActiveType = filterByField("type", "Type");
         const hasActiveTheme = filterByField("theme", "Project/Activity Title");
         const hasActiveTag = filterByField("tag", "ID Tags");
         const hasActiveCampus = filterByField("campus", "Campus");
@@ -130,13 +128,16 @@ const storys = {
         //   hasActiveTheme: hasActiveTheme,
         //   hasActiveTag: hasActiveTag,
         //   hasActiveCampus: hasActiveCampus,
+        //   hasActivedepartment: hasActiveDepartment,
+        //   hasActiveType: hasActiveType
         // })
 
         return (
           hasActiveTheme &&
           hasActiveTag &&
           hasActiveCampus &&
-          hasActiveDepartment
+          hasActiveDepartment &&
+          hasActiveType
         );
       });
       const sortedStories = filteredStories.sort((a, b) => {
@@ -418,6 +419,20 @@ const storys = {
       } // prevent redudant nav
       router.push({
         query: { ...rootState.route.query, department: department },
+      }); // leave other query paramaters alone
+    },
+    setType: ({ state, rootState }, type) => {
+      state.isFilterFrameOpen = false;
+      state.isHelpFrameOpen = false;
+      if (
+        rootState.route.query.type &&
+        rootState.route.query.type.toLowerCase() ===
+          type.toLowerCase()
+      ) {
+        return;
+      } // prevent redudant nav
+      router.push({
+        query: { ...rootState.route.query, type: type },
       }); // leave other query paramaters alone
     },
     resetThemes: ({ state, rootState }) => {
