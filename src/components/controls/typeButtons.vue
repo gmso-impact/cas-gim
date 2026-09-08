@@ -1,14 +1,14 @@
 <template>
   <div class="d-flex mt-3 ml-4">
-    <div class="float-left d-inline-block btn-group-vertical btn-group-sm" role="group" aria-label="Basic example">
-      <button type="button" class="btn btn-secondary mb-1"
+    <div class="float-left d-inline-block btn-group-vertical btn-group-sm" role="group" aria-label="Activity Type Filter Buttons">
+      <button type="button" class="btn btn-secondary typeStyle mb-1"
       :class="
             isActive('Education Abroad')
               ? 'btn-primary selected'
               : 'btn-secondary'
           "
           @click="setType('Education Abroad')">Education Abroad</button>
-      <button type="button" class="btn btn-secondary"
+      <button type="button" class="btn btn-secondary typeStyle"
       :class="
             isActive('Outreach')
               ? 'btn-primary selected'
@@ -16,15 +16,15 @@
           "
           @click="setType('Outreach')">Outreach</button>
     </div>
-    <div class="float-right d-inline-block btn-group-vertical btn-group-sm ml-1" role="group" aria-label="Basic example">
-      <button type="button" class="btn btn-secondary mb-1"
+    <div class="float-right d-inline-block btn-group-vertical btn-group-sm ml-1" role="group" aria-label="Activity Type Filter Buttons">
+      <button type="button" class="btn btn-secondary typeStyle mb-1"
       :class="
             isActive('Research')
               ? 'btn-primary selected'
               : 'btn-secondary'
           "
           @click="setType('Research')">Research</button>
-      <button type="button" class="btn btn-secondary"
+      <button type="button" class="btn btn-secondary typeStyle"
       :class="
             isActive('Teaching')
               ? 'btn-primary selected'
@@ -74,7 +74,12 @@ export default {
 
 .selected {
   background-color: #323e48 !important;
-  border: solid 1px #feb015 !important;
+  border: solid 1px #D9782D !important;
+}
+
+.typeStyle {
+  min-width: 106px;
+  width: 106px;
 }
 
 </style>
