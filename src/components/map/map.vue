@@ -79,7 +79,7 @@
     <div class="boxy boxy-bottom childPoint">
       <div class="btn-group d-block d-lg-none">
         <button
-          class="btn btn-light border-right"
+          class="btn btn-dark border-right"
           v-on:click="openStoriesFrame()"
           :aria-label="$t(`Stories`)"
         >
@@ -388,4 +388,15 @@ export default {
   overflow-y: auto;
   white-space: normal;
 }
+
+.leaflet-control-scale-line {
+  min-width: 30px !important;
+}
+
+.leaflet-control-scale-line {
+  font-size: 10px !important;
+  line-height: 1 !important;
+  padding: 1px 4px !important;
+}
+
 </style>

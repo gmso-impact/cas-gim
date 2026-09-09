@@ -78,8 +78,9 @@ export default {
 }
 
 .typeStyle {
-  min-width: 106px;
-  width: 106px;
+  min-width: 166px;
+  width: 166px;
+  /* max-width: 166px; */
 }
 
 </style>

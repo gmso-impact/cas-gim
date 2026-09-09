@@ -4,7 +4,7 @@
   >
     <span class="text-white">
 
-      <button class="btn btn-secondary rounded-circle circle-btn p-1 mr-2" @click="resetMap(); resetFilters();">
+      <button class="btn btn-secondary rounded-circle circle-btn p-1 mr-2 ml-2" @click="resetMap(); resetFilters();">
         <span style="color: white">
             <font-awesome-icon
               :icon="['fas', 'globe']"
@@ -18,7 +18,7 @@
           class="btn btn-outline-primary rounded-circle d-flex align-items-center justify-content-center p-1 mr-2"
           :class="
             isActive('Agricultural Biology')
-              ? 'btn-primary agBio'
+              ? 'btn-outline-secondary agBio'
               : 'btn-outline-secondary'
           "
           @click="setDepartment('Agricultural Biology')"
@@ -35,7 +35,7 @@
           class="btn btn-outline-primary rounded-circle d-flex align-items-center justify-content-center p-1 mr-2"
           :class="
             isActive('Agricultural and Resource Economics')
-              ? 'btn-primary agResEcon'
+              ? 'btn-outline-secondary agResEcon'
               : 'btn-outline-secondary'
           "
           @click="setDepartment('Agricultural and Resource Economics')"
@@ -52,7 +52,7 @@
           class="btn btn-outline-primary rounded-circle d-flex align-items-center justify-content-center p-1 mr-2"
           :class="
             isActive('Animal Sciences')
-              ? 'btn-primary animalSciences'
+              ? 'btn-outline-secondary animalSciences'
               : 'btn-outline-secondary'
           "
           @click="setDepartment('Animal Sciences')"
@@ -69,7 +69,7 @@
           class="btn btn-outline-primary rounded-circle d-flex align-items-center justify-content-center p-1 mr-2"
           :class="
             isActive('Horticulture and Landscape Architecture')
-              ? 'btn-primary hortLandArch'
+              ? 'btn-outline-secondary hortLandArch'
               : 'btn-outline-secondary'
           "
           @click="setDepartment('Horticulture and Landscape Architecture')"
@@ -86,7 +86,7 @@
           class="btn btn-outline-primary rounded-circle d-flex align-items-center justify-content-center p-1 mr-2"
           :class="
             isActive('Soil and Crop Sciences')
-              ? 'btn-primary soilCropSciences'
+              ? 'btn-outline-secondary soilCropSciences'
               : 'btn-outline-secondary'
           "
           @click="setDepartment('Soil and Crop Sciences')"
@@ -98,7 +98,6 @@
             title="Soil and Crop Sciences"
           />
         </button>
-        <!-- `btn-${story.fields['Department']}` :class="[`bg-${theme}`]"-->
       </div>
     </span>
   </div>

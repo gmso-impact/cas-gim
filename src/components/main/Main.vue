@@ -1,6 +1,5 @@
 <template>
   <div class="d-flex flex-column h-100 bg-carbon">
-    <!--<KioskOverlay v-if="true"></KioskOverlay>-->
     <div
       id="header"
       v-if="$route.name === 'Web' || $route.name === 'Kiosk'"
@@ -8,7 +7,7 @@
     >
       <div class="titleContainer border-bottom-slate">
         <img src="images/CSU-CAS-Horizontal-WhiteText.png" class="titleImage" />
-        <div class="ml-auto mr-auto d-flex justify-content-center mt-3">
+        <div class="ml-auto mr-auto d-flex justify-content-center mt-4">
           <img
             class="mb-3 halo-svg"
             src="images/Global.svg"
@@ -22,14 +21,14 @@
       <div class="left d-none d-lg-block col-lg-3 col-xl-3 col-xxl-3">
         <StoryListMap></StoryListMap>
       </div>
-      <div class="right col-12 col-lg-9 col-xl-9 col-xxl-9">
+      <div class="right col-12 col-lg-9 col-xl-9 col-xxl-9 p-2 border-left border-slate">
         <Map></Map>
       </div>
     </div>
     <div
       id="footer"
       v-if="true"
-      class="d-none d-lg-block footer bg-carbon text-center text-secondary py-1"
+      class="d-none d-lg-block footer bg-carbon text-center text-secondary py-3 border-top border-slate"
     >
       <ThemeBottom>
         <ControlGroup></ControlGroup>
@@ -43,9 +42,7 @@
 import StoryListMap from "@/components/storyList/storyListMap.vue";
 import Map from "@/components/map/map.vue";
 import ControlGroup from "@/components/controls/controlGroup.vue";
-//import ControlGroupXXL from "@/components/controls/controlGroupXXL.vue";
 
-//import KioskOverlay from "@/components/kioskOverlay/index.vue";
 import { mapMutations } from "vuex";
 
 export default {
@@ -54,8 +51,6 @@ export default {
     StoryListMap,
     Map,
     ControlGroup,
-    //ControlGroupXXL,
-    //KioskOverlay,
   },
   mounted() {
     console.log(this.$route.path);
@@ -74,7 +69,6 @@ export default {
   display: flex; /* Enables flexbox */
   align-items: left; /* Vertically aligns items in the middle */
   justify-content: left; /* Horizontally centers everything */
-  // border-bottom: solid 1px red;
   min-height:110px;
 }
 
