@@ -192,8 +192,8 @@ export default {
         zoomControl: false,
         closePopupOnClick: false,
       },
-      center: viewPorts.colorado.center, // initial map center before load
-      zoom: viewPorts.colorado.zoom,
+      center: viewPorts.globe.xl.center, // initial map center before load
+      zoom: viewPorts.globe.xl.zoom,
     };
   },
   computed: {
@@ -253,7 +253,7 @@ export default {
       },
       xl: {
         latLng: latLng(7, 40),
-        zoom: 0.0,
+        zoom: 2.5,
       },
       // xl: {
       //   latLng: latLng(8.6, 13),
@@ -273,10 +273,10 @@ export default {
       apikey: this.apikey,
     });
     this.$refs.map.mapObject.addLayer(this.baseMapLayer);
-    // there is an issue with the map if it has not ever zoomed
+    // there is an issue with the map if it has not ever zoomed .... this.getBreakpoints[0]
     this.$refs.map.mapObject.setView(
-      initialView[this.getBreakpoints[0]].latLng,
-      initialView[this.getBreakpoints[0]].zoom,
+      initialView[xl].latLng,
+      initialView[xl].zoom,
       {
         duration: 0,
         animate: false,
@@ -381,6 +381,9 @@ export default {
       }
     },
   },
+  created() {
+    this.$store.dispatch('resetMap');
+  }
 };
 </script>
 <style lang="scss">

@@ -4,9 +4,13 @@ import { latLng } from "leaflet";
 export const viewPorts = {
   globe: {
     xl: {
-      center: latLng(8.6, 13),
-      zoom: 2.8,
+      center: latLng(7, 40),
+      zoom: 2.5,
     },
+    // xl: {
+    //   center: latLng(8.6, 13),
+    //   zoom: 2.8,
+    // },
     xxl: {
       center: latLng(-0.8135, 5.175),
       zoom: 4.2,
