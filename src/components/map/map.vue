@@ -252,9 +252,13 @@ export default {
         zoom: 2.2,
       },
       xl: {
-        latLng: latLng(8.6, 13),
-        zoom: 2.8,
+        latLng: latLng(7, 40),
+        zoom: 0.0,
       },
+      // xl: {
+      //   latLng: latLng(8.6, 13),
+      //   zoom: 2.8,
+      // },
       xxl: {
         latLng: latLng(-0.8135, -42),
         zoom: 4.2,
@@ -264,7 +268,7 @@ export default {
         zoom: 4.2,
       },
     };
-    console.log();
+    //console.log(initialView[this.getBreakpoints[0]]);
     this.baseMapLayer = vectorBasemapLayer(this.baseMap.layer, {
       apikey: this.apikey,
     });
