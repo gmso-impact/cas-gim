@@ -1,33 +1,33 @@
 <template>
-  <div class="d-flex mt-3 ml-4">
-    <div class="float-left d-inline-block btn-group-vertical btn-group-sm" role="group" aria-label="Activity Type Filter Buttons">
-      <button type="button" class="btn btn-secondary typeStyle mb-1"
+  <div class="d-flex mt-3 ml-4 activity-filter">
+    <div class="float-left d-inline-block btn-group-vertical btn-group-sm flex-fill" role="group" aria-label="Activity Type Filter Buttons">
+      <button type="button" class="btn btn-secondary mb-1"
       :class="
             isActive('Education Abroad')
-              ? 'btn-primary selected'
+              ? 'btn-secondary selected'
               : 'btn-secondary'
           "
           @click="setType('Education Abroad')">Education Abroad</button>
-      <button type="button" class="btn btn-secondary typeStyle"
+      <button type="button" class="btn btn-secondary"
       :class="
             isActive('Outreach')
-              ? 'btn-primary selected'
+              ? 'btn-secondary selected'
               : 'btn-secondary'
           "
           @click="setType('Outreach')">Outreach</button>
     </div>
-    <div class="float-right d-inline-block btn-group-vertical btn-group-sm ml-1" role="group" aria-label="Activity Type Filter Buttons">
-      <button type="button" class="btn btn-secondary typeStyle mb-1"
+    <div class="float-right d-inline-block btn-group-vertical btn-group-sm flex-fill ml-1" role="group" aria-label="Activity Type Filter Buttons">
+      <button type="button" class="btn btn-secondary mb-1"
       :class="
             isActive('Research')
-              ? 'btn-primary selected'
+              ? 'btn-secondary selected'
               : 'btn-secondary'
           "
           @click="setType('Research')">Research</button>
-      <button type="button" class="btn btn-secondary typeStyle"
+      <button type="button" class="btn btn-secondary"
       :class="
             isActive('Teaching')
-              ? 'btn-primary selected'
+              ? 'btn-secondary selected'
               : 'btn-secondary'
           "
           @click="setType('Teaching')">Teaching</button>
@@ -77,10 +77,13 @@ export default {
   border: solid 1px #D9782D !important;
 }
 
-.typeStyle {
-  min-width: 166px;
-  width: 166px;
-  /* max-width: 166px; */
+.activity-filter {
+  width: 300px !important; /* adjust as needed */
+  /* border: solid 1px red !important; */
+}
+
+.btn-group-vertical {
+width: 130px !important;
 }
 
 </style>
