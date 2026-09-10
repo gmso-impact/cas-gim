@@ -405,5 +405,4 @@ export default {
   line-height: 1 !important;
   padding: 1px 4px !important;
 }
-
 </style>

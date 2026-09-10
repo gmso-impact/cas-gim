@@ -119,7 +119,10 @@ const storys = {
             );
           }
         };
-        const hasActiveDepartment = filterByField("department","Department/Unit (All)");
+        const hasActiveDepartment = filterByField(
+          "department",
+          "Department/Unit (All)",
+        );
         const hasActiveType = filterByField("type", "Type");
         const hasActiveTheme = filterByField("theme", "Project/Activity Title");
         const hasActiveTag = filterByField("tag", "ID Tags");
@@ -426,8 +429,7 @@ const storys = {
       state.isHelpFrameOpen = false;
       if (
         rootState.route.query.type &&
-        rootState.route.query.type.toLowerCase() ===
-          type.toLowerCase()
+        rootState.route.query.type.toLowerCase() === type.toLowerCase()
       ) {
         return;
       } // prevent redudant nav
@@ -505,7 +507,7 @@ const storys = {
           campus: undefined,
           tag: undefined,
           department: undefined,
-          type: undefined
+          type: undefined,
         },
       }); // leave other query paramaters alone
     },

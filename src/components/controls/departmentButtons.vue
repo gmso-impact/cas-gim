@@ -9,7 +9,7 @@
             <font-awesome-icon
               :icon="['fas', 'globe']"
               class="fa-3x circle-icon"
-          /></span>
+        /></span>
       </button>
 
       <div class="btn-group" role="group" aria-label="Basic example">
