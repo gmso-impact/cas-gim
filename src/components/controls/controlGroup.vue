@@ -3,7 +3,7 @@
     <!-- Left -->
     <div>
       <QRSite v-if="$route.name === 'Kiosk'"
-        class="mb-1 mt-3 mx-1 mx-xl-2"
+        class="mb-1 mt-0 mx-1 mx-xl-2"
       ></QRSite>
     </div>
 
@@ -16,7 +16,7 @@
     <!-- Right -->
     <div>
       <QRNewStory v-if="$route.name === 'Kiosk'"
-        class="mb-1 mt-3 mx-1 mx-xl-2"
+        class="mb-1 mt-0 mx-1 mx-xl-2"
       ></QRNewStory>
     </div>
   </div>
